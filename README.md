@@ -16,7 +16,13 @@ Fabric Software é uma empresa que atua no seguimento de ERPs para gestão empre
 
 # Calculo férias
 
+Cálculo de férias
 
+Este programa realiza o cálculo do valor das férias de um colaborador com base no salário bruto informado pelo usuário. O programa utiliza uma constante para o cálculo do desconto do INSS e do IRRF, e considera um período de férias de 30 dias.
+
+Como utilizar
+
+Ao executar o programa, o usuário deve informar a sua remuneração bruta. O programa então irá calcular o valor das férias a partir deste valor, descontando o INSS e o IRRF e adicionando o terço constitucional.
 
 
 # Calculo deposito fgts
