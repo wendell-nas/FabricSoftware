@@ -1,34 +1,34 @@
 # FabricSoftware
 Fabric Software é uma empresa que atua no seguimento de ERPs para gestão empresarial.
 
-# CALCULO DO INSS
+# Calculo inss
 
 
-# CALCULO IMPOSTO DE RENDA
+# Calculo imposto de renda
 
 
-# CALCULO DE FÉRIAS
+# Calculo férias
 
 
-# CALCULO DEPOSITO FGTS
+# Calculo deposito fgts
 
 
-# CALCULO MULTA FGTS
+# Calculo multa fgts
 
 
-# CALCULO SEGURO DESEMPREGO
+# Calculo seguro desemprego
 
 
-# CALCULO VALE TRANSPORTE
+# Calculo vale transporte
 
 
-# CALCULO PIS
+# Calculo pis
 
 
-# CALCULO ADCIONAL NOTURNO
+# Calculo adcional noturno
 
 
-# CALCULO PERICULOSIDADE
+# Calculo periculosidade
 
 
-# CALCULO HORA EXTRAS
+# Calculo hora extra
