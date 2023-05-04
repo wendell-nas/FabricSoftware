@@ -93,7 +93,6 @@ Ao executar o programa, ele irá solicitar que o usuário insira as informaçõe
 # Calculo hora extra
 Este é um programa em linguagem de programação não especificada que calcula o salário de um colaborador com base no salário base, carga horária mensal e horas extras trabalhadas. O programa também considera horas extras trabalhadas em dias úteis, domingos e feriados, e aplica taxas diferentes para cada tipo de hora extra.
 
-
 **Bibliotecas utilizadas**
 
 O programa utiliza duas bibliotecas: Matematica e Texto.
@@ -101,7 +100,6 @@ O programa utiliza duas bibliotecas: Matematica e Texto.
 Matematica: para cálculos matemáticos, como arredondamento de valores.
 
 Texto: para manipulação de strings, como transformar caracteres em caixa baixa.
-
 
 **Funcionamento do programa**
 
