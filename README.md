@@ -16,8 +16,23 @@ O programa calcula a contribuição do INSS verificando em qual faixa de tributa
 Para usar este programa, basta inserir o valor do salário desejado na variável **salario_oficial** e executar o programa. O valor da contribuição do INSS será exibido na variável **valor_do_inss_oficial.**
 
 # Cálculo imposto de renda
+Este programa calcula o valor do Imposto de Renda Retido na Fonte (IRRF) a ser descontado do salário de um funcionário, com base em seu salário bruto e na tabela de alíquotas vigente.
 
+**Funcionamento**
 
+O programa recebe o salário bruto (salario_p) e o valor do INSS a ser descontado (inss_p).
+
+É feita a verificação se o salário é inferior ao limite de isenção. Se for, não é necessário entregar a declaração de Imposto de Renda e o programa encerra a execução.
+
+Caso o salário seja superior ao limite de isenção, é calculado o salário líquido (salario_oficial) subtraindo-se o valor do INSS.
+
+É feita uma série de verificações para identificar em qual faixa o salário se enquadra, e calcular o valor do IRRF a ser descontado. O valor do IRRF é armazenado na variável irpf.
+
+O programa encerra a execução exibindo o valor do IRRF a ser descontado do salário do funcionário.
+
+**Como Executar**
+
+Para executar o programa, basta informar os valores do salário bruto e do INSS a serem descontados. O programa irá exibir o valor do IRRF a ser descontado do salário do funcionário.
 
 
 # Cálculo férias
