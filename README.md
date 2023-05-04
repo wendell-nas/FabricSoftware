@@ -11,7 +11,7 @@ Este programa calcula a contribuição do INSS (Instituto Nacional do Seguro Soc
 
 O programa calcula a contribuição do INSS verificando em qual faixa de tributação o salário se enquadra e aplicando a taxa de tributação e os valores de dedução apropriados. O valor da contribuição para cada faixa de tributação é armazenado na matriz **valor_do_inss** e depois somado para obter o valor total da contribuição em **valor_do_inss_oficial.**
 
-**Uso**
+**Como utilizar**
 
 Para usar este programa, basta inserir o valor do salário desejado na variável **salario_oficial** e executar o programa. O valor da contribuição do INSS será exibido na variável **valor_do_inss_oficial.**
 
