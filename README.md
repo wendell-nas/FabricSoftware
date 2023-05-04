@@ -32,7 +32,6 @@ O programa encerra a execução exibindo o valor do IRRF a ser descontado do sal
 
 Para executar o programa, basta informar os valores do salário bruto e do INSS a serem descontados. O programa irá exibir o valor do IRRF a ser descontado do salário do funcionário.
 
-
 # Cálculo férias
 Este programa realiza o cálculo do valor das férias de um colaborador com base no salário bruto informado pelo usuário. O programa utiliza uma constante para o cálculo do desconto do INSS e do IRRF, e considera um período de férias de 30 dias.
 
