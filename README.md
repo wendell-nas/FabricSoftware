@@ -47,8 +47,24 @@ Ao executar o programa, o usuário deve informar a sua remuneração bruta. O pr
 
 # Calculo pis
 
+Programa para cálculo do PIS
 
+Este programa calcula o valor do PIS (Programa de Integração Social) a ser recebido pelo usuário com base em seu salário e tempo de trabalho. O usuário deve informar sua remuneração mensal, o tempo em que está cadastrado no PIS e quantos anos trabalha na empresa.
 
+O programa então calcula o valor a ser recebido pelo usuário e verifica se o usuário tem direito ao PIS. Caso o usuário tenha menos de 5 anos de cadastro no PIS, ele não tem direito ao programa. Caso contrário, o programa informa o valor a ser recebido pelo usuário.
+
+Biblioteca utilizada
+
+O programa utiliza a biblioteca Matemática para arredondar o valor do PIS com 3 casas decimais.
+
+Como utilizar o programa
+
+Abra o programa.
+Execute o programa.
+Informe a remuneração mensal.
+Informe o tempo em que está cadastrado no PIS.
+Informe quantos anos trabalha na empresa.
+O programa irá calcular e informar se o usuário tem direito ao PIS e qual o valor a ser recebido.
 
 # Calculo adcional noturno
 
