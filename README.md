@@ -181,9 +181,17 @@ Este programa foi criado para calcular o salário de um trabalhador com adiciona
 Ao executar o programa, ele irá solicitar que o usuário insira as informações necessárias e, em seguida, exibirá o valor do salário com o adicional noturno adicionado.
 
 # Cálculo periculosidade
+Este é um programa simples que calcula o adicional de periculosidade a partir do salário informado.
 
+**Como utilizar**
+Ao executar o programa, será necessário informar o valor do salário. O programa calculará o adicional de periculosidade, que será retornado como resultado.
 
+**Observações**
+O valor do adicional de periculosidade é calculado a partir do valor do salário, que é informado pelo usuário.
 
+O valor do adicional de periculosidade é calculado como sendo 30% do valor do salário informado.
+
+O resultado do cálculo é retornado pelo programa.
 
 # Cálculo hora extra
 Este é um programa que calcula o salário de um colaborador com base no salário base, carga horária mensal e horas extras trabalhadas. O programa também considera horas extras trabalhadas em dias úteis, domingos e feriados, e aplica taxas diferentes para cada tipo de hora extra.
