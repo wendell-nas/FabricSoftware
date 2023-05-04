@@ -72,10 +72,15 @@ O programa utiliza a biblioteca Matemática para arredondar o valor do PIS com 3
 Como utilizar o programa
 
 Abra o programa.
+
 Execute o programa.
+
 Informe a remuneração mensal.
+
 Informe o tempo em que está cadastrado no PIS.
+
 Informe quantos anos trabalha na empresa.
+
 O programa irá calcular e informar se o usuário tem direito ao PIS e qual o valor a ser recebido.
 
 # Calculo adcional noturno
