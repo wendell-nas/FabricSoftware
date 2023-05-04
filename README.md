@@ -336,3 +336,18 @@ Por fim, o valor do vale-transporte é retornado pelo programa.
 
 Para executar o programa, basta copiar e colar o código em um ambiente de desenvolvimento que suporte a linguagem de programação em que ele foi escrito (não especificado no código fornecido) e rodar o programa. O usuário será solicitado a fornecer a resposta para a pergunta sobre o direito ao vale-transporte, e o valor calculado será exibido como resultado.
 
+# Tela Pis
+Este programa lê o salário informado pelo usuário como uma string e converte-o para um valor real. Em seguida, calcula e verifica se o usuário tem direito a receber o PIS (Programa de Integração Social), que é um benefício pago anualmente aos trabalhadores que se enquadram em determinados critérios estabelecidos pelo governo.
+
+**Funcionamento do programa**
+O programa solicita que o usuário informe o salário como uma string.
+
+A string é convertida em um valor real utilizando a função **convertor_de_cadeia_para_real.**
+
+O programa calcula o valor do PIS utilizando a função **calculador_e_verificador_de_piss.**
+
+Se o valor do PIS for diferente de zero, o programa exibe uma mensagem informando o valor.
+
+Caso contrário, exibe uma mensagem informando que o usuário não tem direito ao benefício.
+
+O programa oferece a opção de voltar ao menu principal ou finalizar o programa.
