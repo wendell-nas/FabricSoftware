@@ -42,6 +42,18 @@ Ao executar o programa, o usuário deve informar a sua remuneração bruta. O pr
 
 # Calculo vale transporte
 
+Programa para calcular se o vale transporte é vantajoso para o colaborador
+
+Este programa permite ao usuário calcular se vale a pena utilizar o vale transporte oferecido pela empresa onde trabalha. Para isso, o colaborador precisa informar o seu salário e se utiliza meio de transporte público coletivo. Caso a resposta seja positiva, o sistema solicita informações sobre a quantidade de vales necessários por dia e o valor da passagem, e verifica se é vantajoso utilizar o vale transporte.
+O programa também desconta 6% do salário do colaborador para o vale transporte e informa se é vantajoso utilizar o benefício.
+
+Como utilizar o programa
+
+O programa solicitará que o usuário informe o salário.
+Em seguida, o usuário deve informar se utiliza meio de transporte público coletivo, digitando "s" para sim ou "n" para não.
+Se o usuário informar que utiliza transporte público, o sistema solicitará as informações sobre quantidade de vales necessários por dia e valor da passagem.
+O sistema calculará o valor a ser descontado do salário do colaborador e informará se é vantajoso utilizar o vale transporte.
+O programa finalizará a execução com uma mensagem de agradecimento ao usuário.
 
 
 
