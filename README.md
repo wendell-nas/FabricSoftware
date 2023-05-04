@@ -116,7 +116,7 @@ Informe quantos anos trabalha na empresa.
 
 O programa irá calcular e informar se o usuário tem direito ao PIS e qual o valor a ser recebido.
 
-# Calculo adcional noturno
+# Cálculo adcional noturno
 Este programa foi criado para calcular o salário de um trabalhador com adicional noturno. Ele solicita ao usuário informações sobre seu salário, horas mensais trabalhadas e horas noturnas adicionais, e, em seguida, calcula o valor do adicional noturno.
 
 **Como usar**
