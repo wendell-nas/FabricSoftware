@@ -2,7 +2,7 @@
 Fabric Software é uma empresa que atua no seguimento de ERPs para gestão empresarial.
 
 
-
+# Simuladores
 
 # Cálculo inss
 Este programa calcula a contribuição do INSS (Instituto Nacional do Seguro Social) com base no salário de um indivíduo.
