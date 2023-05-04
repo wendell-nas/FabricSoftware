@@ -234,3 +234,99 @@ Calcula o valor bruto do salário, somando o salário base com as horas extras.
 
 O valor bruto do salário é então arredondado para duas casas decimais e exibido na tela.
 
+# Tela Inss
+Este programa é uma calculadora de INSS. Ele permite que o usuário insira seu salário e calcula o valor do INSS que deve ser pago com base em uma determinada tabela de alíquotas. O resultado é apresentado na tela em formato de moeda.
+
+**Como utilizar**
+Para utilizar a calculadora de INSS, basta executar o programa e seguir as instruções apresentadas na tela. O usuário deve digitar o valor do seu salário e, em seguida, o programa irá calcular o valor do INSS correspondente. O usuário pode optar por voltar ao menu principal para realizar uma nova operação ou finalizar o programa.
+
+# Tela Imposto de renda 
+Este programa é uma calculadora de Imposto de Renda de Pessoa Física (IRPF). O usuário deverá informar seu salário, e a calculadora irá calcular automaticamente o valor devido de IRPF e apresentar o resultado.
+
+**Como utilizar**
+
+Ao executar o programa, o usuário será apresentado com a seguinte mensagem: **DIGITE SEU SALÁRIO:**
+
+O usuário deverá digitar seu salário e pressionar enter. Em seguida, o programa irá realizar o cálculo e apresentar o resultado da seguinte forma:  **SEU IRPF É IGUAL A:**
+
+O usuário terá a opção de voltar ao menu principal ou finalizar o programa.
+
+#Tela Férias 
+Este programa tem como objetivo calcular o valor total das suas férias com base no salário informado, considerando o desconto do INSS e do IRPF.
+
+**Como utilizar**
+
+Execute o programa.
+
+Informe o valor do seu salário.
+
+O programa irá calcular o valor total das suas férias considerando o desconto do INSS e do IRPF.
+
+O resultado será exibido na tela.
+
+Você poderá escolher se deseja voltar ao menu principal ou finalizar o programa.
+
+# Tela Fgts
+Este programa é uma calculadora de FGTS mensal, onde o usuário insere o seu salário e o programa retorna o valor mensal do FGTS correspondente.
+
+**Como utilizar**
+Execute o programa.
+
+Ao iniciar o programa, você será apresentado a tela de boas-vindas com a opção de digitar o seu salário.
+
+Digite o valor do seu salário e tecle ENTER.
+
+O programa irá calcular o valor do seu FGTS mensal e apresentá-lo na tela.
+
+Será perguntado se deseja voltar ao menu principal ou finalizar o programa.
+
+Se escolher voltar ao menu principal, o programa irá retornar para a tela inicial. Se escolher finalizar o programa, o programa irá encerrar.
+
+# Tela Deposito Fgts
+Este é um programa que calcula o valor do depósito FGTS (Fundo de Garantia do Tempo de Serviço) com base no salário informado pelo usuário.
+
+O programa solicita ao usuário que digite o valor do salário e, em seguida, converte esse valor para um número real para que possa ser calculado o valor do depósito FGTS.
+
+Após realizar o cálculo, o programa exibe o valor do depósito FGTS arredondado em duas casas decimais.
+
+O programa também oferece a opção de voltar ao menu principal ou finalizar o programa após o cálculo ser concluído.
+
+A interface do usuário é apresentada em uma caixa com bordas que delimitam o texto exibido.
+
+**Como usar**
+Para utilizar este programa, basta executar o código em um ambiente de programação não especificado. O programa solicitará que o usuário informe o valor do salário, que deve ser digitado após a mensagem "DIGITE SEU SALÁRIO: R$".
+
+O programa exibirá o valor do depósito FGTS calculado com base no salário informado, e o usuário terá a opção de voltar ao menu principal ou finalizar o programa.
+
+# Tela Seguro desemprego
+Este programa tem como objetivo verificar o status do seguro desemprego de uma pessoa. Ele exibe uma tela com o resultado da verificação e oferece a opção de voltar ao menu principal ou finalizar o programa.
+
+**Funcionamento**
+Ao ser executado, o programa chama a função **verificador_de_seguro_desemprego** para realizar a verificação do seguro desemprego. Em seguida, a tela é limpa e exibida uma mensagem de cabeçalho.
+
+Depois, o programa exibe o resultado da verificação na tela, por meio da variável **seguro_desemprego**. O usuário pode escolher entre voltar ao menu principal ou finalizar o programa. Se optar por voltar ao menu, o programa chama a função **tela_seguro_desemprego**. Caso contrário, é exibida a **função final**
+
+# Tela Vale Transporte 
+Esse é um programa simples que verifica se o usuário tem direito ao Vale Transporte de acordo com seu salário.
+
+**Como usar**
+Execute o programa.
+
+Digite seu salário quando solicitado.
+
+O programa irá verificar se você tem direito ao Vale Transporte e irá exibir a mensagem correspondente.
+
+Você pode optar por voltar ao menu principal ou finalizar o programa.
+
+# Tela 2 Vale Transporte 
+Este programa calcula o valor do vale-transporte a ser pago ao funcionário de acordo com o salário e a resposta do usuário sobre o direito ao benefício.
+
+**Funcionamento**
+O programa inicia solicitando ao usuário a resposta para a pergunta **"NA SUA EMPRESA VOCÊ TEM O DIREITO VALE TRANSPOTE?(s)SIM/(n)NÃO:"**. O valor digitado é armazenado na variável **resposta_em_cadeia**. Em seguida, a função **t.caixa_baixa** é usada para transformar a resposta em minúsculo e a função **ti.cadeia_para_caracter** é usada para converter a resposta em caracter, armazenando o resultado na **variável resposta_do_usuario**.
+
+A partir daí, o programa usa a estrutura de controle escolha para definir o valor do vale-transporte de acordo com a resposta do usuário. Se a resposta for "s", o valor do vale-transporte será calculado multiplicando o salário pela constante **porcentagem_para_calculo** e armazenado na variável **vale_transporte**. Se a resposta for "n", o valor do vale-transporte será igual a zero. Caso contrário, o programa exibe uma mensagem de erro solicitando que o usuário digite uma resposta correta.
+
+Por fim, o valor do vale-transporte é retornado pelo programa.
+
+**Como executar o programa**
+Para executar o programa, basta copiar e colar o código em um ambiente de desenvolvimento que suporte a linguagem de programação em que ele foi escrito (não especificado no código fornecido) e rodar o programa. O usuário será solicitado a fornecer a resposta para a pergunta sobre o direito ao vale-transporte, e o valor calculado será exibido como resultado.
