@@ -351,3 +351,63 @@ Se o valor do PIS for diferente de zero, o programa exibe uma mensagem informand
 Caso contrário, exibe uma mensagem informando que o usuário não tem direito ao benefício.
 
 O programa oferece a opção de voltar ao menu principal ou finalizar o programa.
+
+# Tela Adicional Noturno
+Este programa é uma calculadora de adicional noturno, que permite ao usuário inserir seu salário e calcular o valor do adicional noturno que deve ser adicionado.
+
+**Funcionamento**
+Ao ser executado, o programa exibe um menu principal com as seguintes opções:
+
+Digitar salário: o usuário deve inserir seu salário.
+
+Calcular adicional noturno: o programa irá calcular o valor do adicional noturno e exibir o resultado na tela.
+
+Voltar ao menu principal: retorna ao menu principal.
+
+O usuário deve inserir seu salário e, em seguida, escolher a opção de calcular o adicional noturno. O programa irá então calcular o valor do adicional noturno e exibi-lo na tela, juntamente com o valor do salário mais o adicional noturno.
+
+O usuário pode escolher voltar ao menu principal para realizar novos cálculos ou finalizar o programa.
+
+# Tela 2 Adicional Noturno
+Este programa foi desenvolvido para calcular o adicional noturno de um funcionário com base no seu salário mensal e nas horas noturnas trabalhadas.
+
+**Como usar o programa**
+
+Informe o salário mensal do funcionário na variável **salario_p.**
+
+Informe a carga horária mensal do funcionário na variável **carga_horaria_p.**
+
+Quando o programa pedir, informe quantas horas noturnas extras foram trabalhadas pelo funcionário.
+
+O programa irá calcular o valor do adicional noturno e retorná-lo.
+
+**Como funciona o programa**
+
+O programa recebe o salário mensal do funcionário e a carga horária mensal trabalhada.
+
+É solicitado ao usuário que informe a quantidade de horas noturnas extras trabalhadas.
+
+Com base nas informações fornecidas, o programa calcula o valor da hora trabalhada.
+
+Em seguida, o programa calcula o valor do adicional noturno, que é igual a 20% do valor da hora trabalhada multiplicado pelo número de horas noturnas extras trabalhadas.
+
+Por fim, o programa retorna o valor do adicional noturno calculado.
+
+# Tela Periculosidade
+
+**Funcionamento**
+O programa solicita que o usuário digite o salário e, em seguida, converte a entrada de string para um valor real. Em seguida, a função calculador_de_periculosidade é chamada para calcular a periculosidade do trabalhador, que é arredondada para duas casas decimais. O resultado é então exibido na tela.
+
+O programa oferece opções ao usuário para voltar ao menu principal ou finalizar o programa.
+
+# Tela 2 Periculosidade
+Este programa foi desenvolvido para calcular o adicional de periculosidade a partir do salário do funcionário, caso a empresa ofereça esse benefício. O programa solicita ao usuário que informe se a empresa tem adicional de periculosidade, em seguida realiza o cálculo se a resposta for "s".
+
+**Como usar o programa**
+O usuário deve fornecer o salário do funcionário na variável "salario_p".
+
+O programa solicita ao usuário que informe se a empresa oferece adicional de periculosidade.
+
+O usuário deve digitar "s" caso a empresa ofereça o benefício ou "n" caso contrário.
+
+O programa realiza o cálculo do adicional de periculosidade, caso a resposta seja "s", e armazena o resultado na variável "periculosidade".
