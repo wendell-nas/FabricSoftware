@@ -52,7 +52,7 @@ O programa recebe como entrada o número de meses que o funcionário trabalhou e
 **Como usar o programa?**
 **Para utilizar o programa, siga as instruções abaixo:**
 
-Abra o programa em um ambiente que suporte a linguagem de programação em que ele foi escrito.
+Abra o programa.
 
 Defina a variável 'salario_p' com o valor do salário do funcionário (se necessário).
 
@@ -65,11 +65,11 @@ Aguarde o programa calcular o valor do depósito de FGTS e exibir o resultado.
 
 
 # Cálculo fgts
-Este programa foi desenvolvido em C++ e tem como objetivo calcular o valor mensal do FGTS (Fundo de Garantia por Tempo de Serviço) a partir do salário informado pelo usuário.
+Este programa foi desenvolvido para calcular o valor mensal do FGTS (Fundo de Garantia por Tempo de Serviço) a partir do salário informado pelo usuário.
 
 **Como utilizar o programa**
 
-Abra o arquivo contendo o código-fonte em um compilador C++ de sua preferência.
+Abra o arquivo.
 
 Digite o valor do salário na variável "salario_p" na linha 1 do código.
 
