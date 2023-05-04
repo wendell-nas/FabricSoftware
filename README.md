@@ -44,11 +44,27 @@ Ao executar o programa, o usuário deve informar a sua remuneração bruta. O pr
 
 
 # Cálculo deposito fgts
+Esse é um programa que calcula o valor do depósito do FGTS (Fundo de Garantia do Tempo de Serviço) a ser depositado pelo empregador em nome do funcionário, com base no número de meses trabalhados e no salário do funcionário.
+
+**Como funciona o programa?**
+O programa recebe como entrada o número de meses que o funcionário trabalhou e o seu salário. Em seguida, ele calcula o valor mensal a ser depositado de FGTS, com base em uma constante definida (PORCENTAGEM_FGTS = 8%). Por fim, ele multiplica o valor mensal pelo número de meses trabalhados para obter o valor total de depósito de FGTS a ser feito pelo empregador.
+
+**Como usar o programa?**
+**Para utilizar o programa, siga as instruções abaixo:**
+
+Abra o programa em um ambiente que suporte a linguagem de programação em que ele foi escrito.
+
+Defina a variável 'salario_p' com o valor do salário do funcionário (se necessário).
+
+Execute o programa.
+
+Quando solicitado, informe o número de meses que o funcionário trabalhou.
+
+Aguarde o programa calcular o valor do depósito de FGTS e exibir o resultado.
 
 
 
-
-# Cálculo multa fgts
+# Cálculo fgts
 
 
 
