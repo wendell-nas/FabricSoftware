@@ -58,9 +58,11 @@ Este programa calcula o valor do PIS (Programa de Integração Social) a ser rec
 
 O programa então calcula o valor a ser recebido pelo usuário e verifica se o usuário tem direito ao PIS. Caso o usuário tenha menos de 5 anos de cadastro no PIS, ele não tem direito ao programa. Caso contrário, o programa informa o valor a ser recebido pelo usuário.
 
+
 **Biblioteca utilizada**
 
 O programa utiliza a biblioteca Matemática para arredondar o valor do PIS com 3 casas decimais.
+
 
 **Como utilizar o programa**
 
@@ -91,6 +93,7 @@ Ao executar o programa, ele irá solicitar que o usuário insira as informaçõe
 # Calculo hora extra
 Este é um programa em linguagem de programação não especificada que calcula o salário de um colaborador com base no salário base, carga horária mensal e horas extras trabalhadas. O programa também considera horas extras trabalhadas em dias úteis, domingos e feriados, e aplica taxas diferentes para cada tipo de hora extra.
 
+
 **Bibliotecas utilizadas**
 
 O programa utiliza duas bibliotecas: Matematica e Texto.
@@ -99,9 +102,10 @@ Matematica: para cálculos matemáticos, como arredondamento de valores.
 
 Texto: para manipulação de strings, como transformar caracteres em caixa baixa.
 
+
 **Funcionamento do programa**
 
-Ao ser executado, o programa solicita as seguintes informações ao usuário:
+**Ao ser executado, o programa solicita as seguintes informações ao usuário:**
 
 Valor do salário base.
 
