@@ -105,31 +105,20 @@ Matematica: para cálculos matemáticos, como arredondamento de valores.
 Texto: para manipulação de strings, como transformar caracteres em caixa baixa.
 
 Funcionamento do programa
+
 Ao ser executado, o programa solicita as seguintes informações ao usuário:
-
 Valor do salário base.
-
 Carga horária mensal do colaborador de acordo com o contrato de trabalho do mesmo.
-
 Se o colaborador realizou trabalho em domingos e feriados.
-
 Se o colaborador realizou hora extra em dias úteis, caso tenha respondido "s" na pergunta anterior.
-
 Quantidade de horas extras trabalhadas em dias úteis, caso tenha respondido "s" na pergunta anterior.
-
 Quantidade de horas extras trabalhadas em domingos e feriados, caso tenha respondido "s" na pergunta anterior.
 
 Com base nessas informações, o programa realiza os seguintes cálculos:
-
 Calcula o valor da hora extra 100%, caso o colaborador tenha trabalhado em domingos e feriados.
-
 Calcula o valor da hora extra 50%, caso o colaborador tenha trabalhado em dias úteis.
-
 Calcula o valor total das horas extras 100%, caso o colaborador tenha trabalhado em domingos e feriados.
-
 Calcula o valor total das horas extras 50%, caso o colaborador tenha trabalhado em dias úteis.
-
 Calcula o valor bruto do salário, somando o salário base com as horas extras.
-
 O valor bruto do salário é então arredondado para duas casas decimais e exibido na tela.
 
