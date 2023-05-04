@@ -335,3 +335,4 @@ Por fim, o valor do vale-transporte é retornado pelo programa.
 **Como executar o programa**
 
 Para executar o programa, basta copiar e colar o código em um ambiente de desenvolvimento que suporte a linguagem de programação em que ele foi escrito (não especificado no código fornecido) e rodar o programa. O usuário será solicitado a fornecer a resposta para a pergunta sobre o direito ao vale-transporte, e o valor calculado será exibido como resultado.
+
