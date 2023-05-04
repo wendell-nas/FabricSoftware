@@ -65,7 +65,27 @@ Aguarde o programa calcular o valor do depósito de FGTS e exibir o resultado.
 
 
 # Cálculo fgts
+Este programa foi desenvolvido em C++ e tem como objetivo calcular o valor mensal do FGTS (Fundo de Garantia por Tempo de Serviço) a partir do salário informado pelo usuário.
 
+**Como utilizar o programa**
+
+Abra o arquivo contendo o código-fonte em um compilador C++ de sua preferência.
+
+Digite o valor do salário na variável "salario_p" na linha 1 do código.
+
+Compile e execute o programa.
+
+O valor mensal do FGTS será exibido na tela.
+
+**Funcionamento do programa**
+
+O programa inicia com a declaração da variável "salario_p" que armazena o valor do salário informado pelo usuário. Em seguida, é declarada a variável "fgts_mensal" que armazena o valor mensal do FGTS.
+
+A constante "PORCENTAGEM_FGTS" é utilizada para definir a porcentagem de 8% que é aplicada sobre o valor do salário para o cálculo do FGTS.
+
+Na linha 3, o cálculo é realizado multiplicando o valor do salário pela porcentagem do FGTS e dividindo por 100.
+
+Por fim, o valor mensal do FGTS é retornado na linha 4 do código.
 
 
 
