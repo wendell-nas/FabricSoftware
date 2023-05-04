@@ -94,3 +94,30 @@ Ao executar o programa, ele irá solicitar que o usuário insira as informaçõe
 
 
 # Calculo hora extra
+Programa para cálculo de salário com horas extras
+
+Este é um programa em linguagem de programação não especificada que calcula o salário de um colaborador com base no salário base, carga horária mensal e horas extras trabalhadas. O programa também considera horas extras trabalhadas em dias úteis, domingos e feriados, e aplica taxas diferentes para cada tipo de hora extra.
+
+Bibliotecas utilizadas
+
+O programa utiliza duas bibliotecas: Matematica e Texto.
+Matematica: para cálculos matemáticos, como arredondamento de valores.
+Texto: para manipulação de strings, como transformar caracteres em caixa baixa.
+
+Funcionamento do programa
+Ao ser executado, o programa solicita as seguintes informações ao usuário:
+Valor do salário base.
+Carga horária mensal do colaborador de acordo com o contrato de trabalho do mesmo.
+Se o colaborador realizou trabalho em domingos e feriados.
+Se o colaborador realizou hora extra em dias úteis, caso tenha respondido "s" na pergunta anterior.
+Quantidade de horas extras trabalhadas em dias úteis, caso tenha respondido "s" na pergunta anterior.
+Quantidade de horas extras trabalhadas em domingos e feriados, caso tenha respondido "s" na pergunta anterior.
+
+Com base nessas informações, o programa realiza os seguintes cálculos:
+
+Calcula o valor da hora extra 100%, caso o colaborador tenha trabalhado em domingos e feriados.
+Calcula o valor da hora extra 50%, caso o colaborador tenha trabalhado em dias úteis.
+Calcula o valor total das horas extras 100%, caso o colaborador tenha trabalhado em domingos e feriados.
+Calcula o valor total das horas extras 50%, caso o colaborador tenha trabalhado em dias úteis.
+Calcula o valor bruto do salário, somando o salário base com as horas extras.
+O valor bruto do salário é então arredondado para duas casas decimais e exibido na tela.
