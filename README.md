@@ -36,6 +36,7 @@ Ao executar o programa, o usuário deve informar a sua remuneração bruta. O pr
 Este programa foi criado para verificar se o colaborador tem direito ao seguro desemprego, de acordo com as regras estabelecidas pelo governo brasileiro.
 
 **Funcionamento**
+
 O programa solicita algumas informações para o usuário, tais como: se o colaborador foi dispensado por justa causa, se ele está em situação de desemprego, se possui renda própria e se está recebendo benefício de prestação contínua da previdência social (exceto pensão por morte ou auxílio-acidente).
 
 Em seguida, o programa solicita a quantidade de tempo que o colaborador trabalhou na empresa (em meses) e verifica se ele tem direito ao seguro desemprego e quantas parcelas ele receberá, de acordo com as regras abaixo:
