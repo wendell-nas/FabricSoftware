@@ -33,8 +33,45 @@ Ao executar o programa, o usuário deve informar a sua remuneração bruta. O pr
 
 
 # Calculo seguro desemprego
+Este programa foi criado para verificar se o colaborador tem direito ao seguro desemprego, de acordo com as regras estabelecidas pelo governo brasileiro.
 
+**Funcionamento**
+O programa solicita algumas informações para o usuário, tais como: se o colaborador foi dispensado por justa causa, se ele está em situação de desemprego, se possui renda própria e se está recebendo benefício de prestação contínua da previdência social (exceto pensão por morte ou auxílio-acidente).
 
+Em seguida, o programa solicita a quantidade de tempo que o colaborador trabalhou na empresa (em meses) e verifica se ele tem direito ao seguro desemprego e quantas parcelas ele receberá, de acordo com as regras abaixo:
+
+**Primeira solicitação:**
+
+12 meses ou mais: 5 parcelas
+
+Entre 9 e 11 meses: 4 parcelas
+
+Menos de 9 meses: sem direito
+
+**Segunda solicitação:**
+
+9 meses ou mais: 5 parcelas
+
+Entre 12 e 23 meses: 4 parcelas
+
+Entre 6 e 11 meses: 3 parcelas
+
+Menos de 6 meses: sem direito
+
+**Terceira solicitação ou mais:**
+
+6 meses ou mais: 5 parcelas
+
+Entre 12 e 23 meses: 4 parcelas
+
+Menos de 12 meses: 3 parcelas
+
+Sem direito
+
+O programa exibe uma mensagem indicando se o colaborador tem ou não direito ao seguro desemprego, bem como o número de parcelas a que ele tem direito.
+
+**Utilização**
+Para utilizar o programa, basta inserir as informações necessárias para que o programa possa verificar se o colaborador tem direito ao seguro desemprego e quantas parcelas ele receberá.
 
 
 # Calculo vale transporte
