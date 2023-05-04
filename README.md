@@ -8,6 +8,7 @@ Fabric Software é uma empresa que atua no seguimento de ERPs para gestão empre
 Este programa calcula a contribuição do INSS (Instituto Nacional do Seguro Social) com base no salário de um indivíduo.
 
 **Cálculo**
+
 O programa calcula a contribuição do INSS verificando em qual faixa de tributação o salário se enquadra e aplicando a taxa de tributação e os valores de dedução apropriados. O valor da contribuição para cada faixa de tributação é armazenado na matriz **valor_do_inss** e depois somado para obter o valor total da contribuição em **valor_do_inss_oficial.**
 
 **Uso**
