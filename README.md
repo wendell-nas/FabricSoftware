@@ -221,9 +221,7 @@ Quantidade de horas extras trabalhadas em dias úteis, caso tenha respondido "s"
 Quantidade de horas extras trabalhadas em domingos e feriados, caso tenha respondido "s" na pergunta anterior.
 
 **Com base nessas informações, o programa realiza os seguintes cálculos:**
-
 Calcula o valor da hora extra 100%, caso o colaborador tenha trabalhado em domingos e feriados.
-
 Calcula o valor da hora extra 50%, caso o colaborador tenha trabalhado em dias úteis.
 
 Calcula o valor total das horas extras 100%, caso o colaborador tenha trabalhado em domingos e feriados.
