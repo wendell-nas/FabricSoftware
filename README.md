@@ -4,17 +4,17 @@ Fabric Software é uma empresa que atua no seguimento de ERPs para gestão empre
 
 
 
-# Calculo inss
+# Cálculo inss
 
 
 
 
-# Calculo imposto de renda
+# Cálculo imposto de renda
 
 
 
 
-# Calculo férias
+# Cálculo férias
 Este programa realiza o cálculo do valor das férias de um colaborador com base no salário bruto informado pelo usuário. O programa utiliza uma constante para o cálculo do desconto do INSS e do IRRF, e considera um período de férias de 30 dias.
 
 **Como utilizar**
@@ -22,17 +22,17 @@ Este programa realiza o cálculo do valor das férias de um colaborador com base
 Ao executar o programa, o usuário deve informar a sua remuneração bruta. O programa então irá calcular o valor das férias a partir deste valor, descontando o INSS e o IRRF e adicionando o terço constitucional.
 
 
-# Calculo deposito fgts
+# Cálculo deposito fgts
 
 
 
 
-# Calculo multa fgts
+# Cálculo multa fgts
 
 
 
 
-# Calculo seguro desemprego
+# Cálculo seguro desemprego
 Este programa foi criado para verificar se o colaborador tem direito ao seguro desemprego, de acordo com as regras estabelecidas pelo governo brasileiro.
 
 **Funcionamento**
@@ -75,7 +75,7 @@ O programa exibe uma mensagem indicando se o colaborador tem ou não direito ao 
 Para utilizar o programa, basta inserir as informações necessárias para que o programa possa verificar se o colaborador tem direito ao seguro desemprego e quantas parcelas ele receberá.
 
 
-# Calculo vale transporte
+# Cálculo vale transporte
 Este programa permite ao usuário calcular se vale a pena utilizar o vale transporte oferecido pela empresa onde trabalha. Para isso, o colaborador precisa informar o seu salário e se utiliza meio de transporte público coletivo. Caso a resposta seja positiva, o sistema solicita informações sobre a quantidade de vales necessários por dia e o valor da passagem, e verifica se é vantajoso utilizar o vale transporte.
 O programa também desconta 6% do salário do colaborador para o vale transporte e informa se é vantajoso utilizar o benefício.
 
@@ -91,7 +91,7 @@ O sistema calculará o valor a ser descontado do salário do colaborador e infor
 
 O programa finalizará a execução com uma mensagem de agradecimento ao usuário.
 
-# Calculo pis
+# Cálculo pis
 Este programa calcula o valor do PIS (Programa de Integração Social) a ser recebido pelo usuário com base em seu salário e tempo de trabalho. O usuário deve informar sua remuneração mensal, o tempo em que está cadastrado no PIS e quantos anos trabalha na empresa.
 
 O programa então calcula o valor a ser recebido pelo usuário e verifica se o usuário tem direito ao PIS. Caso o usuário tenha menos de 5 anos de cadastro no PIS, ele não tem direito ao programa. Caso contrário, o programa informa o valor a ser recebido pelo usuário.
@@ -123,12 +123,12 @@ Este programa foi criado para calcular o salário de um trabalhador com adiciona
 
 Ao executar o programa, ele irá solicitar que o usuário insira as informações necessárias e, em seguida, exibirá o valor do salário com o adicional noturno adicionado.
 
-# Calculo periculosidade
+# Cálculo periculosidade
 
 
 
 
-# Calculo hora extra
+# Cálculo hora extra
 Este é um programa que calcula o salário de um colaborador com base no salário base, carga horária mensal e horas extras trabalhadas. O programa também considera horas extras trabalhadas em dias úteis, domingos e feriados, e aplica taxas diferentes para cada tipo de hora extra.
 
 **Bibliotecas utilizadas**
