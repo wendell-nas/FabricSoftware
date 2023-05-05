@@ -392,9 +392,9 @@ Ao executar o programa, o usuário é apresentado a uma tela inicial com algumas
 Ao final dos cálculos, o programa exibe na tela um detalhamento do valor de cada benefício e desconto, bem como o valor final do salário líquido. O usuário pode optar por voltar ao menu inicial para inserir um novo valor de salário bruto, ou pode optar por exibir novamente o detalhamento do último cálculo realizado.
 
 
-# Funcoes Adicionais
+# Funções Adicionais
 
-# Conversão de Salário de Cadeia para Real 
+# Função Conversão de Salário de Cadeia para Real 
 **Como funciona o programa?**
 
 O programa segue os seguintes passos para converter o salário de cadeia para real:
@@ -413,7 +413,7 @@ Atribui o valor convertido para a variável "salario_real".
 
 Retorna o valor de "salario_real".
 
-# Voltar Menu
+# Função Voltar Menu
 **Funcionamento**
 
 O programa apresenta uma pergunta ao usuário: "Quer repetir esse programa(s)SIM/(n)NÃO:". O usuário pode digitar 's' para sim ou 'n' para não. Se a entrada do usuário for diferente de 's' ou 'n', o programa considera que o usuário digitou uma entrada inválida e repete a pergunta.
@@ -422,7 +422,7 @@ Se o usuário digitar 's', o programa retorna True e a ação é repetida. Se o 
 
 O programa continuará perguntando ao usuário se ele deseja repetir a ação até que o usuário digite 'n' para sair.
 
-# Finalizar Programa
+# Função Finalizar Programa
 Este programa tem como objetivo perguntar ao usuário se ele deseja mostrar o detalhamento e finalizar o programa ou não.
 
 **Funcionamento**
@@ -434,14 +434,14 @@ Dentro do loop, o programa pergunta ao usuário se ele deseja mostrar o detalham
 O programa então verifica se a resposta do usuário é igual a 's' ou 'n'. Se for, a variável sair recebe o valor falso, caso contrário, sair recebe o valor verdadeiro.
 
 Depois do loop, o programa verifica se a resposta do usuário foi 's'. Se for, ele retorna verdadeiro. Caso contrário, retorna falso.
-# Banco de Dados
+# Função Banco de Dados
 O programa Cadeia Salário é um sistema que solicita informações pessoais do usuário, incluindo nome completo, telefone, e-mail, idade e CEP. Em seguida, ele realiza uma busca no serviço de consulta de CEP do site ViaCEP, com base no CEP informado, e separa os dados do endereço em diferentes variáveis.
 
 **Como funciona**
 Ao ser executado, o programa solicita ao usuário que informe seu nome completo, telefone, e-mail, idade e CEP. Em seguida, ele faz uma busca no serviço do ViaCEP para obter os dados do endereço correspondente ao CEP informado. A partir dos dados obtidos, o programa separa o endereço em diferentes variáveis, incluindo logradouro, complemento, bairro, localidade e UF.
 
 Os dados do usuário e do endereço são armazenados em um arquivo de texto chamado **"banco de dados.txt"**, que é criado na pasta do programa. Se o arquivo já existir, o programa adicionará as informações do usuário como uma nova linha no final do arquivo.
-# Funcao Fazer outro cadastro
+# Função Fazer outro cadastro
 Este programa permite que o usuário realize o cadastro de informações pessoais e de salário, além de possibilitar a escolha de finalizar o cadastro ou realizar um novo.
 
 **Funcionalidades**
@@ -467,7 +467,7 @@ Após cadastrar as informações, o usuário poderá escolher entre finalizar o 
 # Funçao final
 O programa será executado e exibirá a mensagem de agradecimento ao usuário.
 
-# Funcao Menu
+# Função Menu
 Este programa foi desenvolvido para calcular diversos cálculos de registro de funcionários, tais como INSS, IRPF, valor das férias, FGTS mensal, depósito do FGTS, seguro desemprego, vale transporte, PIS, adicional noturno, periculosidade, hora extra e salário líquido do final do mês.
 
 **Funcionalidades**
@@ -491,7 +491,7 @@ Salário Líquido do Final do Mês.
 
 Para utilizar o programa, basta escolher uma das funcionalidades acima digitando o número correspondente e seguir as instruções dadas pelo programa.
 
-# Funcao Seletor Programa 
+# Função Seletor Programa 
 Este programa é destinado a realizar o cálculo de diversos benefícios trabalhistas, tais como INSS, IRPF, férias, FGTS mensal, depósito de FGTS, seguro-desemprego, vale-transporte, PIS, adicional noturno, periculosidade e hora extra.
 
 **Como usar**
@@ -516,7 +516,7 @@ Ao executar o programa, o usuário deve escolher uma das opções listadas no me
 
 Caso o usuário escolha uma opção inválida, será exibida uma mensagem de erro e o menu será apresentado novamente.
 
-# Funcao Detalhamento
+# Função Detalhamento
 Este programa exibe os proventos e descontos do salário bruto do usuário e calcula o salário líquido mensal. Os proventos incluem hora extra, adicional noturno, periculosidade e depósito do FGTS. Já os descontos são referentes ao INSS, IRPF e vale transporte.
 
 **Como Usar**
