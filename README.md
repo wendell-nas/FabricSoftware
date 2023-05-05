@@ -356,6 +356,7 @@ O programa oferece a opção de voltar ao menu principal ou finalizar o programa
 Este programa é uma calculadora de adicional noturno, que permite ao usuário inserir seu salário e calcular o valor do adicional noturno que deve ser adicionado.
 
 **Funcionamento**
+
 Ao ser executado, o programa exibe um menu principal com as seguintes opções:
 
 Digitar salário: o usuário deve inserir seu salário.
@@ -396,6 +397,7 @@ Por fim, o programa retorna o valor do adicional noturno calculado.
 # Tela Periculosidade
 
 **Funcionamento**
+
 O programa solicita que o usuário digite o salário e, em seguida, converte a entrada de string para um valor real. Em seguida, a função calculador_de_periculosidade é chamada para calcular a periculosidade do trabalhador, que é arredondada para duas casas decimais. O resultado é então exibido na tela.
 
 O programa oferece opções ao usuário para voltar ao menu principal ou finalizar o programa.
@@ -404,6 +406,7 @@ O programa oferece opções ao usuário para voltar ao menu principal ou finaliz
 Este programa foi desenvolvido para calcular o adicional de periculosidade a partir do salário do funcionário, caso a empresa ofereça esse benefício. O programa solicita ao usuário que informe se a empresa tem adicional de periculosidade, em seguida realiza o cálculo se a resposta for "s".
 
 **Como usar o programa**
+
 O usuário deve fornecer o salário do funcionário na variável "salario_p".
 
 O programa solicita ao usuário que informe se a empresa oferece adicional de periculosidade.
@@ -411,3 +414,68 @@ O programa solicita ao usuário que informe se a empresa oferece adicional de pe
 O usuário deve digitar "s" caso a empresa ofereça o benefício ou "n" caso contrário.
 
 O programa realiza o cálculo do adicional de periculosidade, caso a resposta seja "s", e armazena o resultado na variável "periculosidade".
+
+# Tela Horas Extras 
+Este é um programa simples que calcula o valor total do salário de hora extra com base no salário oficial informado pelo usuário. O programa foi desenvolvido utilizando a linguagem de programação não especificada.
+
+**Como usar**
+
+Execute o programa.
+
+Digite seu salário oficial quando solicitado.
+
+O programa calculará o valor total das suas horas extras e exibirá na tela.
+
+Você pode escolher voltar ao menu principal ou finalizar o programa.
+
+# Tela 2 Horas Extras
+**Funcionamento do programa**
+
+O usuário deverá informar a quantidade de horas extras trabalhadas em dias úteis quando for solicitado pelo programa. Em seguida, o programa calculará o valor das horas extras trabalhadas, considerando a taxa de acréscimo de 50% sobre o valor da hora normal de trabalho. O valor bruto das horas extras trabalhadas será retornado ao usuário.
+
+# Funçoes Adicionais 
+
+# Conversão de Salário de Cadeia para Real 
+Este é um programa simples que converte um valor de salário em formato de string para um valor de salário em formato de número real.
+
+**Como funciona o programa?**
+
+O programa segue os seguintes passos para converter o salário de cadeia para real:
+
+Recebe uma cadeia de caracteres contendo o valor do salário em formato de cadeia como entrada.
+
+Cria uma variável "salario_cadeia" do tipo string e atribui a ela a cadeia de caracteres recebida como entrada.
+
+Cria uma variável "salario_real" do tipo real.
+
+Usa a função "substituir" do objeto "t" para substituir o caractere "," por "." na variável "salario_cadeia".
+
+Usa a função "cadeia_para_real" do objeto "ti" para converter a variável "salario_cadeia" em um valor de salário em formato de número real.
+
+Atribui o valor convertido para a variável "salario_real".
+
+Retorna o valor de "salario_real".
+
+# Voltar Menu
+Este programa permite a repetição de uma ação e oferece uma opção para sair do programa. Ele utiliza uma variável booleana sair e uma variável s_ou_n para controlar o loop de repetição e a opção de saída.
+
+**Funcionamento**
+
+O programa apresenta uma pergunta ao usuário: "Quer repetir esse programa(s)SIM/(n)NÃO:". O usuário pode digitar 's' para sim ou 'n' para não. Se a entrada do usuário for diferente de 's' ou 'n', o programa considera que o usuário digitou uma entrada inválida e repete a pergunta.
+
+Se o usuário digitar 's', o programa retorna True e a ação é repetida. Se o usuário digitar 'n', o programa retorna False e a ação é encerrada.
+
+O programa continuará perguntando ao usuário se ele deseja repetir a ação até que o usuário digite 'n' para sair.
+
+# Finalizar Programa
+Este programa tem como objetivo perguntar ao usuário se ele deseja mostrar o detalhamento e finalizar o programa ou não.
+
+**Funcionamento**
+
+O programa inicia criando uma variável s_ou_n que armazenará a resposta do usuário. Em seguida, o programa entra em um loop faça-enquanto que continuará executando enquanto a variável sair for falsa.
+
+Dentro do loop, o programa pergunta ao usuário se ele deseja mostrar o detalhamento e finalizar o programa, apresentando duas opções: (s)SIM ou (n)NÃO. A resposta do usuário é armazenada na variável s_ou_n.
+
+O programa então verifica se a resposta do usuário é igual a 's' ou 'n'. Se for, a variável sair recebe o valor falso, caso contrário, sair recebe o valor verdadeiro.
+
+Depois do loop, o programa verifica se a resposta do usuário foi 's'. Se for, ele retorna verdadeiro. Caso contrário, retorna falso.
