@@ -492,18 +492,18 @@ Este programa foi desenvolvido para calcular diversos cálculos de registro de f
 
 As funcionalidades disponíveis no programa são:
 
-INSS
-IRPF
-Valor das Férias
-FGTS Mensal
-Depósito do FGTS
-Seguro Desemprego
-Vale Transporte
-PIS
-Adicional Noturno
-Periculosidade
-Hora Extra
-Salário Líquido do Final do Mês
+INSS, 
+IRPF, 
+Valor das Férias, 
+FGTS Mensal, 
+Depósito do FGTS, 
+Seguro Desemprego, 
+Vale Transporte, 
+PIS, 
+Adicional Noturno, 
+Periculosidade, 
+Hora Extra, 
+Salário Líquido do Final do Mês.
 
 **Como utilizar**
 
