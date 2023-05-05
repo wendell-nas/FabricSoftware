@@ -518,18 +518,18 @@ Ao executar o programa, o usuário deve escolher uma das opções listadas no me
 
 **As opções disponíveis no menu são:**
 
-1: Calcular INSS
-2: Calcular IRPF
-3: Calcular férias
-4: Calcular FGTS mensal
-5: Calcular depósito de FGTS
-6: Calcular seguro-desemprego
-7: Calcular vale-transporte
-8: Calcular PIS
-9: Calcular adicional noturno
-10: Calcular periculosidade
-11: Calcular hora extra
-12: Detalhamento do cálculo
-0: Sair do programa
+1: Calcular INSS, 
+2: Calcular IRPF, 
+3: Calcular férias, 
+4: Calcular FGTS mensal, 
+5: Calcular depósito de FGTS, 
+6: Calcular seguro-desemprego, 
+7: Calcular vale-transporte, 
+8: Calcular PIS, 
+9: Calcular adicional noturno, 
+10: Calcular periculosidade, 
+11: Calcular hora extra, 
+12: Detalhamento do cálculo, 
+0: Sair do programa.
 
 Caso o usuário escolha uma opção inválida, será exibida uma mensagem de erro e o menu será apresentado novamente.
