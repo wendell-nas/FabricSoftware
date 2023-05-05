@@ -508,3 +508,28 @@ Salário Líquido do Final do Mês.
 **Como utilizar**
 
 Para utilizar o programa, basta escolher uma das funcionalidades acima digitando o número correspondente e seguir as instruções dadas pelo programa.
+
+# Funcao Seletor Programa 
+Este programa é destinado a realizar o cálculo de diversos benefícios trabalhistas, tais como INSS, IRPF, férias, FGTS mensal, depósito de FGTS, seguro-desemprego, vale-transporte, PIS, adicional noturno, periculosidade e hora extra.
+
+**Como usar**
+
+Ao executar o programa, o usuário deve escolher uma das opções listadas no menu. O programa irá redirecioná-lo para a tela correspondente à opção escolhida, onde serão solicitadas as informações necessárias para o cálculo.
+
+**As opções disponíveis no menu são:**
+
+1: Calcular INSS
+2: Calcular IRPF
+3: Calcular férias
+4: Calcular FGTS mensal
+5: Calcular depósito de FGTS
+6: Calcular seguro-desemprego
+7: Calcular vale-transporte
+8: Calcular PIS
+9: Calcular adicional noturno
+10: Calcular periculosidade
+11: Calcular hora extra
+12: Detalhamento do cálculo
+0: Sair do programa
+
+Caso o usuário escolha uma opção inválida, será exibida uma mensagem de erro e o menu será apresentado novamente.
