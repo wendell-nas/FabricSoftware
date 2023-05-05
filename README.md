@@ -433,7 +433,17 @@ Você pode escolher voltar ao menu principal ou finalizar o programa.
 
 O usuário deverá informar a quantidade de horas extras trabalhadas em dias úteis quando for solicitado pelo programa. Em seguida, o programa calculará o valor das horas extras trabalhadas, considerando a taxa de acréscimo de 50% sobre o valor da hora normal de trabalho. O valor bruto das horas extras trabalhadas será retornado ao usuário.
 
+# Tela Detalhamento
+Esse é um programa desenvolvido em linguagem de programação não especificada, que tem como objetivo ajudar o usuário a descobrir o seu salário líquido mensal, a partir de algumas perguntas sobre o salário bruto e possíveis benefícios e descontos.
+
+**Funcionamento**
+
+Ao executar o programa, o usuário é apresentado a uma tela inicial com algumas informações sobre o programa e instruções para digitar o seu salário bruto. Após inserir o valor, o programa realiza uma série de cálculos para determinar o valor do salário líquido, considerando benefícios como vale transporte, periculosidade, hora extra e adicional noturno, além de descontos como INSS e IRPF.
+
+Ao final dos cálculos, o programa exibe na tela um detalhamento do valor de cada benefício e desconto, bem como o valor final do salário líquido. O usuário pode optar por voltar ao menu inicial para inserir um novo valor de salário bruto, ou pode optar por exibir novamente o detalhamento do último cálculo realizado.
 # Funçoes Adicionais 
+
+# Funcoes Adicionais
 
 # Conversão de Salário de Cadeia para Real 
 Este é um programa simples que converte um valor de salário em formato de string para um valor de salário em formato de número real.
@@ -479,9 +489,36 @@ Dentro do loop, o programa pergunta ao usuário se ele deseja mostrar o detalham
 O programa então verifica se a resposta do usuário é igual a 's' ou 'n'. Se for, a variável sair recebe o valor falso, caso contrário, sair recebe o valor verdadeiro.
 
 Depois do loop, o programa verifica se a resposta do usuário foi 's'. Se for, ele retorna verdadeiro. Caso contrário, retorna falso.
+# Banco de Dados
+O programa Cadeia Salário é um sistema que solicita informações pessoais do usuário, incluindo nome completo, telefone, e-mail, idade e CEP. Em seguida, ele realiza uma busca no serviço de consulta de CEP do site ViaCEP, com base no CEP informado, e separa os dados do endereço em diferentes variáveis.
 
+**Como funciona**
+Ao ser executado, o programa solicita ao usuário que informe seu nome completo, telefone, e-mail, idade e CEP. Em seguida, ele faz uma busca no serviço do ViaCEP para obter os dados do endereço correspondente ao CEP informado. A partir dos dados obtidos, o programa separa o endereço em diferentes variáveis, incluindo logradouro, complemento, bairro, localidade e UF.
+
+Os dados do usuário e do endereço são armazenados em um arquivo de texto chamado **"banco de dados.txt"**, que é criado na pasta do programa. Se o arquivo já existir, o programa adicionará as informações do usuário como uma nova linha no final do arquivo.
+# Funcao Fazer outro cadastro
+Este programa permite que o usuário realize o cadastro de informações pessoais e de salário, além de possibilitar a escolha de finalizar o cadastro ou realizar um novo.
+
+**Funcionalidades**
+
+**O programa apresenta as seguintes funcionalidades:**
+
+Cadastro de informações pessoais e de salário
+
+Escolha entre finalizar o cadastro ou realizar um novo
+
+**Como utilizar**
+
+Para utilizar o programa, basta executá-lo.
+
+Ao executar o programa, o usuário será apresentado a um menu com as seguintes opções:
+
+Finalizar cadastro e ir para o men
+
+Realizar cadastro
+
+Após cadastrar as informações, o usuário poderá escolher entre finalizar o cadastro ou realizar um novo.
 # Funçoes de Menu de Tela
-
 # Funçao final
 O programa será executado e exibirá a mensagem de agradecimento ao usuário.
 
@@ -533,3 +570,14 @@ Ao executar o programa, o usuário deve escolher uma das opções listadas no me
 0: Sair do programa.
 
 Caso o usuário escolha uma opção inválida, será exibida uma mensagem de erro e o menu será apresentado novamente.
+
+# Funcao Detalhamento
+Este programa exibe os proventos e descontos do salário bruto do usuário e calcula o salário líquido mensal. Os proventos incluem hora extra, adicional noturno, periculosidade e depósito do FGTS. Já os descontos são referentes ao INSS, IRPF e vale transporte.
+
+**Como Usar**
+
+Ao executar o programa, será solicitado ao usuário que informe o valor do seu salário bruto mensal. Em seguida, o programa solicitará as informações sobre as horas extras realizadas, adicional noturno recebido, se trabalha em ambiente perigoso e o valor do depósito do FGTS.
+
+Com base nessas informações, o programa irá calcular o valor de cada provento e desconto e exibi-los na tela. Ao final, o programa apresentará o salário líquido mensal, que é o resultado da subtração dos descontos dos proventos.
+
+# Tela 
