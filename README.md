@@ -148,8 +148,13 @@ O programa irá calcular e informar se o usuário tem direito ao PIS e qual o va
 # Cálculo adcional noturno
 **Como usar**
 
-Ao executar o programa, ele irá solicitar que o usuário insira as informações necessárias e, em seguida, exibirá o valor do salário com o adicional noturno adicionado.
+Ao rodar o programa, o usuário será solicitado a informar as seguintes informações:
 
+Quantas horas mensais o funcionário trabalha;
+
+Quantas horas noturnas trabalhou a mais em relação a sua carga horária mensal.
+
+Com base nessas informações, o programa irá calcular o adicional noturno a ser pago ao funcionário e retornar o valor calculado.
 # Cálculo periculosidade
 **Como utilizar**
 Ao executar o programa, será necessário informar o valor do salário. O programa calculará o adicional de periculosidade, que será retornado como resultado.
