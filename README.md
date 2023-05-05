@@ -441,7 +441,7 @@ Esse é um programa desenvolvido em linguagem de programação não especificada
 Ao executar o programa, o usuário é apresentado a uma tela inicial com algumas informações sobre o programa e instruções para digitar o seu salário bruto. Após inserir o valor, o programa realiza uma série de cálculos para determinar o valor do salário líquido, considerando benefícios como vale transporte, periculosidade, hora extra e adicional noturno, além de descontos como INSS e IRPF.
 
 Ao final dos cálculos, o programa exibe na tela um detalhamento do valor de cada benefício e desconto, bem como o valor final do salário líquido. O usuário pode optar por voltar ao menu inicial para inserir um novo valor de salário bruto, ou pode optar por exibir novamente o detalhamento do último cálculo realizado.
-# Funçoes Adicionais 
+
 
 # Funcoes Adicionais
 
