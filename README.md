@@ -479,3 +479,32 @@ Dentro do loop, o programa pergunta ao usuário se ele deseja mostrar o detalham
 O programa então verifica se a resposta do usuário é igual a 's' ou 'n'. Se for, a variável sair recebe o valor falso, caso contrário, sair recebe o valor verdadeiro.
 
 Depois do loop, o programa verifica se a resposta do usuário foi 's'. Se for, ele retorna verdadeiro. Caso contrário, retorna falso.
+
+# Funçoes de Menu de Tela
+
+# Funçao final
+O programa será executado e exibirá a mensagem de agradecimento ao usuário.
+
+# Funcao Menu
+Este programa foi desenvolvido para calcular diversos cálculos de registro de funcionários, tais como INSS, IRPF, valor das férias, FGTS mensal, depósito do FGTS, seguro desemprego, vale transporte, PIS, adicional noturno, periculosidade, hora extra e salário líquido do final do mês.
+
+**Funcionalidades**
+
+As funcionalidades disponíveis no programa são:
+
+INSS
+IRPF
+Valor das Férias
+FGTS Mensal
+Depósito do FGTS
+Seguro Desemprego
+Vale Transporte
+PIS
+Adicional Noturno
+Periculosidade
+Hora Extra
+Salário Líquido do Final do Mês
+
+**Como utilizar**
+
+Para utilizar o programa, basta escolher uma das funcionalidades acima digitando o número correspondente e seguir as instruções dadas pelo programa.
