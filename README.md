@@ -3,10 +3,6 @@ Fabric Software é uma empresa que atua no seguimento de ERPs para gestão empre
 
 
 # Cálculo inss
-**Cálculo**
-
-O programa calcula a contribuição do INSS verificando em qual faixa de tributação o salário se enquadra e aplicando a taxa de tributação e os valores de dedução apropriados. O valor da contribuição para cada faixa de tributação é armazenado na matriz **valor_do_inss** e depois somado para obter o valor total da contribuição em **valor_do_inss_oficial.**
-
 **Como utilizar**
 
 Para usar este programa, basta inserir o valor do salário desejado na variável **salario_oficial** e executar o programa. O valor da contribuição do INSS será exibido na variável **valor_do_inss_oficial.**
@@ -34,21 +30,6 @@ Ao executar o programa, o usuário deve informar a sua remuneração bruta. O pr
 **Como funciona o programa?**
 O programa recebe como entrada o número de meses que o funcionário trabalhou e o seu salário. Em seguida, ele calcula o valor mensal a ser depositado de FGTS, com base em uma constante definida (PORCENTAGEM_FGTS = 8%). Por fim, ele multiplica o valor mensal pelo número de meses trabalhados para obter o valor total de depósito de FGTS a ser feito pelo empregador.
 
-**Como usar o programa?**
-**Para utilizar o programa, siga as instruções abaixo:**
-
-Abra o programa.
-
-Defina a variável 'salario_p' com o valor do salário do funcionário (se necessário).
-
-Execute o programa.
-
-Quando solicitado, informe o número de meses que o funcionário trabalhou.
-
-Aguarde o programa calcular o valor do depósito de FGTS e exibir o resultado.
-
-
-
 # Cálculo fgts
 **Como utilizar o programa**
 
@@ -60,52 +41,12 @@ Compile e execute o programa.
 
 O valor mensal do FGTS será exibido na tela.
 
-**Funcionamento do programa**
-
-O programa inicia com a declaração da variável "salario_p" que armazena o valor do salário informado pelo usuário. Em seguida, é declarada a variável "fgts_mensal" que armazena o valor mensal do FGTS.
-
-A constante "PORCENTAGEM_FGTS" é utilizada para definir a porcentagem de 8% que é aplicada sobre o valor do salário para o cálculo do FGTS.
-
-Na linha 3, o cálculo é realizado multiplicando o valor do salário pela porcentagem do FGTS e dividindo por 100.
-
-Por fim, o valor mensal do FGTS é retornado na linha 4 do código.
-
-
-
 # Cálculo seguro desemprego
 **Funcionamento**
 
 O programa solicita algumas informações para o usuário, tais como: se o colaborador foi dispensado por justa causa, se ele está em situação de desemprego, se possui renda própria e se está recebendo benefício de prestação contínua da previdência social (exceto pensão por morte ou auxílio-acidente).
 
-Em seguida, o programa solicita a quantidade de tempo que o colaborador trabalhou na empresa (em meses) e verifica se ele tem direito ao seguro desemprego e quantas parcelas ele receberá, de acordo com as regras abaixo:
-
-**Primeira solicitação:**
-
-12 meses ou mais: 5 parcelas
-
-Entre 9 e 11 meses: 4 parcelas
-
-Menos de 9 meses: sem direito
-
-**Segunda solicitação:**
-
-9 meses ou mais: 5 parcelas
-
-Entre 12 e 23 meses: 4 parcelas
-
-Entre 6 e 11 meses: 3 parcelas
-
-Menos de 6 meses: sem direito
-
-**Terceira solicitação ou mais:**
-
-6 meses ou mais: 5 parcelas
-
-Entre 12 e 23 meses: 4 parcelas
-
-Menos de 12 meses: 3 parcelas
-
-Sem direito
+Em seguida, o programa solicita a quantidade de tempo que o colaborador trabalhou na empresa (em meses) e verifica se ele tem direito ao seguro desemprego e quantas parcelas ele receberá.
 
 O programa exibe uma mensagem indicando se o colaborador tem ou não direito ao seguro desemprego, bem como o número de parcelas a que ele tem direito.
 
@@ -124,24 +65,6 @@ O programa finalizará a execução com uma mensagem de agradecimento ao usuári
 
 # Cálculo pis
 O programa então calcula o valor a ser recebido pelo usuário e verifica se o usuário tem direito ao PIS. Caso o usuário tenha menos de 5 anos de cadastro no PIS, ele não tem direito ao programa. Caso contrário, o programa informa o valor a ser recebido pelo usuário.
-
-
-**Biblioteca utilizada**
-
-O programa utiliza a biblioteca Matemática para arredondar o valor do PIS com 3 casas decimais.
-
-
-**Como utilizar o programa**
-
-Abra o programa.
-
-Execute o programa.
-
-Informe a remuneração mensal.
-
-Informe o tempo em que está cadastrado no PIS.
-
-Informe quantos anos trabalha na empresa.
 
 O programa irá calcular e informar se o usuário tem direito ao PIS e qual o valor a ser recebido.
 
@@ -168,44 +91,6 @@ O resultado do cálculo é retornado pelo programa.
 
 # Cálculo hora extra
 Este é um programa que calcula o salário de um colaborador com base no salário base, carga horária mensal e horas extras trabalhadas. O programa também considera horas extras trabalhadas em dias úteis, domingos e feriados, e aplica taxas diferentes para cada tipo de hora extra.
-
-**Bibliotecas utilizadas**
-
-O programa utiliza duas bibliotecas: Matematica e Texto.
-
-Matematica: para cálculos matemáticos, como arredondamento de valores.
-
-Texto: para manipulação de strings, como transformar caracteres em caixa baixa.
-
-**Funcionamento do programa**
-
-**Ao ser executado, o programa solicita as seguintes informações ao usuário:**
-
-Valor do salário base.
-
-Carga horária mensal do colaborador de acordo com o contrato de trabalho do mesmo.
-
-Se o colaborador realizou trabalho em domingos e feriados.
-
-Se o colaborador realizou hora extra em dias úteis, caso tenha respondido "s" na pergunta anterior.
-
-Quantidade de horas extras trabalhadas em dias úteis, caso tenha respondido "s" na pergunta anterior.
-
-Quantidade de horas extras trabalhadas em domingos e feriados, caso tenha respondido "s" na pergunta anterior.
-
-**Com base nessas informações, o programa realiza os seguintes cálculos:**
-
-Calcula o valor da hora extra 100%, caso o colaborador tenha trabalhado em domingos e feriados.
-
-Calcula o valor da hora extra 50%, caso o colaborador tenha trabalhado em dias úteis.
-
-Calcula o valor total das horas extras 100%, caso o colaborador tenha trabalhado em domingos e feriados.
-
-Calcula o valor total das horas extras 50%, caso o colaborador tenha trabalhado em dias úteis.
-
-Calcula o valor bruto do salário, somando o salário base com as horas extras.
-
-O valor bruto do salário é então arredondado para duas casas decimais e exibido na tela.
 
 # Tela Inss
 **Como utilizar**
@@ -258,12 +143,6 @@ O programa também oferece a opção de voltar ao menu principal ou finalizar o 
 
 A interface do usuário é apresentada em uma caixa com bordas que delimitam o texto exibido.
 
-**Como usar**
-
-Para utilizar este programa, basta executar o código em um ambiente de programação não especificado. O programa solicitará que o usuário informe o valor do salário, que deve ser digitado após a mensagem "DIGITE SEU SALÁRIO: R$".
-
-O programa exibirá o valor do depósito FGTS calculado com base no salário informado, e o usuário terá a opção de voltar ao menu principal ou finalizar o programa.
-
 # Tela Seguro desemprego
 **Funcionamento**
 
@@ -285,17 +164,11 @@ O programa irá verificar se você tem direito ao Vale Transporte e irá exibir 
 Você pode optar por voltar ao menu principal ou finalizar o programa.
 
 # Tela 2 Vale Transporte 
-**Funcionamento**
-
-O programa inicia solicitando ao usuário a resposta para a pergunta **"NA SUA EMPRESA VOCÊ TEM O DIREITO VALE TRANSPOTE?(s)SIM/(n)NÃO:"**. O valor digitado é armazenado na variável **resposta_em_cadeia**. Em seguida, a função **t.caixa_baixa** é usada para transformar a resposta em minúsculo e a função **ti.cadeia_para_caracter** é usada para converter a resposta em caracter, armazenando o resultado na **variável resposta_do_usuario**.
-
-A partir daí, o programa usa a estrutura de controle escolha para definir o valor do vale-transporte de acordo com a resposta do usuário. Se a resposta for "s", o valor do vale-transporte será calculado multiplicando o salário pela constante **porcentagem_para_calculo** e armazenado na variável **vale_transporte**. Se a resposta for "n", o valor do vale-transporte será igual a zero. Caso contrário, o programa exibe uma mensagem de erro solicitando que o usuário digite uma resposta correta.
-
-Por fim, o valor do vale-transporte é retornado pelo programa.
-
 **Como executar o programa**
 
-Para executar o programa, basta copiar e colar o código em um ambiente de desenvolvimento que suporte a linguagem de programação em que ele foi escrito (não especificado no código fornecido) e rodar o programa. O usuário será solicitado a fornecer a resposta para a pergunta sobre o direito ao vale-transporte, e o valor calculado será exibido como resultado.
+Para executar o programa, basta inserir as informaçoes necessárias.
+
+O usuário será solicitado a fornecer a resposta para a pergunta sobre o direito ao vale-transporte, e o valor calculado será exibido como resultado.
 
 # Tela Pis
 **Funcionamento do programa**
@@ -328,16 +201,6 @@ O usuário deve inserir seu salário e, em seguida, escolher a opção de calcul
 O usuário pode escolher voltar ao menu principal para realizar novos cálculos ou finalizar o programa.
 
 # Tela 2 Adicional Noturno
-**Como usar o programa**
-
-Informe o salário mensal do funcionário na variável **salario_p.**
-
-Informe a carga horária mensal do funcionário na variável **carga_horaria_p.**
-
-Quando o programa pedir, informe quantas horas noturnas extras foram trabalhadas pelo funcionário.
-
-O programa irá calcular o valor do adicional noturno e retorná-lo.
-
 **Como funciona o programa**
 
 O programa recebe o salário mensal do funcionário e a carga horária mensal trabalhada.
@@ -388,35 +251,32 @@ Você pode escolher voltar ao menu principal ou finalizar o programa.
 O usuário deverá informar a quantidade de horas extras trabalhadas em dias úteis quando for solicitado pelo programa. Em seguida, o programa calculará o valor das horas extras trabalhadas, considerando a taxa de acréscimo de 50% sobre o valor da hora normal de trabalho. O valor bruto das horas extras trabalhadas será retornado ao usuário.
 
 # Tela Detalhamento
-Esse é um programa desenvolvido em linguagem de programação não especificada, que tem como objetivo ajudar o usuário a descobrir o seu salário líquido mensal, a partir de algumas perguntas sobre o salário bruto e possíveis benefícios e descontos.
-
 **Funcionamento**
 
 Ao executar o programa, o usuário é apresentado a uma tela inicial com algumas informações sobre o programa e instruções para digitar o seu salário bruto. Após inserir o valor, o programa realiza uma série de cálculos para determinar o valor do salário líquido, considerando benefícios como vale transporte, periculosidade, hora extra e adicional noturno, além de descontos como INSS e IRPF.
 
 Ao final dos cálculos, o programa exibe na tela um detalhamento do valor de cada benefício e desconto, bem como o valor final do salário líquido. O usuário pode optar por voltar ao menu inicial para inserir um novo valor de salário bruto, ou pode optar por exibir novamente o detalhamento do último cálculo realizado.
 
-
 # Funções Adicionais
 
 # Função Conversão de Salário de Cadeia para Real 
-**Como funciona o programa?**
+**Como funciona o programa**
 
 O programa segue os seguintes passos para converter o salário de cadeia para real:
 
 Recebe uma cadeia de caracteres contendo o valor do salário em formato de cadeia como entrada.
 
-Cria uma variável "salario_cadeia" do tipo string e atribui a ela a cadeia de caracteres recebida como entrada.
+Cria uma variável **"salario_cadeia"** do tipo string e atribui a ela a cadeia de caracteres recebida como entrada.
 
-Cria uma variável "salario_real" do tipo real.
+Cria uma variável **"salario_real"** do tipo real.
 
-Usa a função "substituir" do objeto "t" para substituir o caractere "," por "." na variável "salario_cadeia".
+Usa a função **"substituir" do objeto "t"** para substituir o caractere "," por "." na variável **"salario_cadeia".**
 
-Usa a função "cadeia_para_real" do objeto "ti" para converter a variável "salario_cadeia" em um valor de salário em formato de número real.
+Usa a função **"cadeia_para_real"** do objeto "ti" para converter a variável **"salario_cadeia"** em um valor de salário em formato de número real.
 
 Atribui o valor convertido para a variável "salario_real".
 
-Retorna o valor de "salario_real".
+Retorna o valor de **"salario_real".**
 
 # Função Voltar Menu
 **Funcionamento**
@@ -430,15 +290,6 @@ O programa continuará perguntando ao usuário se ele deseja repetir a ação at
 # Função Finalizar Programa
 Este programa tem como objetivo perguntar ao usuário se ele deseja mostrar o detalhamento e finalizar o programa ou não.
 
-**Funcionamento**
-
-O programa inicia criando uma variável s_ou_n que armazenará a resposta do usuário. Em seguida, o programa entra em um loop faça-enquanto que continuará executando enquanto a variável sair for falsa.
-
-Dentro do loop, o programa pergunta ao usuário se ele deseja mostrar o detalhamento e finalizar o programa, apresentando duas opções: (s)SIM ou (n)NÃO. A resposta do usuário é armazenada na variável s_ou_n.
-
-O programa então verifica se a resposta do usuário é igual a 's' ou 'n'. Se for, a variável sair recebe o valor falso, caso contrário, sair recebe o valor verdadeiro.
-
-Depois do loop, o programa verifica se a resposta do usuário foi 's'. Se for, ele retorna verdadeiro. Caso contrário, retorna falso.
 # Função Banco de Dados
 O programa Cadeia Salário é um sistema que solicita informações pessoais do usuário, incluindo nome completo, telefone, e-mail, idade e CEP. Em seguida, ele realiza uma busca no serviço de consulta de CEP do site ViaCEP, com base no CEP informado, e separa os dados do endereço em diferentes variáveis.
 
@@ -449,84 +300,18 @@ Os dados do usuário e do endereço são armazenados em um arquivo de texto cham
 # Função Fazer outro cadastro
 Este programa permite que o usuário realize o cadastro de informações pessoais e de salário, além de possibilitar a escolha de finalizar o cadastro ou realizar um novo.
 
-**Funcionalidades**
-
-**O programa apresenta as seguintes funcionalidades:**
-
-Cadastro de informações pessoais e de salário
-
-Escolha entre finalizar o cadastro ou realizar um novo
-
-**Como utilizar**
-
-Para utilizar o programa, basta executá-lo.
-
-Ao executar o programa, o usuário será apresentado a um menu com as seguintes opções:
-
-Finalizar cadastro e ir para o men
-
-Realizar cadastro
-
-Após cadastrar as informações, o usuário poderá escolher entre finalizar o cadastro ou realizar um novo.
 # Funçoes de Menu de Tela
+
 # Funçao final
 O programa será executado e exibirá a mensagem de agradecimento ao usuário.
 
 # Função Menu
 Este programa foi desenvolvido para calcular diversos cálculos de registro de funcionários, tais como INSS, IRPF, valor das férias, FGTS mensal, depósito do FGTS, seguro desemprego, vale transporte, PIS, adicional noturno, periculosidade, hora extra e salário líquido do final do mês.
 
-**Funcionalidades**
-
-As funcionalidades disponíveis no programa são:
-
-INSS, 
-IRPF, 
-Valor das Férias, 
-FGTS Mensal, 
-Depósito do FGTS, 
-Seguro Desemprego, 
-Vale Transporte, 
-PIS, 
-Adicional Noturno, 
-Periculosidade, 
-Hora Extra, 
-Salário Líquido do Final do Mês.
-
-**Como utilizar**
-
-Para utilizar o programa, basta escolher uma das funcionalidades acima digitando o número correspondente e seguir as instruções dadas pelo programa.
-
 # Função Seletor Programa 
 Este programa é destinado a realizar o cálculo de diversos benefícios trabalhistas, tais como INSS, IRPF, férias, FGTS mensal, depósito de FGTS, seguro-desemprego, vale-transporte, PIS, adicional noturno, periculosidade e hora extra.
-
-**Como usar**
-
-Ao executar o programa, o usuário deve escolher uma das opções listadas no menu. O programa irá redirecioná-lo para a tela correspondente à opção escolhida, onde serão solicitadas as informações necessárias para o cálculo.
-
-**As opções disponíveis no menu são:**
-
-1: Calcular INSS, 
-2: Calcular IRPF, 
-3: Calcular férias, 
-4: Calcular FGTS mensal, 
-5: Calcular depósito de FGTS, 
-6: Calcular seguro-desemprego, 
-7: Calcular vale-transporte, 
-8: Calcular PIS, 
-9: Calcular adicional noturno, 
-10: Calcular periculosidade, 
-11: Calcular hora extra, 
-12: Detalhamento do cálculo, 
-0: Sair do programa.
-
-Caso o usuário escolha uma opção inválida, será exibida uma mensagem de erro e o menu será apresentado novamente.
 
 # Função Detalhamento
 Este programa exibe os proventos e descontos do salário bruto do usuário e calcula o salário líquido mensal. Os proventos incluem hora extra, adicional noturno, periculosidade e depósito do FGTS. Já os descontos são referentes ao INSS, IRPF e vale transporte.
 
-**Como Usar**
-
-Ao executar o programa, será solicitado ao usuário que informe o valor do seu salário bruto mensal. Em seguida, o programa solicitará as informações sobre as horas extras realizadas, adicional noturno recebido, se trabalha em ambiente perigoso e o valor do depósito do FGTS.
-
-Com base nessas informações, o programa irá calcular o valor de cada provento e desconto e exibi-los na tela. Ao final, o programa apresentará o salário líquido mensal, que é o resultado da subtração dos descontos dos proventos.
 
