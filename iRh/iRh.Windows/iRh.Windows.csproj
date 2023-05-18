@@ -46,16 +46,82 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Cadastros\frmFuncionarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Cadastros\frmFuncionarios.Designer.cs">
+      <DependentUpon>frmFuncionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalMdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalMdi.Designer.cs">
+      <DependentUpon>PrincipalMdi.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Simuladores\frmBeneficioAdcionalNoturno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioAdcionalNoturno.Designer.cs">
+      <DependentUpon>frmBeneficioAdcionalNoturno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioDepositoFgts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioDepositoFgts.Designer.cs">
+      <DependentUpon>frmBeneficioDepositoFgts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioHoraExtra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioHoraExtra.Designer.cs">
+      <DependentUpon>frmBeneficioHoraExtra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioFgts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioFgts.Designer.cs">
+      <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioPericulosidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioPericulosidade.Designer.cs">
+      <DependentUpon>frmBeneficioPericulosidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioPis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioPis.Designer.cs">
+      <DependentUpon>frmBeneficioPis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioSeguroDesemprego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioSeguroDesemprego.Designer.cs">
+      <DependentUpon>frmBeneficioSeguroDesemprego.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioValeTransporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioValeTransporte.Designer.cs">
+      <DependentUpon>frmBeneficioValeTransporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simuladores\frmDescontoInss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmDescontoInss.Designer.cs">
+      <DependentUpon>frmDescontoInss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simuladores\frmDescontoIrrf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmDescontoIrrf.Designer.cs">
+      <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PrincipalMdi.resx">
+      <DependentUpon>PrincipalMdi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,5 +145,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
