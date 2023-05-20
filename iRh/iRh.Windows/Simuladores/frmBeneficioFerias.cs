@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace iRh.Windows.Simuladores
 {
-    public partial class frmDepositoFgts : Form
+    public partial class frmBeneficioFerias : Form
     {
-        public frmDepositoFgts()
+        public frmBeneficioFerias()
         {
             InitializeComponent();
         }

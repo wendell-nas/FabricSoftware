@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace iRh.Windows.Simuladores
 {
-    public partial class frmDescontoIrpf : Form
+    public partial class frmDescontoIrrf : Form
     {
-        public frmDescontoIrpf()
+        public frmDescontoIrrf()
         {
             InitializeComponent();
         }

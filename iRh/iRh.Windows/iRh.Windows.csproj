@@ -72,17 +72,17 @@
     <Compile Include="Simuladores\frmBeneficioDepositoFgts.Designer.cs">
       <DependentUpon>frmBeneficioDepositoFgts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Simuladores\frmBeneficioFerias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioFerias.Designer.cs">
+      <DependentUpon>frmBeneficioFerias.cs</DependentUpon>
+    </Compile>
     <Compile Include="Simuladores\frmBeneficioHoraExtra.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Simuladores\frmBeneficioHoraExtra.Designer.cs">
       <DependentUpon>frmBeneficioHoraExtra.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Simuladores\frmBeneficioFgts.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Simuladores\frmBeneficioFgts.Designer.cs">
-      <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
     </Compile>
     <Compile Include="Simuladores\frmBeneficioPericulosidade.cs">
       <SubType>Form</SubType>
@@ -120,6 +120,9 @@
     <Compile Include="Simuladores\frmDescontoIrrf.Designer.cs">
       <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Cadastros\frmFuncionarios.resx">
+      <DependentUpon>frmFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PrincipalMdi.resx">
       <DependentUpon>PrincipalMdi.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,7 +134,38 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Simuladores\frmBeneficioAdcionalNoturno.resx">
+      <DependentUpon>frmBeneficioAdcionalNoturno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioDepositoFgts.resx">
+      <DependentUpon>frmBeneficioDepositoFgts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioFerias.resx">
+      <DependentUpon>frmBeneficioFerias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioHoraExtra.resx">
+      <DependentUpon>frmBeneficioHoraExtra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioPericulosidade.resx">
+      <DependentUpon>frmBeneficioPericulosidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioPis.resx">
+      <DependentUpon>frmBeneficioPis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioSeguroDesemprego.resx">
+      <DependentUpon>frmBeneficioSeguroDesemprego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioValeTransporte.resx">
+      <DependentUpon>frmBeneficioValeTransporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmDescontoInss.resx">
+      <DependentUpon>frmDescontoInss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmDescontoIrrf.resx">
+      <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -145,6 +179,56 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\kisspng-human-resources-computer-icons-organization-manage-human-resources-5ade92e49dd380.8922464415245360366465.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savings_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_balance_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_avatar_face_man_people_profile_user_icon_123197.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_user_student_staff_person_icon-icons.com_75492.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-buscador-de-desconto-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recursos-humanos-1200x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rh-digital.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rh-digital1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recursos-humanos-1200x600 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o-que-e-um-sistema-de-recursos-humanos-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recursos-humanos-1200x600 %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recursos-humanos-1200x600 %281%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recursos-humanos-1200x600 %281%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o-que-e-um-sistema-de-recursos-humanos-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-buscador-de-desconto-50 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
