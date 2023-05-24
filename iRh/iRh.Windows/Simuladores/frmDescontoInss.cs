@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using iRh.Windows.Core;
+using System;
 using System.Windows.Forms;
+
 
 namespace iRh.Windows.Simuladores
 {
@@ -28,12 +23,15 @@ namespace iRh.Windows.Simuladores
             try
             {
                 var salario = double.Parse(txtSalarioBase.Text);
+                var descontoInss = Inss.Calcula(salario);
+
+                lblResultado.Text = "R$ " + descontoInss.ToString("F2");
+                panelResultado.Visible = true;
             }
             catch (Exception)
             {
                 MessageBox.Show("Informe seu sálario base", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-          
         }
     }
 }

@@ -52,6 +52,7 @@
     <Compile Include="Cadastros\frmFuncionarios.Designer.cs">
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Core\Inss.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,6 +230,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-buscador-de-desconto-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inss-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\482927.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-font-holiday-icon-angle-triangle-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-overtime-share-icon-overtime-miscellaneous-angle-text-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-overtime-computer-icons-others-cdr-text-trademark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91357.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-coin-money-bag-computer-icons-coin-text-trademark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6134775.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-kochi-hotel-thb-dos-playas-mt-wellies-childcare-ce-5af639d93f18a9.2635110915260861052585.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

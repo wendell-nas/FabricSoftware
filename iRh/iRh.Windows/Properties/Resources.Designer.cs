@@ -73,6 +73,36 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _482927 {
+            get {
+                object obj = ResourceManager.GetObject("482927", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6134775 {
+            get {
+                object obj = ResourceManager.GetObject("6134775", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _91357 {
+            get {
+                object obj = ResourceManager.GetObject("91357", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap account_avatar_face_man_people_profile_user_icon_123197 {
             get {
                 object obj = ResourceManager.GetObject("account_avatar_face_man_people_profile_user_icon_123197", resourceCulture);
@@ -86,6 +116,36 @@ namespace iRh.Windows.Properties {
         internal static System.Drawing.Bitmap account_balance_FILL0_wght400_GRAD0_opsz48 {
             get {
                 object obj = ResourceManager.GetObject("account_balance_FILL0_wght400_GRAD0_opsz48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__5_ {
+            get {
+                object obj = ResourceManager.GetObject("download (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__6_ {
+            get {
+                object obj = ResourceManager.GetObject("download (6)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,10 +183,51 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__1_ {
+            get {
+                object obj = ResourceManager.GetObject("images (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__2_ {
+            get {
+                object obj = ResourceManager.GetObject("images (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap inss_6 {
+            get {
+                object obj = ResourceManager.GetObject("inss-6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kisspng_human_resources_computer_icons_organization_manage_human_resources_5ade92e49dd380_8922464415245360366465 {
             get {
                 object obj = ResourceManager.GetObject("kisspng-human-resources-computer-icons-organization-manage-human-resources-5ade92" +
                         "e49dd380.8922464415245360366465", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_kochi_hotel_thb_dos_playas_mt_wellies_childcare_ce_5af639d93f18a9_2635110915260861052585 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-kochi-hotel-thb-dos-playas-mt-wellies-childcare-ce-5af639d93f18a9.2635110" +
+                        "915260861052585", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -147,6 +248,47 @@ namespace iRh.Windows.Properties {
         internal static System.Drawing.Bitmap o_que_e_um_sistema_de_recursos_humanos_11 {
             get {
                 object obj = ResourceManager.GetObject("o-que-e-um-sistema-de-recursos-humanos-11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_clipart_coin_money_bag_computer_icons_coin_text_trademark {
+            get {
+                object obj = ResourceManager.GetObject("png-clipart-coin-money-bag-computer-icons-coin-text-trademark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_computer_icons_font_holiday_icon_angle_triangle_logo {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-computer-icons-font-holiday-icon-angle-triangle-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_computer_icons_overtime_share_icon_overtime_miscellaneous_angle_text_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-computer-icons-overtime-share-icon-overtime-miscellaneous-angle-t" +
+                        "ext-thumbnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_overtime_computer_icons_others_cdr_text_trademark {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-overtime-computer-icons-others-cdr-text-trademark", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

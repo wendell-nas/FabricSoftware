@@ -70,7 +70,7 @@
             // 
             this.funcionariosToolStripMenuItem.Image = global::iRh.Windows.Properties.Resources.edit_user_student_staff_person_icon_icons_com_75492;
             this.funcionariosToolStripMenuItem.Name = "funcionariosToolStripMenuItem";
-            this.funcionariosToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.funcionariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.funcionariosToolStripMenuItem.Text = "Funcionários";
             this.funcionariosToolStripMenuItem.Click += new System.EventHandler(this.funcionariosToolStripMenuItem_Click);
             // 
@@ -115,6 +115,7 @@
             // 
             // menuBeneficioAdcionalNoturno
             // 
+            this.menuBeneficioAdcionalNoturno.Image = global::iRh.Windows.Properties.Resources._482927;
             this.menuBeneficioAdcionalNoturno.Name = "menuBeneficioAdcionalNoturno";
             this.menuBeneficioAdcionalNoturno.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioAdcionalNoturno.Text = "Beneficio de Adcional Noturno";
@@ -122,6 +123,7 @@
             // 
             // menuBeneficioDepositoFgts
             // 
+            this.menuBeneficioDepositoFgts.Image = global::iRh.Windows.Properties.Resources.download__5_;
             this.menuBeneficioDepositoFgts.Name = "menuBeneficioDepositoFgts";
             this.menuBeneficioDepositoFgts.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioDepositoFgts.Text = "Beneficio de Deposito FGTS";
@@ -129,6 +131,7 @@
             // 
             // menuBeneficioFerias
             // 
+            this.menuBeneficioFerias.Image = global::iRh.Windows.Properties.Resources.png_transparent_computer_icons_font_holiday_icon_angle_triangle_logo;
             this.menuBeneficioFerias.Name = "menuBeneficioFerias";
             this.menuBeneficioFerias.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioFerias.Text = "Beneficio de Férias";
@@ -136,6 +139,7 @@
             // 
             // menuBeneficioHoraExtra
             // 
+            this.menuBeneficioHoraExtra.Image = global::iRh.Windows.Properties.Resources.png_transparent_overtime_computer_icons_others_cdr_text_trademark;
             this.menuBeneficioHoraExtra.Name = "menuBeneficioHoraExtra";
             this.menuBeneficioHoraExtra.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioHoraExtra.Text = "Beneficio de Hora Extra";
@@ -143,6 +147,7 @@
             // 
             // menuBeneficioPericulosidade
             // 
+            this.menuBeneficioPericulosidade.Image = global::iRh.Windows.Properties.Resources._91357;
             this.menuBeneficioPericulosidade.Name = "menuBeneficioPericulosidade";
             this.menuBeneficioPericulosidade.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioPericulosidade.Text = "Beneficio de Periculosidade";
@@ -150,6 +155,7 @@
             // 
             // menuBeneficioPis
             // 
+            this.menuBeneficioPis.Image = global::iRh.Windows.Properties.Resources.png_clipart_coin_money_bag_computer_icons_coin_text_trademark;
             this.menuBeneficioPis.Name = "menuBeneficioPis";
             this.menuBeneficioPis.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioPis.Text = "Beneficio de PIS";
@@ -157,6 +163,7 @@
             // 
             // menuBeneficioSeguroDesemprego
             // 
+            this.menuBeneficioSeguroDesemprego.Image = global::iRh.Windows.Properties.Resources._6134775;
             this.menuBeneficioSeguroDesemprego.Name = "menuBeneficioSeguroDesemprego";
             this.menuBeneficioSeguroDesemprego.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioSeguroDesemprego.Text = "Beneficio de Seguro Desemprego";
@@ -164,6 +171,7 @@
             // 
             // menuBeneficioValeTransporte
             // 
+            this.menuBeneficioValeTransporte.Image = global::iRh.Windows.Properties.Resources.kisspng_kochi_hotel_thb_dos_playas_mt_wellies_childcare_ce_5af639d93f18a9_2635110915260861052585;
             this.menuBeneficioValeTransporte.Name = "menuBeneficioValeTransporte";
             this.menuBeneficioValeTransporte.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioValeTransporte.Text = "Beneficio de Vale Transporte";
@@ -174,7 +182,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::iRh.Windows.Properties.Resources._4_1;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.download;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(719, 413);
             this.Controls.Add(this.menuPrincipal);

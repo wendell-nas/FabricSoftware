@@ -118,55 +118,97 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Recursos-humanos-1200x600 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Recursos-humanos-1200x600 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Recursos-humanos-1200x600 (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Recursos-humanos-1200x600 (1)2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="o-que-e-um-sistema-de-recursos-humanos-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\o-que-e-um-sistema-de-recursos-humanos-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kisspng-human-resources-computer-icons-organization-manage-human-resources-5ade92e49dd380.8922464415245360366465" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kisspng-human-resources-computer-icons-organization-manage-human-resources-5ade92e49dd380.8922464415245360366465.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="account_avatar_face_man_people_profile_user_icon_123197" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\account_avatar_face_man_people_profile_user_icon_123197.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Recursos-humanos-1200x600 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Recursos-humanos-1200x600 (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-buscador-de-desconto-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-buscador-de-desconto-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="o-que-e-um-sistema-de-recursos-humanos-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\o-que-e-um-sistema-de-recursos-humanos-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="inss-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inss-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rh-digital" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rh-digital.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit_user_student_staff_person_icon-icons.com_75492" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\edit_user_student_staff_person_icon-icons.com_75492.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rh-digital1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rh-digital1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Recursos-humanos-1200x600 (1)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Recursos-humanos-1200x600 (1)3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Recursos-humanos-1200x600" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Recursos-humanos-1200x600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="savings_FILL0_wght400_GRAD0_opsz48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\savings_FILL0_wght400_GRAD0_opsz48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="6134775" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6134775.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="account_balance_FILL0_wght400_GRAD0_opsz48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\account_balance_FILL0_wght400_GRAD0_opsz48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Recursos-humanos-1200x600 (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Recursos-humanos-1200x600 (1)2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Recursos-humanos-1200x600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Recursos-humanos-1200x600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rh-digital1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rh-digital1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-overtime-computer-icons-others-cdr-text-trademark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-overtime-computer-icons-others-cdr-text-trademark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-human-resources-computer-icons-organization-manage-human-resources-5ade92e49dd380.8922464415245360366465" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-human-resources-computer-icons-organization-manage-human-resources-5ade92e49dd380.8922464415245360366465.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-buscador-de-desconto-50 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-buscador-de-desconto-50 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Recursos-humanos-1200x600 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Recursos-humanos-1200x600 (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="account_avatar_face_man_people_profile_user_icon_123197" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\account_avatar_face_man_people_profile_user_icon_123197.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="savings_FILL0_wght400_GRAD0_opsz48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\savings_FILL0_wght400_GRAD0_opsz48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-kochi-hotel-thb-dos-playas-mt-wellies-childcare-ce-5af639d93f18a9.2635110915260861052585" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-kochi-hotel-thb-dos-playas-mt-wellies-childcare-ce-5af639d93f18a9.2635110915260861052585.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-computer-icons-font-holiday-icon-angle-triangle-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-computer-icons-font-holiday-icon-angle-triangle-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Recursos-humanos-1200x600 (1)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Recursos-humanos-1200x600 (1)3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-clipart-coin-money-bag-computer-icons-coin-text-trademark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-clipart-coin-money-bag-computer-icons-coin-text-trademark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-buscador-de-desconto-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-buscador-de-desconto-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_user_student_staff_person_icon-icons.com_75492" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_user_student_staff_person_icon-icons.com_75492.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-computer-icons-overtime-share-icon-overtime-miscellaneous-angle-text-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-computer-icons-overtime-share-icon-overtime-miscellaneous-angle-text-thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Recursos-humanos-1200x600 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Recursos-humanos-1200x600 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="o-que-e-um-sistema-de-recursos-humanos-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\o-que-e-um-sistema-de-recursos-humanos-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="482927" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\482927.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="91357" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\91357.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
