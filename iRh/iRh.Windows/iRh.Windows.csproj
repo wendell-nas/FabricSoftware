@@ -53,6 +53,7 @@
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Core\Inss.cs" />
+    <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -272,6 +273,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SOFTWARES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

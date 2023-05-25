@@ -151,9 +151,6 @@
   <data name="icons8-buscador-de-desconto-50 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-buscador-de-desconto-50 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Recursos-humanos-1200x600 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Recursos-humanos-1200x600 (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="account_avatar_face_man_people_profile_user_icon_123197" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\account_avatar_face_man_people_profile_user_icon_123197.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -168,6 +165,9 @@
   </data>
   <data name="images (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,28 +187,40 @@
   <data name="edit_user_student_staff_person_icon-icons.com_75492" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\edit_user_student_staff_person_icon-icons.com_75492.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="4-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="png-transparent-computer-icons-overtime-share-icon-overtime-miscellaneous-angle-text-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\png-transparent-computer-icons-overtime-share-icon-overtime-miscellaneous-angle-text-thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Recursos-humanos-1200x600 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Recursos-humanos-1200x600 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="o-que-e-um-sistema-de-recursos-humanos-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\o-que-e-um-sistema-de-recursos-humanos-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="482927" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\482927.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Recursos-humanos-1200x600 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Recursos-humanos-1200x600 (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Recursos-humanos-1200x600 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Recursos-humanos-1200x600 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="91357" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\91357.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="o-que-e-um-sistema-de-recursos-humanos-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\o-que-e-um-sistema-de-recursos-humanos-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-computer-icons-overtime-share-icon-overtime-miscellaneous-angle-text-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-computer-icons-overtime-share-icon-overtime-miscellaneous-angle-text-thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SOFTWARES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SOFTWARES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
