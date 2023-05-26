@@ -29,32 +29,106 @@
         private void InitializeComponent()
         {
             this.lblAdicionalNoturno = new System.Windows.Forms.Label();
-            this.txtAdicionalNoturno = new System.Windows.Forms.TextBox();
+            this.txtHorasMensais = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtHoraNoturna = new System.Windows.Forms.TextBox();
+            this.btnCalcularAdicional = new System.Windows.Forms.Button();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.lblSalario = new System.Windows.Forms.Label();
+            this.txtSalario = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblAdicionalNoturno
             // 
             this.lblAdicionalNoturno.AutoSize = true;
-            this.lblAdicionalNoturno.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdicionalNoturno.Location = new System.Drawing.Point(12, 9);
+            this.lblAdicionalNoturno.BackColor = System.Drawing.Color.Transparent;
+            this.lblAdicionalNoturno.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdicionalNoturno.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblAdicionalNoturno.Location = new System.Drawing.Point(12, 91);
             this.lblAdicionalNoturno.Name = "lblAdicionalNoturno";
-            this.lblAdicionalNoturno.Size = new System.Drawing.Size(126, 17);
+            this.lblAdicionalNoturno.Size = new System.Drawing.Size(182, 40);
             this.lblAdicionalNoturno.TabIndex = 0;
-            this.lblAdicionalNoturno.Text = "Adicional Noturno";
+            this.lblAdicionalNoturno.Text = "Informe quantas horas voce\r\ntrabalha mensalmente:";
             // 
-            // txtAdicionalNoturno
+            // txtHorasMensais
             // 
-            this.txtAdicionalNoturno.Location = new System.Drawing.Point(15, 29);
-            this.txtAdicionalNoturno.Name = "txtAdicionalNoturno";
-            this.txtAdicionalNoturno.Size = new System.Drawing.Size(100, 20);
-            this.txtAdicionalNoturno.TabIndex = 1;
+            this.txtHorasMensais.Location = new System.Drawing.Point(16, 134);
+            this.txtHorasMensais.Name = "txtHorasMensais";
+            this.txtHorasMensais.Size = new System.Drawing.Size(100, 20);
+            this.txtHorasMensais.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(12, 176);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(169, 40);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Informe quantas horas \r\nnoturna a mais trabalhou:";
+            // 
+            // txtHoraNoturna
+            // 
+            this.txtHoraNoturna.Location = new System.Drawing.Point(16, 219);
+            this.txtHoraNoturna.Name = "txtHoraNoturna";
+            this.txtHoraNoturna.Size = new System.Drawing.Size(100, 20);
+            this.txtHoraNoturna.TabIndex = 3;
+            // 
+            // btnCalcularAdicional
+            // 
+            this.btnCalcularAdicional.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcularAdicional.Location = new System.Drawing.Point(16, 245);
+            this.btnCalcularAdicional.Name = "btnCalcularAdicional";
+            this.btnCalcularAdicional.Size = new System.Drawing.Size(116, 42);
+            this.btnCalcularAdicional.TabIndex = 4;
+            this.btnCalcularAdicional.Text = "Calcular Adicional Noturno";
+            this.btnCalcularAdicional.UseVisualStyleBackColor = true;
+            this.btnCalcularAdicional.Click += new System.EventHandler(this.btnCalcularAdicional_Click);
+            // 
+            // lblResultado
+            // 
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Location = new System.Drawing.Point(22, 301);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(55, 13);
+            this.lblResultado.TabIndex = 5;
+            this.lblResultado.Text = "Resultado";
+            // 
+            // lblSalario
+            // 
+            this.lblSalario.AutoSize = true;
+            this.lblSalario.BackColor = System.Drawing.Color.Transparent;
+            this.lblSalario.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalario.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblSalario.Location = new System.Drawing.Point(12, 29);
+            this.lblSalario.Name = "lblSalario";
+            this.lblSalario.Size = new System.Drawing.Size(145, 20);
+            this.lblSalario.TabIndex = 6;
+            this.lblSalario.Text = "Informe o seu sálario:";
+            // 
+            // txtSalario
+            // 
+            this.txtSalario.Location = new System.Drawing.Point(16, 52);
+            this.txtSalario.Name = "txtSalario";
+            this.txtSalario.Size = new System.Drawing.Size(100, 20);
+            this.txtSalario.TabIndex = 7;
             // 
             // frmBeneficioAdicionalNoturno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtAdicionalNoturno);
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.download3;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(401, 339);
+            this.Controls.Add(this.txtSalario);
+            this.Controls.Add(this.lblSalario);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.btnCalcularAdicional);
+            this.Controls.Add(this.txtHoraNoturna);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtHorasMensais);
             this.Controls.Add(this.lblAdicionalNoturno);
             this.Name = "frmBeneficioAdicionalNoturno";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -67,6 +141,12 @@
         #endregion
 
         private System.Windows.Forms.Label lblAdicionalNoturno;
-        private System.Windows.Forms.TextBox txtAdicionalNoturno;
+        private System.Windows.Forms.TextBox txtHorasMensais;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtHoraNoturna;
+        private System.Windows.Forms.Button btnCalcularAdicional;
+        private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Label lblSalario;
+        private System.Windows.Forms.TextBox txtSalario;
     }
 }

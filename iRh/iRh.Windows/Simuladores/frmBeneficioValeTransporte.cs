@@ -24,10 +24,10 @@ namespace iRh.Windows.Simuladores
                 var salario = double.Parse(txtSalario.Text);
                 var quantidadeVale = double.Parse(txtQuantidadeVales.Text); ;
                 var valorPassagem = double.Parse(txtValorPassagem.Text);
-                double descontoVt = ValeTransporte.Calcula(salario);
-
-                lblResultado.Text = "R$" + descontoVt.ToString();
-
+                double descontoVt = ValeTransporte.Calcula(salario, valorPassagem, quantidadeVale);
+                
+                lblResultado.Text = descontoVt.ToString();
+                lblResultado.Visible = true;
             }
             catch (Exception)
             {
@@ -50,6 +50,38 @@ namespace iRh.Windows.Simuladores
             {
                 MessageBox.Show("Você não tem direito ao vale transporte!", "Atençaõ", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
                 this.Close();
+            }
+        }
+
+        private void checkBoxNaoGostaria_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBoxNaoGostaria.Checked)
+            {
+                MessageBox.Show("Obrigado(a) por utilizar nosso programa, volte sempre!", "Ops!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
+        }
+
+        private void checkBoxSimGostaria_CheckedChanged(object sender, EventArgs e)
+        {
+
+            if(checkBoxSimGostaria.Checked)
+            {
+                var valorDescontado = double.Parse(lblResultado.Text);
+                var quantidadeTrabalhada = 20;
+                var quantidaeVales = double.Parse(txtQuantidadeVales.Text);
+                var valorPassagem = double.Parse(txtValorPassagem.Text);
+                var gastoMensal = quantidaeVales * valorPassagem * quantidadeTrabalhada;
+                
+                if (gastoMensal > valorDescontado)
+                {
+                    MessageBox.Show("Vale a pena utilizar o vale transporte", "Use com moderação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Não vale a pena utilizar o vale transporte", "Que pena :(", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                }
+
             }
         }
     }

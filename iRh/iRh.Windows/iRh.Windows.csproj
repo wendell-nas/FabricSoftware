@@ -52,6 +52,8 @@
     <Compile Include="Cadastros\frmFuncionarios.Designer.cs">
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Core\AdicionalNoturno.cs" />
+    <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\Inss.cs" />
     <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
@@ -285,6 +287,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

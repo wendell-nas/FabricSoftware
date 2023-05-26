@@ -39,6 +39,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtValorPassagem = new System.Windows.Forms.TextBox();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.checkBoxNaoGostaria = new System.Windows.Forms.CheckBox();
+            this.checkBoxSimGostaria = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblSalario
@@ -63,12 +66,15 @@
             // 
             // btnCalcularValeTransporte
             // 
+            this.btnCalcularValeTransporte.BackColor = System.Drawing.Color.DarkGray;
+            this.btnCalcularValeTransporte.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcularValeTransporte.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCalcularValeTransporte.Location = new System.Drawing.Point(26, 274);
             this.btnCalcularValeTransporte.Name = "btnCalcularValeTransporte";
             this.btnCalcularValeTransporte.Size = new System.Drawing.Size(138, 28);
             this.btnCalcularValeTransporte.TabIndex = 2;
             this.btnCalcularValeTransporte.Text = "Calcular Vale Transporte";
-            this.btnCalcularValeTransporte.UseVisualStyleBackColor = true;
+            this.btnCalcularValeTransporte.UseVisualStyleBackColor = false;
             this.btnCalcularValeTransporte.Click += new System.EventHandler(this.btnCalcularValeTransporte_Click);
             // 
             // lblUtilizoMeioTransporte
@@ -152,12 +158,52 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(176, 280);
+            this.lblResultado.BackColor = System.Drawing.Color.Transparent;
+            this.lblResultado.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(170, 278);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(75, 18);
+            this.lblResultado.Size = new System.Drawing.Size(71, 20);
             this.lblResultado.TabIndex = 10;
             this.lblResultado.Text = "Resultado";
+            this.lblResultado.Visible = false;
+            // 
+            // checkBoxNaoGostaria
+            // 
+            this.checkBoxNaoGostaria.AutoSize = true;
+            this.checkBoxNaoGostaria.BackColor = System.Drawing.Color.Transparent;
+            this.checkBoxNaoGostaria.ForeColor = System.Drawing.SystemColors.Control;
+            this.checkBoxNaoGostaria.Location = new System.Drawing.Point(78, 360);
+            this.checkBoxNaoGostaria.Name = "checkBoxNaoGostaria";
+            this.checkBoxNaoGostaria.Size = new System.Drawing.Size(49, 17);
+            this.checkBoxNaoGostaria.TabIndex = 13;
+            this.checkBoxNaoGostaria.Text = "NÃO";
+            this.checkBoxNaoGostaria.UseVisualStyleBackColor = false;
+            this.checkBoxNaoGostaria.CheckedChanged += new System.EventHandler(this.checkBoxNaoGostaria_CheckedChanged);
+            // 
+            // checkBoxSimGostaria
+            // 
+            this.checkBoxSimGostaria.AutoSize = true;
+            this.checkBoxSimGostaria.BackColor = System.Drawing.Color.Transparent;
+            this.checkBoxSimGostaria.ForeColor = System.Drawing.SystemColors.Control;
+            this.checkBoxSimGostaria.Location = new System.Drawing.Point(29, 360);
+            this.checkBoxSimGostaria.Name = "checkBoxSimGostaria";
+            this.checkBoxSimGostaria.Size = new System.Drawing.Size(45, 17);
+            this.checkBoxSimGostaria.TabIndex = 12;
+            this.checkBoxSimGostaria.Text = "SIM";
+            this.checkBoxSimGostaria.UseVisualStyleBackColor = false;
+            this.checkBoxSimGostaria.CheckedChanged += new System.EventHandler(this.checkBoxSimGostaria_CheckedChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
+            this.label3.Location = new System.Drawing.Point(21, 316);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(241, 40);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Gostaria que o sistema vericasse se \r\nvale a pena utilizar o vale transporte?";
             // 
             // frmBeneficioValeTransporte
             // 
@@ -165,7 +211,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(398, 358);
+            this.ClientSize = new System.Drawing.Size(389, 411);
+            this.Controls.Add(this.checkBoxNaoGostaria);
+            this.Controls.Add(this.checkBoxSimGostaria);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.txtValorPassagem);
             this.Controls.Add(this.label2);
@@ -177,6 +226,7 @@
             this.Controls.Add(this.btnCalcularValeTransporte);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.lblSalario);
+            this.ForeColor = System.Drawing.SystemColors.Control;
             this.Name = "frmBeneficioValeTransporte";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Benefício Vale Transporte";
@@ -198,5 +248,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtValorPassagem;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.CheckBox checkBoxNaoGostaria;
+        private System.Windows.Forms.CheckBox checkBoxSimGostaria;
+        private System.Windows.Forms.Label label3;
     }
 }

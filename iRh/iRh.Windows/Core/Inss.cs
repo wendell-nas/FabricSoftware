@@ -55,11 +55,11 @@
 
         private static double CalculaFaixa1(double salario)
         {
-            return (0.075 * salario);
+            return (0.075 * Faixa01);
         }
         private static double CalculaFaixa2(double salario)
         {
-            return 0.9 * (Faixa02 - Faixa01);
+            return 0.09 * (Faixa02 - Faixa01);
         }
         private static double CalculaFaixa3(double salario)
         {

@@ -2,17 +2,13 @@
 {
     public static class ValeTransporte
     {
-        public static double Calcula(double salario)
+        public static double Calcula(double salario, double valorPassagem, double quantidadeVales)
         {
             double porcentagem = 0.06;
-            double valorPassagem = 0;
-            
 
-            var valorValeTransporte = valorPassagem;
-            var calculoValeTransporte = salario * porcentagem;
+            var descontoVt = salario * porcentagem;
 
-
-            return calculoValeTransporte;
+            return descontoVt;
         }
         private static double CalculaVale(double salario)
         {

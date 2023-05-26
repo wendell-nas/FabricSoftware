@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using iRh.Windows.Core;
+using System;
 using System.Windows.Forms;
 
 namespace iRh.Windows.Simuladores
@@ -15,6 +9,31 @@ namespace iRh.Windows.Simuladores
         public frmBeneficioAdicionalNoturno()
         {
             InitializeComponent();
+        }
+
+        private void btnCalcularAdicional_Click(object sender, EventArgs e)
+        {
+            if(string.IsNullOrEmpty(txtHoraNoturna.Text))
+            {
+                MessageBox.Show("Informe o salario e as horas", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtHoraNoturna.Focus();
+                return;
+            }
+            try
+            {
+                var horasNoturna = double.Parse(txtHoraNoturna.Text);
+                var horasMensal = double.Parse(txtHorasMensais.Text);
+                var salario = double.Parse(txtSalario.Text);
+                double valorAdicional = AdicionalNoturno.Calcula(horasMensal, horasNoturna, salario);
+
+                lblResultado.Text = valorAdicional.ToString();
+            }
+            catch (Exception)
+            {
+w;
+                MessageBox.Show("Informe o salario e as horas", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
         }
     }
 }

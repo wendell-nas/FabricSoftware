@@ -28,20 +28,79 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.lblSalario = new System.Windows.Forms.Label();
+            this.txtSalario = new System.Windows.Forms.TextBox();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.btnCalcularFgts = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // lblSalario
+            // 
+            this.lblSalario.AutoSize = true;
+            this.lblSalario.BackColor = System.Drawing.Color.Transparent;
+            this.lblSalario.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalario.Location = new System.Drawing.Point(12, 21);
+            this.lblSalario.Name = "lblSalario";
+            this.lblSalario.Size = new System.Drawing.Size(220, 22);
+            this.lblSalario.TabIndex = 0;
+            this.lblSalario.Text = "Digite seu sálario abaixo:";
+            // 
+            // txtSalario
+            // 
+            this.txtSalario.Location = new System.Drawing.Point(16, 46);
+            this.txtSalario.Name = "txtSalario";
+            this.txtSalario.Size = new System.Drawing.Size(138, 20);
+            this.txtSalario.TabIndex = 1;
+            // 
+            // lblResultado
+            // 
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.BackColor = System.Drawing.Color.Transparent;
+            this.lblResultado.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblResultado.Location = new System.Drawing.Point(23, 112);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(36, 16);
+            this.lblResultado.TabIndex = 2;
+            this.lblResultado.Text = "label1";
+            this.lblResultado.Visible = false;
+            // 
+            // btnCalcularFgts
+            // 
+            this.btnCalcularFgts.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnCalcularFgts.Location = new System.Drawing.Point(16, 72);
+            this.btnCalcularFgts.Name = "btnCalcularFgts";
+            this.btnCalcularFgts.Size = new System.Drawing.Size(91, 23);
+            this.btnCalcularFgts.TabIndex = 3;
+            this.btnCalcularFgts.Text = "Calcular FGTS";
+            this.btnCalcularFgts.UseVisualStyleBackColor = true;
+            this.btnCalcularFgts.Click += new System.EventHandler(this.btnCalcularFgts_Click);
             // 
             // frmBeneficioDepositoFgts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.download2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(413, 329);
+            this.Controls.Add(this.btnCalcularFgts);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.txtSalario);
+            this.Controls.Add(this.lblSalario);
+            this.ForeColor = System.Drawing.SystemColors.Control;
             this.Name = "frmBeneficioDepositoFgts";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Benefício Deposito FGTS";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblSalario;
+        private System.Windows.Forms.TextBox txtSalario;
+        private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Button btnCalcularFgts;
     }
 }
