@@ -55,6 +55,7 @@
     <Compile Include="Core\AdicionalNoturno.cs" />
     <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\Inss.cs" />
+    <Compile Include="Core\periculosidade.cs" />
     <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
