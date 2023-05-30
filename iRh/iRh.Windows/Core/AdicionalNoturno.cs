@@ -4,15 +4,15 @@
     {
         public static double Calcula(double horaMensal, double horaNoturna, double salario)
         {
-            var valorHora = salario / horaMensais
-            var valor_hora_trabalhada =
+            var valorHora = salario / horaMensal;
+            var valorHoratrabalhada = CalculaHora(valorHoratrabalhada);
 
 
-     //  valor_adcional = horas_noturna * valor_hora_trabalhada
+            valorAdcional = horas_noturna * valor_hora_trabalhada
         }
-        private static double CalculaHora(double hora)
+        private static double CalculaHora(double valorHoraTrabalhada)
         {
-            return valorHora 0.2;
+            return valorHora * 0.2;
         }
     }
 }
