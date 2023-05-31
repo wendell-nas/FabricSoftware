@@ -24,13 +24,12 @@ namespace iRh.Windows.Simuladores
                 var horasNoturna = double.Parse(txtHoraNoturna.Text);
                 var horasMensal = double.Parse(txtHorasMensais.Text);
                 var salario = double.Parse(txtSalario.Text);
-                double valorAdicional = AdicionalNoturno.Calcula(horasMensal, horasNoturna, salario);
+                double salarioComAdicional = AdicionalNoturno.Calcula(horasMensal, horasNoturna, salario);
 
-                lblResultado.Text = valorAdicional.ToString();
+                lblResultado.Text = salarioComAdicional.ToString();
             }
             catch (Exception)
             {
-w;
                 MessageBox.Show("Informe o salario e as horas", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 

@@ -63,7 +63,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(12, 176);
+            this.label1.Location = new System.Drawing.Point(12, 167);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(169, 40);
             this.label1.TabIndex = 2;
@@ -71,28 +71,31 @@
             // 
             // txtHoraNoturna
             // 
-            this.txtHoraNoturna.Location = new System.Drawing.Point(16, 219);
+            this.txtHoraNoturna.Location = new System.Drawing.Point(16, 210);
             this.txtHoraNoturna.Name = "txtHoraNoturna";
             this.txtHoraNoturna.Size = new System.Drawing.Size(100, 20);
             this.txtHoraNoturna.TabIndex = 3;
             // 
             // btnCalcularAdicional
             // 
+            this.btnCalcularAdicional.BackColor = System.Drawing.Color.Transparent;
             this.btnCalcularAdicional.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcularAdicional.Location = new System.Drawing.Point(16, 245);
+            this.btnCalcularAdicional.Location = new System.Drawing.Point(12, 247);
             this.btnCalcularAdicional.Name = "btnCalcularAdicional";
             this.btnCalcularAdicional.Size = new System.Drawing.Size(116, 42);
             this.btnCalcularAdicional.TabIndex = 4;
             this.btnCalcularAdicional.Text = "Calcular Adicional Noturno";
-            this.btnCalcularAdicional.UseVisualStyleBackColor = true;
+            this.btnCalcularAdicional.UseVisualStyleBackColor = false;
             this.btnCalcularAdicional.Click += new System.EventHandler(this.btnCalcularAdicional_Click);
             // 
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(22, 301);
+            this.lblResultado.BackColor = System.Drawing.Color.Transparent;
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(138, 260);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(55, 13);
+            this.lblResultado.Size = new System.Drawing.Size(70, 16);
             this.lblResultado.TabIndex = 5;
             this.lblResultado.Text = "Resultado";
             // 
