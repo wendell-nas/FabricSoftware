@@ -30,6 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtSalario = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -48,13 +50,34 @@
             this.txtSalario.Name = "txtSalario";
             this.txtSalario.Size = new System.Drawing.Size(100, 20);
             this.txtSalario.TabIndex = 1;
-            this.txtSalario.TextChanged += new System.EventHandler(this.txtSalario_TextChanged);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(15, 68);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lblResultado
+            // 
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Location = new System.Drawing.Point(28, 94);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(35, 13);
+            this.lblResultado.TabIndex = 3;
+            this.lblResultado.Text = "label2";
+            this.lblResultado.Visible = false;
             // 
             // frmBeneficioPericulosidade
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(296, 365);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.label1);
             this.Name = "frmBeneficioPericulosidade";
@@ -69,5 +92,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtSalario;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblResultado;
     }
 }

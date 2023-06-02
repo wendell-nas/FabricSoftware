@@ -230,6 +230,7 @@
             this.Name = "frmBeneficioValeTransporte";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Benefício Vale Transporte";
+            this.Load += new System.EventHandler(this.frmBeneficioValeTransporte_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

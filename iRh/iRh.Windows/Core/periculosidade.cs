@@ -1,6 +1,13 @@
 ﻿namespace iRh.Windows.Core
 {
-    class periculosidade
+    public static class periculosidade
     {
+        public static double Calcula(double salario)
+        {   
+            var adicionalPericulosidade = salario * 0.3;
+
+            return adicionalPericulosidade;
+        }
+
     }
 }

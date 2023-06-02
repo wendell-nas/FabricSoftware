@@ -25,9 +25,10 @@ namespace iRh.Windows.Simuladores
                 var quantidadeVale = double.Parse(txtQuantidadeVales.Text); ;
                 var valorPassagem = double.Parse(txtValorPassagem.Text);
                 double descontoVt = ValeTransporte.Calcula(salario, valorPassagem, quantidadeVale);
-                
-                lblResultado.Text = descontoVt.ToString();
-                lblResultado.Visible = true;
+
+                MessageBox.Show("Informe seu sálario base", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSalario.Focus();
+                return;
             }
             catch (Exception)
             {
@@ -83,6 +84,11 @@ namespace iRh.Windows.Simuladores
                 }
 
             }
+        }
+
+        private void frmBeneficioValeTransporte_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
