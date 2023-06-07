@@ -43,7 +43,7 @@ namespace iRh.Windows.Simuladores
                 else
                 {
                     MessageBox.Show(" Você tem direito ao programa PIS, vamos fazer o cálculo do seu PIS", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    lblResultado.Text = "Já que você tem direito ao" + Environment.NewLine  + "o PIS, você irá receber:" + resultado.ToString();
+                    lblResultado.Text = "Já que você tem direito ao" + Environment.NewLine  + "o PIS, você irá receber: " + resultado.ToString("F2");
                     panelResultado.Visible = true;
                 }
 

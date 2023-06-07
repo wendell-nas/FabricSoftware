@@ -1,6 +1,6 @@
 ﻿namespace iRh.Windows.Core
 {
-    public static class IRRF
+    public static class Irrf
     {
         const double salarioLimite1 = 1903.99;
         const double salarioLimite2 = 2826.66;

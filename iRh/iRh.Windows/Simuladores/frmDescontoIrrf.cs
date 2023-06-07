@@ -29,7 +29,7 @@ namespace iRh.Windows.Simuladores
             try
             {
                 var salario = double.Parse(txtSalario.Text);
-                double resultado = IRRF.Calcula(salario);
+                double resultado = Irrf.Calcula(salario);
                 const double salarioLimite1 = 1903.99;
 
                 if (salario < salarioLimite1)

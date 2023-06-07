@@ -100,7 +100,7 @@
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(197, 40);
             this.lblResultado.TabIndex = 5;
-            this.lblResultado.Text = "Já que você tem direito ao \r\nPIS, você irá receber:";
+            this.lblResultado.Text = "Já que você tem direito ao \r\nPIS, você irá receber:  ";
             // 
             // label3
             // 

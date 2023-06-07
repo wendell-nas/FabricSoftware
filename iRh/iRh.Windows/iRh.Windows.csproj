@@ -57,7 +57,7 @@
     <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\HoraExtra.cs" />
     <Compile Include="Core\Inss.cs" />
-    <Compile Include="Core\IRRF.cs" />
+    <Compile Include="Core\Irrf.cs" />
     <Compile Include="Core\periculosidade.cs" />
     <Compile Include="Core\Pis.cs" />
     <Compile Include="Core\ValeTransporte.cs" />

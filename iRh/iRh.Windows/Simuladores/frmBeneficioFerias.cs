@@ -31,7 +31,7 @@ namespace iRh.Windows.Simuladores
                 var salario = double.Parse(txtSalario.Text);
                 double descontoInss = Inss.Calcula(salario);
                 double resultado = Ferias.Calcula(salario);
-                lblResultado.Text = resultado.ToString();
+                lblResultado.Text = resultado.ToString("F2");
                 lblResultado.Visible = true;
             }
             catch (Exception)
