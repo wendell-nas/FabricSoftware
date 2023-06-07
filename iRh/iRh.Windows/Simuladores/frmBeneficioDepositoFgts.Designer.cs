@@ -38,10 +38,10 @@
             // 
             this.lblSalario.AutoSize = true;
             this.lblSalario.BackColor = System.Drawing.Color.Transparent;
-            this.lblSalario.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalario.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSalario.Location = new System.Drawing.Point(12, 21);
             this.lblSalario.Name = "lblSalario";
-            this.lblSalario.Size = new System.Drawing.Size(220, 22);
+            this.lblSalario.Size = new System.Drawing.Size(183, 20);
             this.lblSalario.TabIndex = 0;
             this.lblSalario.Text = "Digite seu sálario abaixo:";
             // 
@@ -56,24 +56,26 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.BackColor = System.Drawing.Color.Transparent;
-            this.lblResultado.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblResultado.Location = new System.Drawing.Point(23, 112);
+            this.lblResultado.Location = new System.Drawing.Point(30, 106);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(36, 16);
+            this.lblResultado.Size = new System.Drawing.Size(56, 13);
             this.lblResultado.TabIndex = 2;
-            this.lblResultado.Text = "label1";
+            this.lblResultado.Text = "resultado";
             this.lblResultado.Visible = false;
             // 
             // btnCalcularFgts
             // 
+            this.btnCalcularFgts.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnCalcularFgts.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcularFgts.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCalcularFgts.Location = new System.Drawing.Point(16, 72);
             this.btnCalcularFgts.Name = "btnCalcularFgts";
             this.btnCalcularFgts.Size = new System.Drawing.Size(91, 23);
             this.btnCalcularFgts.TabIndex = 3;
             this.btnCalcularFgts.Text = "Calcular FGTS";
-            this.btnCalcularFgts.UseVisualStyleBackColor = true;
+            this.btnCalcularFgts.UseVisualStyleBackColor = false;
             this.btnCalcularFgts.Click += new System.EventHandler(this.btnCalcularFgts_Click);
             // 
             // frmBeneficioDepositoFgts

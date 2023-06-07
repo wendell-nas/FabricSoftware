@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace iRh.Windows.Core
+﻿namespace iRh.Windows.Core
 {
     public static class IRRF
     {
@@ -24,6 +18,8 @@ namespace iRh.Windows.Core
         public static double Calcula(double salario)
         {
             double irrf = 0;
+           
+
 
             if (salario < salarioLimite1)
             {
@@ -32,6 +28,7 @@ namespace iRh.Windows.Core
             else if (salario < salarioLimite2)
             {
                 irrf = salario * CalculaLimite1(aliquota1);
+                return irrf;
             }
             else if (salario < salarioLimite3)
             {
@@ -45,7 +42,7 @@ namespace iRh.Windows.Core
             {
                 irrf = salario * CalculaLimite4(aliquota3);
             }
-            return irrf;
+            return irrf - 266;
         }
         private static double CalculaLimite1(double aliquota1)
         {
@@ -62,6 +59,6 @@ namespace iRh.Windows.Core
         private static double CalculaLimite4(double aliquota4)
         {
             return (aliquota4 / 100) - valorADeduzir4;
-     }
+        }
     }
 }

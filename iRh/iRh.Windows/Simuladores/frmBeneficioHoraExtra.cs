@@ -21,8 +21,8 @@ namespace iRh.Windows.Simuladores
             try
             {
                 var salario = double.Parse(txtSalario.Text);
-                var cargaHoraria = double.Parse(txtCargaHoraria.Text);
-                var horaExtraTotal = HoraExtra.Calcula(salario, cargaHoraria);
+                var HorasTrabalhadas = double.Parse(txtHorasTrabalhadas.Text);
+                var horaExtraTotal = HoraExtra.Calcula(salario, HorasTrabalhadas);
 
                 lblResultado.Text = "R$ " + horaExtraTotal.ToString("F2");
                 panelResultado.Visible = true;

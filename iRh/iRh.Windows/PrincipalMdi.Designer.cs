@@ -49,12 +49,17 @@
             // 
             // menuPrincipal
             // 
+            this.menuPrincipal.AllowItemReorder = true;
+            this.menuPrincipal.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.menuPrincipal.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuPrincipal.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.menuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuFuncionarios,
             this.simuladoresToolStripMenuItem});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
-            this.menuPrincipal.Size = new System.Drawing.Size(719, 24);
+            this.menuPrincipal.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuPrincipal.Size = new System.Drawing.Size(839, 24);
             this.menuPrincipal.TabIndex = 1;
             this.menuPrincipal.Text = "menuStrip1";
             // 
@@ -62,12 +67,14 @@
             // 
             this.menuFuncionarios.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.funcionariosToolStripMenuItem});
+            this.menuFuncionarios.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuFuncionarios.Name = "menuFuncionarios";
-            this.menuFuncionarios.Size = new System.Drawing.Size(74, 20);
+            this.menuFuncionarios.Size = new System.Drawing.Size(73, 20);
             this.menuFuncionarios.Text = " Cadastros";
             // 
             // funcionariosToolStripMenuItem
             // 
+            this.funcionariosToolStripMenuItem.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funcionariosToolStripMenuItem.Image = global::iRh.Windows.Properties.Resources.edit_user_student_staff_person_icon_icons_com_75492;
             this.funcionariosToolStripMenuItem.Name = "funcionariosToolStripMenuItem";
             this.funcionariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
@@ -88,105 +95,118 @@
             this.menuBeneficioPis,
             this.menuBeneficioSeguroDesemprego,
             this.menuBeneficioValeTransporte});
+            this.simuladoresToolStripMenuItem.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simuladoresToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.simuladoresToolStripMenuItem.Name = "simuladoresToolStripMenuItem";
-            this.simuladoresToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
+            this.simuladoresToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
             this.simuladoresToolStripMenuItem.Text = "Simuladores";
             // 
             // menuDescontoInss
             // 
+            this.menuDescontoInss.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuDescontoInss.Image = global::iRh.Windows.Properties.Resources.icons8_buscador_de_desconto_50;
             this.menuDescontoInss.Name = "menuDescontoInss";
-            this.menuDescontoInss.Size = new System.Drawing.Size(249, 22);
+            this.menuDescontoInss.Size = new System.Drawing.Size(248, 22);
             this.menuDescontoInss.Text = "Desconto de INSS";
             this.menuDescontoInss.Click += new System.EventHandler(this.menuDescontoInss_Click);
             // 
             // menuDescontoIrrf
             // 
+            this.menuDescontoIrrf.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuDescontoIrrf.Image = global::iRh.Windows.Properties.Resources.icons8_buscador_de_desconto_50__1_;
             this.menuDescontoIrrf.Name = "menuDescontoIrrf";
-            this.menuDescontoIrrf.Size = new System.Drawing.Size(249, 22);
+            this.menuDescontoIrrf.Size = new System.Drawing.Size(248, 22);
             this.menuDescontoIrrf.Text = "Desconto de IRRF";
             this.menuDescontoIrrf.Click += new System.EventHandler(this.menuDescontoIrrf_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(246, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(245, 6);
             // 
             // menuBeneficioAdcionalNoturno
             // 
+            this.menuBeneficioAdcionalNoturno.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuBeneficioAdcionalNoturno.Image = global::iRh.Windows.Properties.Resources._482927;
             this.menuBeneficioAdcionalNoturno.Name = "menuBeneficioAdcionalNoturno";
-            this.menuBeneficioAdcionalNoturno.Size = new System.Drawing.Size(249, 22);
+            this.menuBeneficioAdcionalNoturno.Size = new System.Drawing.Size(248, 22);
             this.menuBeneficioAdcionalNoturno.Text = "Beneficio de Adcional Noturno";
             this.menuBeneficioAdcionalNoturno.Click += new System.EventHandler(this.menuBeneficioAdicionalNoturno_Click);
             // 
             // menuBeneficioDepositoFgts
             // 
+            this.menuBeneficioDepositoFgts.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuBeneficioDepositoFgts.Image = global::iRh.Windows.Properties.Resources.download__5_;
             this.menuBeneficioDepositoFgts.Name = "menuBeneficioDepositoFgts";
-            this.menuBeneficioDepositoFgts.Size = new System.Drawing.Size(249, 22);
+            this.menuBeneficioDepositoFgts.Size = new System.Drawing.Size(248, 22);
             this.menuBeneficioDepositoFgts.Text = "Beneficio de Deposito FGTS";
             this.menuBeneficioDepositoFgts.Click += new System.EventHandler(this.menuBeneficioDepositoFgts_Click);
             // 
             // menuBeneficioFerias
             // 
+            this.menuBeneficioFerias.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuBeneficioFerias.Image = global::iRh.Windows.Properties.Resources.png_transparent_computer_icons_font_holiday_icon_angle_triangle_logo;
             this.menuBeneficioFerias.Name = "menuBeneficioFerias";
-            this.menuBeneficioFerias.Size = new System.Drawing.Size(249, 22);
+            this.menuBeneficioFerias.Size = new System.Drawing.Size(248, 22);
             this.menuBeneficioFerias.Text = "Beneficio de Férias";
             this.menuBeneficioFerias.Click += new System.EventHandler(this.menuBeneficioFerias_Click);
             // 
             // menuBeneficioHoraExtra
             // 
+            this.menuBeneficioHoraExtra.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuBeneficioHoraExtra.Image = global::iRh.Windows.Properties.Resources.png_transparent_overtime_computer_icons_others_cdr_text_trademark;
             this.menuBeneficioHoraExtra.Name = "menuBeneficioHoraExtra";
-            this.menuBeneficioHoraExtra.Size = new System.Drawing.Size(249, 22);
+            this.menuBeneficioHoraExtra.Size = new System.Drawing.Size(248, 22);
             this.menuBeneficioHoraExtra.Text = "Beneficio de Hora Extra";
             this.menuBeneficioHoraExtra.Click += new System.EventHandler(this.menuBeneficioHoraExtra_Click);
             // 
             // menuBeneficioPericulosidade
             // 
+            this.menuBeneficioPericulosidade.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuBeneficioPericulosidade.Image = global::iRh.Windows.Properties.Resources._91357;
             this.menuBeneficioPericulosidade.Name = "menuBeneficioPericulosidade";
-            this.menuBeneficioPericulosidade.Size = new System.Drawing.Size(249, 22);
+            this.menuBeneficioPericulosidade.Size = new System.Drawing.Size(248, 22);
             this.menuBeneficioPericulosidade.Text = "Beneficio de Periculosidade";
             this.menuBeneficioPericulosidade.Click += new System.EventHandler(this.menuBeneficioPericulosidade_Click);
             // 
             // menuBeneficioPis
             // 
+            this.menuBeneficioPis.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuBeneficioPis.Image = global::iRh.Windows.Properties.Resources.png_clipart_coin_money_bag_computer_icons_coin_text_trademark;
             this.menuBeneficioPis.Name = "menuBeneficioPis";
-            this.menuBeneficioPis.Size = new System.Drawing.Size(249, 22);
+            this.menuBeneficioPis.Size = new System.Drawing.Size(248, 22);
             this.menuBeneficioPis.Text = "Beneficio de PIS";
             this.menuBeneficioPis.Click += new System.EventHandler(this.menuBeneficioPis_Click);
             // 
             // menuBeneficioSeguroDesemprego
             // 
+            this.menuBeneficioSeguroDesemprego.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuBeneficioSeguroDesemprego.Image = global::iRh.Windows.Properties.Resources._6134775;
             this.menuBeneficioSeguroDesemprego.Name = "menuBeneficioSeguroDesemprego";
-            this.menuBeneficioSeguroDesemprego.Size = new System.Drawing.Size(249, 22);
+            this.menuBeneficioSeguroDesemprego.Size = new System.Drawing.Size(248, 22);
             this.menuBeneficioSeguroDesemprego.Text = "Beneficio de Seguro Desemprego";
             this.menuBeneficioSeguroDesemprego.Click += new System.EventHandler(this.menuBeneficioSeguroDesemprego_Click);
             // 
             // menuBeneficioValeTransporte
             // 
+            this.menuBeneficioValeTransporte.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuBeneficioValeTransporte.Image = global::iRh.Windows.Properties.Resources.kisspng_kochi_hotel_thb_dos_playas_mt_wellies_childcare_ce_5af639d93f18a9_2635110915260861052585;
             this.menuBeneficioValeTransporte.Name = "menuBeneficioValeTransporte";
-            this.menuBeneficioValeTransporte.Size = new System.Drawing.Size(249, 22);
+            this.menuBeneficioValeTransporte.Size = new System.Drawing.Size(248, 22);
             this.menuBeneficioValeTransporte.Text = "Beneficio de Vale Transporte";
             this.menuBeneficioValeTransporte.Click += new System.EventHandler(this.menuBeneficioValeTransporte_Click);
             // 
             // PrincipalMdi
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.DarkRed;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(719, 413);
+            this.ClientSize = new System.Drawing.Size(839, 413);
             this.Controls.Add(this.menuPrincipal);
             this.DoubleBuffered = true;
+            this.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;

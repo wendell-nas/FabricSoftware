@@ -25,9 +25,10 @@ namespace iRh.Windows.Simuladores
                 var quantidadeVale = double.Parse(txtQuantidadeVales.Text); ;
                 var valorPassagem = double.Parse(txtValorPassagem.Text);
                 double descontoVt = ValeTransporte.Calcula(salario, valorPassagem, quantidadeVale);
+                lblResultado.Text = descontoVt.ToString();
+                lblResultado.Visible = true;
+                panel1.Visible = true;
 
-                MessageBox.Show("Informe seu sálario base", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtSalario.Focus();
                 return;
             }
             catch (Exception)
@@ -42,6 +43,7 @@ namespace iRh.Windows.Simuladores
             {
                 MessageBox.Show("Você tem direito ao vale transporte" + Environment.NewLine + Environment.NewLine + "CLIQUE 'OK' PARA CONTINUAR");
                 checkBoxNaoUtilizoTransporte.Visible = false;
+                panelValores.Visible = true;
             }
         }
 
@@ -77,18 +79,18 @@ namespace iRh.Windows.Simuladores
                 if (gastoMensal > valorDescontado)
                 {
                     MessageBox.Show("Vale a pena utilizar o vale transporte", "Use com moderação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close();
                 }
                 else
                 {
                     MessageBox.Show("Não vale a pena utilizar o vale transporte", "Que pena :(", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    this.Close();
                 }
-
+                
             }
+         
         }
 
-        private void frmBeneficioValeTransporte_Load(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }

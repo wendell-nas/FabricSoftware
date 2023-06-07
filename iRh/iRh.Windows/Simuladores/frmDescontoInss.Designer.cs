@@ -41,10 +41,11 @@
             // 
             this.lblSalarioBase.AutoSize = true;
             this.lblSalarioBase.BackColor = System.Drawing.Color.Transparent;
-            this.lblSalarioBase.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSalarioBase.Location = new System.Drawing.Point(12, 25);
+            this.lblSalarioBase.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalarioBase.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblSalarioBase.Location = new System.Drawing.Point(13, 30);
             this.lblSalarioBase.Name = "lblSalarioBase";
-            this.lblSalarioBase.Size = new System.Drawing.Size(114, 25);
+            this.lblSalarioBase.Size = new System.Drawing.Size(93, 20);
             this.lblSalarioBase.TabIndex = 0;
             this.lblSalarioBase.Text = "Sálario Base";
             // 
@@ -58,13 +59,15 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Location = new System.Drawing.Point(17, 99);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(129, 32);
             this.button1.TabIndex = 2;
             this.button1.Text = "Calcular INSS";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panelResultado
@@ -91,9 +94,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::iRh.Windows.Properties.Resources.inss_6;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.download;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(330, 273);
+            this.ClientSize = new System.Drawing.Size(378, 328);
             this.Controls.Add(this.panelResultado);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtSalarioBase);

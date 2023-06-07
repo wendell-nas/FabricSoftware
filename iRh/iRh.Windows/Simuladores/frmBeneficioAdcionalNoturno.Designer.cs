@@ -42,17 +42,17 @@
             // 
             this.lblAdicionalNoturno.AutoSize = true;
             this.lblAdicionalNoturno.BackColor = System.Drawing.Color.Transparent;
-            this.lblAdicionalNoturno.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdicionalNoturno.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAdicionalNoturno.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblAdicionalNoturno.Location = new System.Drawing.Point(12, 91);
+            this.lblAdicionalNoturno.Location = new System.Drawing.Point(12, 85);
             this.lblAdicionalNoturno.Name = "lblAdicionalNoturno";
-            this.lblAdicionalNoturno.Size = new System.Drawing.Size(182, 40);
+            this.lblAdicionalNoturno.Size = new System.Drawing.Size(205, 40);
             this.lblAdicionalNoturno.TabIndex = 0;
             this.lblAdicionalNoturno.Text = "Informe quantas horas voce\r\ntrabalha mensalmente:";
             // 
             // txtHorasMensais
             // 
-            this.txtHorasMensais.Location = new System.Drawing.Point(16, 134);
+            this.txtHorasMensais.Location = new System.Drawing.Point(16, 128);
             this.txtHorasMensais.Name = "txtHorasMensais";
             this.txtHorasMensais.Size = new System.Drawing.Size(100, 20);
             this.txtHorasMensais.TabIndex = 1;
@@ -61,26 +61,26 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(12, 167);
+            this.label1.Location = new System.Drawing.Point(12, 161);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 40);
+            this.label1.Size = new System.Drawing.Size(190, 40);
             this.label1.TabIndex = 2;
             this.label1.Text = "Informe quantas horas \r\nnoturna a mais trabalhou:";
             // 
             // txtHoraNoturna
             // 
-            this.txtHoraNoturna.Location = new System.Drawing.Point(16, 210);
+            this.txtHoraNoturna.Location = new System.Drawing.Point(16, 205);
             this.txtHoraNoturna.Name = "txtHoraNoturna";
             this.txtHoraNoturna.Size = new System.Drawing.Size(100, 20);
             this.txtHoraNoturna.TabIndex = 3;
             // 
             // btnCalcularAdicional
             // 
-            this.btnCalcularAdicional.BackColor = System.Drawing.Color.Transparent;
-            this.btnCalcularAdicional.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcularAdicional.Location = new System.Drawing.Point(12, 247);
+            this.btnCalcularAdicional.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnCalcularAdicional.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcularAdicional.Location = new System.Drawing.Point(15, 237);
             this.btnCalcularAdicional.Name = "btnCalcularAdicional";
             this.btnCalcularAdicional.Size = new System.Drawing.Size(116, 42);
             this.btnCalcularAdicional.TabIndex = 4;
@@ -92,10 +92,11 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.BackColor = System.Drawing.Color.Transparent;
-            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(138, 260);
+            this.lblResultado.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblResultado.Location = new System.Drawing.Point(147, 250);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(70, 16);
+            this.lblResultado.Size = new System.Drawing.Size(69, 17);
             this.lblResultado.TabIndex = 5;
             this.lblResultado.Text = "Resultado";
             // 
@@ -103,11 +104,11 @@
             // 
             this.lblSalario.AutoSize = true;
             this.lblSalario.BackColor = System.Drawing.Color.Transparent;
-            this.lblSalario.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalario.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSalario.ForeColor = System.Drawing.SystemColors.Control;
             this.lblSalario.Location = new System.Drawing.Point(12, 29);
             this.lblSalario.Name = "lblSalario";
-            this.lblSalario.Size = new System.Drawing.Size(145, 20);
+            this.lblSalario.Size = new System.Drawing.Size(161, 20);
             this.lblSalario.TabIndex = 6;
             this.lblSalario.Text = "Informe o seu sálario:";
             // 

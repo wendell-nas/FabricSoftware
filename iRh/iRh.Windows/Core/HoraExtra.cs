@@ -2,10 +2,16 @@
 {
   public static class HoraExtra
     {
-        public static double Calcula(double salario, double cargaHoraria)
+        public static double Calcula(double salario, double horasTrabalhadas)
         {
-            salario = cargaHoraria;
-            return salario;
+            salario = horasTrabalhadas;
+            double totalReceber, valorHoraExtra, valorHoraTrabalhada;
+
+            valorHoraTrabalhada = (salario / 220);
+            valorHoraExtra = valorHoraTrabalhada * 0.20;
+            totalReceber = (valorHoraExtra + valorHoraTrabalhada) * horasTrabalhadas;
+
+          return totalReceber;
         }
        
     }

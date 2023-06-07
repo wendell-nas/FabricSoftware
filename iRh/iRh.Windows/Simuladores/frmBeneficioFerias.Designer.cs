@@ -38,11 +38,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 20);
+            this.label1.Size = new System.Drawing.Size(144, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Informe seu salário";
             // 
@@ -55,20 +55,25 @@
             // 
             // btnCalcularFerias
             // 
+            this.btnCalcularFerias.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnCalcularFerias.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcularFerias.Location = new System.Drawing.Point(17, 58);
             this.btnCalcularFerias.Name = "btnCalcularFerias";
             this.btnCalcularFerias.Size = new System.Drawing.Size(108, 23);
             this.btnCalcularFerias.TabIndex = 2;
             this.btnCalcularFerias.Text = "Calcular Ferias";
-            this.btnCalcularFerias.UseVisualStyleBackColor = true;
+            this.btnCalcularFerias.UseVisualStyleBackColor = false;
             this.btnCalcularFerias.Click += new System.EventHandler(this.btnCalcularFerias_Click);
             // 
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(44, 93);
+            this.lblResultado.BackColor = System.Drawing.Color.Transparent;
+            this.lblResultado.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblResultado.Location = new System.Drawing.Point(37, 87);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(50, 13);
+            this.lblResultado.Size = new System.Drawing.Size(56, 13);
             this.lblResultado.TabIndex = 3;
             this.lblResultado.Text = "resultado";
             this.lblResultado.Visible = false;

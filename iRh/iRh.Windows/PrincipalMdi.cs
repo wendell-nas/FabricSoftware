@@ -28,7 +28,7 @@ namespace iRh.Windows
 
         private void funcionariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var form = new frmFuncionarios();
+            var form = new frmFuncionario();
             form.MdiParent = this;
             form.Show();
         }

@@ -38,7 +38,7 @@ namespace iRh.Windows.Simuladores
                   
                 }
 
-                lblResultado.Text = resultado.ToString();
+                lblResultado.Text = resultado.ToString("F2");
                 lblResultado.Visible = true;
                 panelaResultado.Visible = true;
             }
