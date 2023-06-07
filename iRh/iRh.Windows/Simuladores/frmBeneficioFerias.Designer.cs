@@ -84,11 +84,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(305, 289);
+            this.ClientSize = new System.Drawing.Size(291, 163);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnCalcularFerias);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmBeneficioFerias";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Benefício Férias";

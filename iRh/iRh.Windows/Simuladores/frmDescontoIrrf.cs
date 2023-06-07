@@ -1,4 +1,5 @@
-﻿using System;
+﻿using iRh.Windows.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using iRh.Windows.Core;
 
 namespace iRh.Windows.Simuladores
 {
@@ -20,34 +20,28 @@ namespace iRh.Windows.Simuladores
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            if(string.IsNullOrEmpty(txtSalario.Text))
+            if (string.IsNullOrEmpty(txtSalario.Text))
             {
-                MessageBox.Show("Informe seu sálario!!!", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                MessageBox.Show("Informe o seu salário base por favor!!", "erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtSalario.Focus();
-                return;
             }
             try
             {
                 var salario = double.Parse(txtSalario.Text);
-                double resultado = Irrf.Calcula(salario);
-                const double salarioLimite1 = 1903.99;
-
-                if (salario < salarioLimite1)
+                var descontoImpostoIrrf = Irrf.Calcula(salario);
+                if (salario < 1903.98)
                 {
-                    MessageBox.Show("Não é necessário entregar a declaração", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                  
-                }
+                    MessageBox.Show("Sua faixa salarial está isenta do desconto do IRRF", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
-                lblResultado.Text = resultado.ToString("F2");
-                lblResultado.Visible = true;
-                panelaResultado.Visible = true;
+                }
+                lblResultado.Text = "R$" + descontoImpostoIrrf.ToString("F2");
+                panel1.Visible = true;
             }
             catch (Exception)
             {
-                MessageBox.Show("Informe seu sálario base", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                throw;
+                MessageBox.Show("Informe um valor valido por favor!!!, ex: 3500", "erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
-
     }
 }

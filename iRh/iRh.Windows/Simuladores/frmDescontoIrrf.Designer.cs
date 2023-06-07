@@ -28,81 +28,93 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtSalario = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.lblResultado = new System.Windows.Forms.Label();
-            this.panelaResultado = new System.Windows.Forms.Panel();
+            this.txtSalario = new System.Windows.Forms.TextBox();
+            this.lblSalario = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Informe seu Salário:";
-            // 
-            // txtSalario
-            // 
-            this.txtSalario.Location = new System.Drawing.Point(16, 32);
-            this.txtSalario.Name = "txtSalario";
-            this.txtSalario.Size = new System.Drawing.Size(100, 20);
-            this.txtSalario.TabIndex = 1;
             // 
             // btnCalcular
             // 
             this.btnCalcular.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnCalcular.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(28, 58);
+            this.btnCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalcular.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnCalcular.Location = new System.Drawing.Point(11, 85);
+            this.btnCalcular.Margin = new System.Windows.Forms.Padding(2);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(88, 23);
-            this.btnCalcular.TabIndex = 2;
-            this.btnCalcular.Text = "Calcular IRRF";
+            this.btnCalcular.Size = new System.Drawing.Size(92, 29);
+            this.btnCalcular.TabIndex = 7;
+            this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = false;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.lblResultado);
+            this.panel1.ForeColor = System.Drawing.Color.Black;
+            this.panel1.Location = new System.Drawing.Point(107, 91);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(197, 121);
+            this.panel1.TabIndex = 6;
+            this.panel1.Visible = false;
             // 
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.BackColor = System.Drawing.Color.Transparent;
-            this.lblResultado.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblResultado.Location = new System.Drawing.Point(32, 84);
+            this.lblResultado.Location = new System.Drawing.Point(2, 2);
+            this.lblResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(58, 16);
-            this.lblResultado.TabIndex = 7;
-            this.lblResultado.Text = "resultado";
-            this.lblResultado.Visible = false;
+            this.lblResultado.Size = new System.Drawing.Size(75, 15);
+            this.lblResultado.TabIndex = 1;
+            this.lblResultado.Text = "lblResultado";
             // 
-            // panelaResultado
+            // txtSalario
             // 
-            this.panelaResultado.BackColor = System.Drawing.Color.Transparent;
-            this.panelaResultado.Location = new System.Drawing.Point(28, 84);
-            this.panelaResultado.Name = "panelaResultado";
-            this.panelaResultado.Size = new System.Drawing.Size(87, 30);
-            this.panelaResultado.TabIndex = 8;
-            this.panelaResultado.Visible = false;
+            this.txtSalario.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSalario.Location = new System.Drawing.Point(11, 48);
+            this.txtSalario.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSalario.Name = "txtSalario";
+            this.txtSalario.Size = new System.Drawing.Size(122, 23);
+            this.txtSalario.TabIndex = 5;
+            // 
+            // lblSalario
+            // 
+            this.lblSalario.AutoSize = true;
+            this.lblSalario.BackColor = System.Drawing.Color.Transparent;
+            this.lblSalario.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalario.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblSalario.Location = new System.Drawing.Point(7, 25);
+            this.lblSalario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblSalario.Name = "lblSalario";
+            this.lblSalario.Size = new System.Drawing.Size(63, 21);
+            this.lblSalario.TabIndex = 4;
+            this.lblSalario.Text = "Salário";
             // 
             // frmDescontoIrrf
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::iRh.Windows.Properties.Resources.download2;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.download;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(378, 328);
-            this.Controls.Add(this.panelaResultado);
-            this.Controls.Add(this.lblResultado);
+            this.ClientSize = new System.Drawing.Size(311, 225);
             this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtSalario);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblSalario);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmDescontoIrrf";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Desconto IRRF";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -110,10 +122,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtSalario;
         private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblResultado;
-        private System.Windows.Forms.Panel panelaResultado;
+        private System.Windows.Forms.TextBox txtSalario;
+        private System.Windows.Forms.Label lblSalario;
     }
 }

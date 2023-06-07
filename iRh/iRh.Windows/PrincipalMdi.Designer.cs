@@ -77,7 +77,7 @@
             this.funcionariosToolStripMenuItem.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funcionariosToolStripMenuItem.Image = global::iRh.Windows.Properties.Resources.edit_user_student_staff_person_icon_icons_com_75492;
             this.funcionariosToolStripMenuItem.Name = "funcionariosToolStripMenuItem";
-            this.funcionariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.funcionariosToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.funcionariosToolStripMenuItem.Text = "Funcionários";
             this.funcionariosToolStripMenuItem.Click += new System.EventHandler(this.funcionariosToolStripMenuItem_Click);
             // 
@@ -181,7 +181,7 @@
             // menuBeneficioSeguroDesemprego
             // 
             this.menuBeneficioSeguroDesemprego.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuBeneficioSeguroDesemprego.Image = global::iRh.Windows.Properties.Resources._6134775;
+            this.menuBeneficioSeguroDesemprego.Image = global::iRh.Windows.Properties.Resources.download__10_;
             this.menuBeneficioSeguroDesemprego.Name = "menuBeneficioSeguroDesemprego";
             this.menuBeneficioSeguroDesemprego.Size = new System.Drawing.Size(248, 22);
             this.menuBeneficioSeguroDesemprego.Text = "Beneficio de Seguro Desemprego";
@@ -190,7 +190,7 @@
             // menuBeneficioValeTransporte
             // 
             this.menuBeneficioValeTransporte.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuBeneficioValeTransporte.Image = global::iRh.Windows.Properties.Resources.kisspng_kochi_hotel_thb_dos_playas_mt_wellies_childcare_ce_5af639d93f18a9_2635110915260861052585;
+            this.menuBeneficioValeTransporte.Image = global::iRh.Windows.Properties.Resources.download__9_1;
             this.menuBeneficioValeTransporte.Name = "menuBeneficioValeTransporte";
             this.menuBeneficioValeTransporte.Size = new System.Drawing.Size(248, 22);
             this.menuBeneficioValeTransporte.Text = "Beneficio de Vale Transporte";
@@ -207,10 +207,11 @@
             this.Controls.Add(this.menuPrincipal);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.Name = "PrincipalMdi";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WN SOFTWARES";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Move += new System.EventHandler(this.PrincipalMdi_Move);

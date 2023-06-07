@@ -173,6 +173,7 @@
             this.Controls.Add(this.rbRemFilhosSim);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmdGernero);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmFuncionario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro Funcionário";

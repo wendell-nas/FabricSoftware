@@ -79,7 +79,7 @@
             // btnVerificarAgora
             // 
             this.btnVerificarAgora.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnVerificarAgora.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerificarAgora.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerificarAgora.Location = new System.Drawing.Point(15, 178);
             this.btnVerificarAgora.Name = "btnVerificarAgora";
             this.btnVerificarAgora.Size = new System.Drawing.Size(93, 30);
@@ -94,12 +94,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(391, 381);
+            this.ClientSize = new System.Drawing.Size(315, 248);
             this.Controls.Add(this.btnVerificarAgora);
             this.Controls.Add(this.txtMesesTrabalhados);
             this.Controls.Add(this.txtVezesQueJaSolicitou);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmBeneficioSeguroDesemprego";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BenefÍcio Seguro Desemprego";

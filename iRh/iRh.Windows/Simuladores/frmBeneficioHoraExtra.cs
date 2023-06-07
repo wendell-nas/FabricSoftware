@@ -26,7 +26,8 @@ namespace iRh.Windows.Simuladores
 
                 lblResultado.Text = "R$ " + horaExtraTotal.ToString("F2");
                 panelResultado.Visible = true;
-  
+               
+
             }
             catch (System.Exception)
             {

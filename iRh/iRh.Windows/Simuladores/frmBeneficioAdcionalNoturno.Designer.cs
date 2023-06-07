@@ -99,6 +99,7 @@
             this.lblResultado.Size = new System.Drawing.Size(69, 17);
             this.lblResultado.TabIndex = 5;
             this.lblResultado.Text = "Resultado";
+            this.lblResultado.Visible = false;
             // 
             // lblSalario
             // 
@@ -125,7 +126,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(401, 339);
+            this.ClientSize = new System.Drawing.Size(315, 333);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.lblSalario);
             this.Controls.Add(this.lblResultado);
@@ -134,6 +135,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtHorasMensais);
             this.Controls.Add(this.lblAdicionalNoturno);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmBeneficioAdicionalNoturno";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Benefício Adicional Noturno";

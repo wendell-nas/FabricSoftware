@@ -255,6 +255,7 @@
             this.Controls.Add(this.checkBoxUtilizoTransporte);
             this.Controls.Add(this.lblUtilizoMeioTransporte);
             this.ForeColor = System.Drawing.SystemColors.Control;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmBeneficioValeTransporte";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Benefício Vale Transporte";

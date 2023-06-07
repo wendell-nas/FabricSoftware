@@ -27,6 +27,7 @@ namespace iRh.Windows.Simuladores
                 double salarioComAdicional = AdicionalNoturno.Calcula(horasMensal, horasNoturna, salario);
 
                 lblResultado.Text = salarioComAdicional.ToString("F2");
+                lblResultado.Visible = true;
             }
             catch (Exception)
             {

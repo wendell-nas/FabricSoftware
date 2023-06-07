@@ -96,7 +96,7 @@
             this.lblResultado.BackColor = System.Drawing.Color.Transparent;
             this.lblResultado.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblResultado.Location = new System.Drawing.Point(35, 1);
+            this.lblResultado.Location = new System.Drawing.Point(3, 3);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(197, 40);
             this.lblResultado.TabIndex = 5;
@@ -125,7 +125,7 @@
             // 
             this.panelResultado.BackColor = System.Drawing.Color.Transparent;
             this.panelResultado.Controls.Add(this.lblResultado);
-            this.panelResultado.Location = new System.Drawing.Point(-28, 218);
+            this.panelResultado.Location = new System.Drawing.Point(5, 216);
             this.panelResultado.Name = "panelResultado";
             this.panelResultado.Size = new System.Drawing.Size(254, 48);
             this.panelResultado.TabIndex = 8;
@@ -137,7 +137,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(398, 331);
+            this.ClientSize = new System.Drawing.Size(398, 297);
             this.Controls.Add(this.panelResultado);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.label3);
@@ -146,6 +146,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtTempoDePis);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmBeneficioPis";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BenefÍcio PIS";

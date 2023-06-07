@@ -33,5 +33,7 @@ namespace iRh.Windows.Simuladores
                 MessageBox.Show("Informe seu sálario base", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+       
     }
 }

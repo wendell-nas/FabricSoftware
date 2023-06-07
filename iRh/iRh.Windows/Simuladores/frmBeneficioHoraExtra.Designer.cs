@@ -44,7 +44,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(33, 5);
+            this.label1.Location = new System.Drawing.Point(12, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 20);
             this.label1.TabIndex = 0;
@@ -56,7 +56,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(143, 5);
+            this.label2.Location = new System.Drawing.Point(12, 68);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(139, 20);
             this.label2.TabIndex = 1;
@@ -64,14 +64,14 @@
             // 
             // txtSalario
             // 
-            this.txtSalario.Location = new System.Drawing.Point(12, 28);
+            this.txtSalario.Location = new System.Drawing.Point(12, 34);
             this.txtSalario.Name = "txtSalario";
             this.txtSalario.Size = new System.Drawing.Size(100, 20);
             this.txtSalario.TabIndex = 2;
             // 
             // txtHorasTrabalhadas
             // 
-            this.txtHorasTrabalhadas.Location = new System.Drawing.Point(160, 28);
+            this.txtHorasTrabalhadas.Location = new System.Drawing.Point(16, 91);
             this.txtHorasTrabalhadas.Name = "txtHorasTrabalhadas";
             this.txtHorasTrabalhadas.Size = new System.Drawing.Size(100, 20);
             this.txtHorasTrabalhadas.TabIndex = 3;
@@ -80,9 +80,9 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(88, 64);
+            this.button1.Location = new System.Drawing.Point(16, 131);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 38);
+            this.button1.Size = new System.Drawing.Size(88, 41);
             this.button1.TabIndex = 4;
             this.button1.Text = "Calcular Hora Extra";
             this.button1.UseVisualStyleBackColor = false;
@@ -93,7 +93,7 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblResultado.Location = new System.Drawing.Point(61, 11);
+            this.lblResultado.Location = new System.Drawing.Point(0, 1);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(66, 17);
             this.lblResultado.TabIndex = 5;
@@ -103,7 +103,7 @@
             // 
             this.panelResultado.BackColor = System.Drawing.Color.Transparent;
             this.panelResultado.Controls.Add(this.lblResultado);
-            this.panelResultado.Location = new System.Drawing.Point(37, 117);
+            this.panelResultado.Location = new System.Drawing.Point(110, 141);
             this.panelResultado.Name = "panelResultado";
             this.panelResultado.Size = new System.Drawing.Size(200, 100);
             this.panelResultado.TabIndex = 6;
@@ -115,13 +115,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(318, 282);
+            this.ClientSize = new System.Drawing.Size(297, 220);
             this.Controls.Add(this.panelResultado);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtHorasTrabalhadas);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmBeneficioHoraExtra";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Benefício Hora Extra";

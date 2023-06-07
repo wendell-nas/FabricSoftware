@@ -51,18 +51,18 @@
             // 
             // txtSalarioBase
             // 
-            this.txtSalarioBase.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSalarioBase.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSalarioBase.Location = new System.Drawing.Point(17, 53);
             this.txtSalarioBase.Name = "txtSalarioBase";
-            this.txtSalarioBase.Size = new System.Drawing.Size(129, 29);
+            this.txtSalarioBase.Size = new System.Drawing.Size(122, 23);
             this.txtSalarioBase.TabIndex = 1;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(17, 99);
+            this.button1.Location = new System.Drawing.Point(17, 93);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(129, 32);
             this.button1.TabIndex = 2;
@@ -72,9 +72,9 @@
             // 
             // panelResultado
             // 
-            this.panelResultado.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelResultado.BackColor = System.Drawing.Color.Transparent;
             this.panelResultado.Controls.Add(this.lblResultado);
-            this.panelResultado.Location = new System.Drawing.Point(17, 147);
+            this.panelResultado.Location = new System.Drawing.Point(152, 102);
             this.panelResultado.Name = "panelResultado";
             this.panelResultado.Size = new System.Drawing.Size(129, 44);
             this.panelResultado.TabIndex = 3;
@@ -83,10 +83,11 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(7, 10);
+            this.lblResultado.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblResultado.Location = new System.Drawing.Point(0, 0);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(115, 25);
+            this.lblResultado.Size = new System.Drawing.Size(96, 20);
             this.lblResultado.TabIndex = 1;
             this.lblResultado.Text = "lblResultado";
             // 
@@ -96,11 +97,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(378, 328);
+            this.ClientSize = new System.Drawing.Size(311, 225);
             this.Controls.Add(this.panelResultado);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtSalarioBase);
             this.Controls.Add(this.lblSalarioBase);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmDescontoInss";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -84,12 +84,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(413, 329);
+            this.ClientSize = new System.Drawing.Size(300, 235);
             this.Controls.Add(this.btnCalcularFgts);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.lblSalario);
             this.ForeColor = System.Drawing.SystemColors.Control;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmBeneficioDepositoFgts";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Benefício Deposito FGTS";
