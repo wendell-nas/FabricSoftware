@@ -77,7 +77,7 @@
             this.funcionariosToolStripMenuItem.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funcionariosToolStripMenuItem.Image = global::iRh.Windows.Properties.Resources.edit_user_student_staff_person_icon_icons_com_75492;
             this.funcionariosToolStripMenuItem.Name = "funcionariosToolStripMenuItem";
-            this.funcionariosToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.funcionariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.funcionariosToolStripMenuItem.Text = "Funcionários";
             this.funcionariosToolStripMenuItem.Click += new System.EventHandler(this.funcionariosToolStripMenuItem_Click);
             // 
@@ -212,7 +212,7 @@
             this.IsMdiContainer = true;
             this.Name = "PrincipalMdi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "WN SOFTWARES";
+            this.Text = "  ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Move += new System.EventHandler(this.PrincipalMdi_Move);
             this.menuPrincipal.ResumeLayout(false);

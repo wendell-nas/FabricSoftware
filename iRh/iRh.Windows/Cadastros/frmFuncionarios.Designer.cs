@@ -111,9 +111,9 @@
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(6, 2);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 15);
+            this.label2.Size = new System.Drawing.Size(87, 15);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Você tem Filhos ?";
+            this.label2.Text = "Nome do Filho";
             // 
             // label3
             // 
