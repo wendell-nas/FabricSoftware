@@ -22,6 +22,27 @@ namespace iRh.Windows.Core
                 Nome = "Rondônia",
                 Sigla = "RO"        
             });
+
+            listaDeEstados.Add(new Estados
+            {
+                Id = 12,
+                Nome = "Acre",
+                Sigla = "AC"
+            });
+
+            listaDeEstados.Add(new Estados
+            {
+                Id = 13,
+                Nome = "Amazonas",
+                Sigla = "AM"
+            });
+
+            listaDeEstados.Add(new Estados
+            {
+                Id = 14,
+                Nome = "Roroima",
+                Sigla = "RR"
+            });
             return listaDeEstados;    
         }
     }
