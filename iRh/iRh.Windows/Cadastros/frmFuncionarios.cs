@@ -42,10 +42,55 @@ namespace iRh.Windows.Cadastros
         private void btnPesquisar_Click(object sender, System.EventArgs e)
         {
             var cepDigitado = txtCep.Text;
-      
+            if(cepDigitado.Length < 9)
+            {
+                MessageBox.Show("Insira um cep válido!!", "ERRO", MessageBoxButtons.OK);
+                txtCep.Focus();
+                return;
+            }
             var endereco = new Endereco();
             var enderecoCompleto = endereco.ObterPorCep(cepDigitado);
 
+            if (string.IsNullOrEmpty(txtCep.Text))
+            {
+                MessageBox.Show("Insira um cep válido!!", "ERRO", MessageBoxButtons.OK);
+                txtCep.Focus();
+                return;                           
+            }
+            try
+            {
+                if(endereco.Erro)
+                {
+                    MessageBox.Show("Insira um cep válido!!", "ERRO", MessageBoxButtons.OK);
+                    txtBairro.Enabled = true;
+                    txtLogradouro.Enabled = true;
+                    txtNumero.Enabled = true;
+                    txtCidade.Enabled = true;
+                    txtDdd.Enabled = true;
+                    return;
+                }
+
+                txtLogradouro.Text = enderecoCompleto.Logradouro;
+                txtBairro.Text = enderecoCompleto.Bairro;
+                txtCidade.Text = enderecoCompleto.Localidade;
+                txtDdd.Text = enderecoCompleto.Ddd;
+                cmbEstados.SelectedValue = enderecoCompleto.Uf;
+
+                //Desabilitando as textBox
+                txtBairro.Enabled = false;
+                txtLogradouro.Enabled = false;
+                txtNumero.Enabled = false;
+                txtCidade.Enabled = false;
+                txtDdd.Enabled = false;
+
+            }
+            catch (System.Exception)
+            {
+                MessageBox.Show("Insira um cep válido!!", "ERRO", MessageBoxButtons.OK);
+                txtCep.Focus();
+                
+            }
+                            
         }
     }
 }

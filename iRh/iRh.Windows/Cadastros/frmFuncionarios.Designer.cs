@@ -34,7 +34,6 @@
             this.txtCpf = new System.Windows.Forms.TextBox();
             this.txtDataNascimento = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtCep = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.txtLogradouro = new System.Windows.Forms.TextBox();
@@ -47,7 +46,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.cmbEstados = new System.Windows.Forms.ComboBox();
-            this.txtDDD = new System.Windows.Forms.TextBox();
+            this.txtDdd = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -57,6 +56,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.txtNumeroDocumento = new System.Windows.Forms.TextBox();
+            this.txtCep = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -119,21 +119,13 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Data de Nascimento";
             // 
-            // txtCep
-            // 
-            this.txtCep.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCep.Location = new System.Drawing.Point(16, 157);
-            this.txtCep.Name = "txtCep";
-            this.txtCep.Size = new System.Drawing.Size(100, 22);
-            this.txtCep.TabIndex = 7;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(49, 137);
+            this.label4.Location = new System.Drawing.Point(43, 137);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 17);
             this.label4.TabIndex = 6;
@@ -142,7 +134,7 @@
             // btnPesquisar
             // 
             this.btnPesquisar.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPesquisar.Location = new System.Drawing.Point(126, 157);
+            this.btnPesquisar.Location = new System.Drawing.Point(108, 157);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(75, 23);
             this.btnPesquisar.TabIndex = 8;
@@ -251,13 +243,13 @@
             this.cmbEstados.Size = new System.Drawing.Size(102, 21);
             this.cmbEstados.TabIndex = 18;
             // 
-            // txtDDD
+            // txtDdd
             // 
-            this.txtDDD.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDDD.Location = new System.Drawing.Point(15, 333);
-            this.txtDDD.Name = "txtDDD";
-            this.txtDDD.Size = new System.Drawing.Size(36, 22);
-            this.txtDDD.TabIndex = 20;
+            this.txtDdd.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDdd.Location = new System.Drawing.Point(15, 333);
+            this.txtDdd.Name = "txtDdd";
+            this.txtDdd.Size = new System.Drawing.Size(36, 22);
+            this.txtDdd.TabIndex = 20;
             // 
             // label10
             // 
@@ -355,6 +347,15 @@
             this.txtNumeroDocumento.Size = new System.Drawing.Size(117, 22);
             this.txtNumeroDocumento.TabIndex = 27;
             // 
+            // txtCep
+            // 
+            this.txtCep.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCep.Location = new System.Drawing.Point(16, 157);
+            this.txtCep.Mask = "00000-000";
+            this.txtCep.Name = "txtCep";
+            this.txtCep.Size = new System.Drawing.Size(77, 22);
+            this.txtCep.TabIndex = 29;
+            // 
             // frmFuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -362,6 +363,7 @@
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(547, 407);
+            this.Controls.Add(this.txtCep);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.txtNumeroDocumento);
             this.Controls.Add(this.label12);
@@ -370,7 +372,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txtEstado);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.txtDDD);
+            this.Controls.Add(this.txtDdd);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.cmbEstados);
             this.Controls.Add(this.label9);
@@ -383,7 +385,6 @@
             this.Controls.Add(this.txtLogradouro);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnPesquisar);
-            this.Controls.Add(this.txtCep);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtDataNascimento);
@@ -409,7 +410,6 @@
         private System.Windows.Forms.TextBox txtCpf;
         private System.Windows.Forms.TextBox txtDataNascimento;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtCep;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.TextBox txtLogradouro;
@@ -422,7 +422,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox cmbEstados;
-        private System.Windows.Forms.TextBox txtDDD;
+        private System.Windows.Forms.TextBox txtDdd;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtEstado;
         private System.Windows.Forms.Label label11;
@@ -432,5 +432,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox txtNumeroDocumento;
+        private System.Windows.Forms.MaskedTextBox txtCep;
     }
 }
