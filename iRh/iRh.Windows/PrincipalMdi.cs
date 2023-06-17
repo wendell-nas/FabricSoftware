@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using iRh.Windows.Simulação_Completa;
+
 
 namespace iRh.Windows
 {
@@ -96,13 +98,13 @@ namespace iRh.Windows
             form.Show();
         }
 
-        private void PrincipalMdi_Move(object sender, EventArgs e)
+        private void contrachequeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var form = new SimulacaoCompleta();
+            form.MdiParent = this;
+            form.Show();
         }
 
-     
     }
-
 }
         

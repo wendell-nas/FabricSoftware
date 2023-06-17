@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblAdicionalNoturno = new System.Windows.Forms.Label();
-            this.txtHorasMensais = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtHoraNoturna = new System.Windows.Forms.TextBox();
             this.btnCalcularAdicional = new System.Windows.Forms.Button();
@@ -38,32 +36,13 @@
             this.txtSalario = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // lblAdicionalNoturno
-            // 
-            this.lblAdicionalNoturno.AutoSize = true;
-            this.lblAdicionalNoturno.BackColor = System.Drawing.Color.Transparent;
-            this.lblAdicionalNoturno.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdicionalNoturno.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblAdicionalNoturno.Location = new System.Drawing.Point(12, 85);
-            this.lblAdicionalNoturno.Name = "lblAdicionalNoturno";
-            this.lblAdicionalNoturno.Size = new System.Drawing.Size(205, 40);
-            this.lblAdicionalNoturno.TabIndex = 0;
-            this.lblAdicionalNoturno.Text = "Informe quantas horas voce\r\ntrabalha mensalmente:";
-            // 
-            // txtHorasMensais
-            // 
-            this.txtHorasMensais.Location = new System.Drawing.Point(16, 128);
-            this.txtHorasMensais.Name = "txtHorasMensais";
-            this.txtHorasMensais.Size = new System.Drawing.Size(100, 20);
-            this.txtHorasMensais.TabIndex = 1;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(12, 161);
+            this.label1.Location = new System.Drawing.Point(12, 89);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(190, 40);
             this.label1.TabIndex = 2;
@@ -71,7 +50,7 @@
             // 
             // txtHoraNoturna
             // 
-            this.txtHoraNoturna.Location = new System.Drawing.Point(16, 205);
+            this.txtHoraNoturna.Location = new System.Drawing.Point(16, 133);
             this.txtHoraNoturna.Name = "txtHoraNoturna";
             this.txtHoraNoturna.Size = new System.Drawing.Size(100, 20);
             this.txtHoraNoturna.TabIndex = 3;
@@ -80,7 +59,7 @@
             // 
             this.btnCalcularAdicional.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnCalcularAdicional.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcularAdicional.Location = new System.Drawing.Point(15, 237);
+            this.btnCalcularAdicional.Location = new System.Drawing.Point(15, 165);
             this.btnCalcularAdicional.Name = "btnCalcularAdicional";
             this.btnCalcularAdicional.Size = new System.Drawing.Size(116, 42);
             this.btnCalcularAdicional.TabIndex = 4;
@@ -94,7 +73,7 @@
             this.lblResultado.BackColor = System.Drawing.Color.Transparent;
             this.lblResultado.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblResultado.Location = new System.Drawing.Point(147, 250);
+            this.lblResultado.Location = new System.Drawing.Point(147, 178);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(69, 17);
             this.lblResultado.TabIndex = 5;
@@ -133,8 +112,6 @@
             this.Controls.Add(this.btnCalcularAdicional);
             this.Controls.Add(this.txtHoraNoturna);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtHorasMensais);
-            this.Controls.Add(this.lblAdicionalNoturno);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmBeneficioAdicionalNoturno";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -145,9 +122,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblAdicionalNoturno;
-        private System.Windows.Forms.TextBox txtHorasMensais;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtHoraNoturna;
         private System.Windows.Forms.Button btnCalcularAdicional;

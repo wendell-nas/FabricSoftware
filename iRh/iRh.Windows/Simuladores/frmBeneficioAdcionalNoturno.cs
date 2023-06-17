@@ -22,7 +22,7 @@ namespace iRh.Windows.Simuladores
             try
             {
                 var horasNoturna = double.Parse(txtHoraNoturna.Text);
-                var horasMensal = double.Parse(txtHorasMensais.Text);
+                double horasMensal = 220;
                 var salario = double.Parse(txtSalario.Text);
                 double salarioComAdicional = AdicionalNoturno.Calcula(horasMensal, horasNoturna, salario);
 

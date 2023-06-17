@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDescontoInss));
             this.lblSalarioBase = new System.Windows.Forms.Label();
-            this.txtSalarioBase = new System.Windows.Forms.TextBox();
+            this.txtSalario = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panelResultado = new System.Windows.Forms.Panel();
             this.lblResultado = new System.Windows.Forms.Label();
@@ -49,13 +49,13 @@
             this.lblSalarioBase.TabIndex = 0;
             this.lblSalarioBase.Text = "Sálario Base";
             // 
-            // txtSalarioBase
+            // txtSalario
             // 
-            this.txtSalarioBase.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSalarioBase.Location = new System.Drawing.Point(17, 53);
-            this.txtSalarioBase.Name = "txtSalarioBase";
-            this.txtSalarioBase.Size = new System.Drawing.Size(122, 23);
-            this.txtSalarioBase.TabIndex = 1;
+            this.txtSalario.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSalario.Location = new System.Drawing.Point(17, 53);
+            this.txtSalario.Name = "txtSalario";
+            this.txtSalario.Size = new System.Drawing.Size(122, 23);
+            this.txtSalario.TabIndex = 1;
             // 
             // button1
             // 
@@ -100,7 +100,7 @@
             this.ClientSize = new System.Drawing.Size(311, 225);
             this.Controls.Add(this.panelResultado);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtSalarioBase);
+            this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.lblSalarioBase);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -117,7 +117,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblSalarioBase;
-        private System.Windows.Forms.TextBox txtSalarioBase;
+        private System.Windows.Forms.TextBox txtSalario;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panelResultado;
         private System.Windows.Forms.Label lblResultado;

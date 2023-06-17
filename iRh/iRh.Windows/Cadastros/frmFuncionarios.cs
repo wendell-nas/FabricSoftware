@@ -92,5 +92,10 @@ namespace iRh.Windows.Cadastros
             }
                             
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://api.whatsapp.com/send?phone=" + txtDdd + txtTelefone + "&text=Olá%2C%20como%20posso%20te%20ajuda%3F");
+        }      
     }
 }

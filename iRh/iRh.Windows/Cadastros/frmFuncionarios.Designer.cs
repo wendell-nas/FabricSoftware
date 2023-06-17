@@ -48,7 +48,7 @@
             this.cmbEstados = new System.Windows.Forms.ComboBox();
             this.txtDdd = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtEstado = new System.Windows.Forms.TextBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -263,13 +263,13 @@
             this.label10.TabIndex = 19;
             this.label10.Text = "DDD";
             // 
-            // txtEstado
+            // txtTelefone
             // 
-            this.txtEstado.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEstado.Location = new System.Drawing.Point(67, 333);
-            this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(100, 22);
-            this.txtEstado.TabIndex = 22;
+            this.txtTelefone.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.Location = new System.Drawing.Point(67, 333);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(100, 22);
+            this.txtTelefone.TabIndex = 22;
             // 
             // label11
             // 
@@ -307,6 +307,7 @@
             this.linkLabel1.TabIndex = 24;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "chamar no whats";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // cmbDocumentos
             // 
@@ -374,7 +375,7 @@
             this.Controls.Add(this.cmbDocumentos);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.txtEstado);
+            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.txtDdd);
             this.Controls.Add(this.label10);
@@ -428,7 +429,7 @@
         private System.Windows.Forms.ComboBox cmbEstados;
         private System.Windows.Forms.TextBox txtDdd;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox txtEstado;
+        private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.LinkLabel linkLabel1;

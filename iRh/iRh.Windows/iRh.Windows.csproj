@@ -65,6 +65,7 @@
     <Compile Include="Core\HoraExtra.cs" />
     <Compile Include="Core\Inss.cs" />
     <Compile Include="Core\Irrf.cs" />
+    <Compile Include="Core\Perguntas.cs" />
     <Compile Include="Core\periculosidade.cs" />
     <Compile Include="Core\Pis.cs" />
     <Compile Include="Core\ValeTransporte.cs" />
@@ -136,6 +137,18 @@
     <Compile Include="Simuladores\frmDescontoIrrf.Designer.cs">
       <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
     </Compile>
+    <Compile Include="Simuladores\PerguntasValeTransporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\PerguntasValeTransporte.Designer.cs">
+      <DependentUpon>PerguntasValeTransporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simulação Completa\SimulacaoCompleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simulação Completa\SimulacaoCompleta.Designer.cs">
+      <DependentUpon>SimulacaoCompleta.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Cadastros\frmFuncionarios.resx">
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </EmbeddedResource>
@@ -181,6 +194,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmDescontoIrrf.resx">
       <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\PerguntasValeTransporte.resx">
+      <DependentUpon>PerguntasValeTransporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simulação Completa\SimulacaoCompleta.resx">
+      <DependentUpon>SimulacaoCompleta.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

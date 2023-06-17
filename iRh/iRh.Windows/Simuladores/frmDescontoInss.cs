@@ -14,15 +14,15 @@ namespace iRh.Windows.Simuladores
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtSalarioBase.Text))
+            if (string.IsNullOrEmpty(txtSalario.Text))
             {
                 MessageBox.Show("Informe seu sálario base", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtSalarioBase.Focus();
+                txtSalario.Focus();
                 return;
             }
             try
             {
-                var salario = double.Parse(txtSalarioBase.Text);
+                var salario = double.Parse(txtSalario.Text);
                 var descontoInss = Inss.Calcula(salario);
 
                 lblResultado.Text = "R$ " + descontoInss.ToString("F2");

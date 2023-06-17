@@ -44,6 +44,8 @@
             this.menuBeneficioPis = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBeneficioSeguroDesemprego = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBeneficioValeTransporte = new System.Windows.Forms.ToolStripMenuItem();
+            this.simulaçãoCompletaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contrachequeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,7 +57,8 @@
             this.menuPrincipal.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.menuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuFuncionarios,
-            this.simuladoresToolStripMenuItem});
+            this.simuladoresToolStripMenuItem,
+            this.simulaçãoCompletaToolStripMenuItem});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
             this.menuPrincipal.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
@@ -77,7 +80,7 @@
             this.funcionariosToolStripMenuItem.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funcionariosToolStripMenuItem.Image = global::iRh.Windows.Properties.Resources.edit_user_student_staff_person_icon_icons_com_75492;
             this.funcionariosToolStripMenuItem.Name = "funcionariosToolStripMenuItem";
-            this.funcionariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.funcionariosToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.funcionariosToolStripMenuItem.Text = "Funcionários";
             this.funcionariosToolStripMenuItem.Click += new System.EventHandler(this.funcionariosToolStripMenuItem_Click);
             // 
@@ -196,6 +199,24 @@
             this.menuBeneficioValeTransporte.Text = "Beneficio de Vale Transporte";
             this.menuBeneficioValeTransporte.Click += new System.EventHandler(this.menuBeneficioValeTransporte_Click);
             // 
+            // simulaçãoCompletaToolStripMenuItem
+            // 
+            this.simulaçãoCompletaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.contrachequeToolStripMenuItem});
+            this.simulaçãoCompletaToolStripMenuItem.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simulaçãoCompletaToolStripMenuItem.Name = "simulaçãoCompletaToolStripMenuItem";
+            this.simulaçãoCompletaToolStripMenuItem.Size = new System.Drawing.Size(126, 20);
+            this.simulaçãoCompletaToolStripMenuItem.Text = "Simulação Completa";
+         
+            // 
+            // contrachequeToolStripMenuItem
+            // 
+            this.contrachequeToolStripMenuItem.Name = "contrachequeToolStripMenuItem";
+            this.contrachequeToolStripMenuItem.ShowShortcutKeys = false;
+            this.contrachequeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.contrachequeToolStripMenuItem.Text = "Contracheque";
+            this.contrachequeToolStripMenuItem.Click += new System.EventHandler(this.contrachequeToolStripMenuItem_Click);
+            // 
             // PrincipalMdi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -214,8 +235,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "  WN SOFTWARE";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-          
-            this.Move += new System.EventHandler(this.PrincipalMdi_Move);
             this.menuPrincipal.ResumeLayout(false);
             this.menuPrincipal.PerformLayout();
             this.ResumeLayout(false);
@@ -240,5 +259,7 @@
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioAdcionalNoturno;
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioHoraExtra;
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioPericulosidade;
+        private System.Windows.Forms.ToolStripMenuItem simulaçãoCompletaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem contrachequeToolStripMenuItem;
     }
 }
