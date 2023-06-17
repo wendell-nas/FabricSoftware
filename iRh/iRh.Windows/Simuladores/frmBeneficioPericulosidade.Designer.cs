@@ -32,6 +32,8 @@
             this.txtSalario = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.txtHoraTrabalhada = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -57,7 +59,7 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(16, 68);
+            this.button1.Location = new System.Drawing.Point(16, 130);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(88, 28);
             this.button1.TabIndex = 2;
@@ -71,12 +73,31 @@
             this.lblResultado.BackColor = System.Drawing.Color.Transparent;
             this.lblResultado.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblResultado.Location = new System.Drawing.Point(110, 76);
+            this.lblResultado.Location = new System.Drawing.Point(110, 138);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(59, 13);
             this.lblResultado.TabIndex = 3;
             this.lblResultado.Text = "Resultado";
             this.lblResultado.Visible = false;
+            // 
+            // txtHoraTrabalhada
+            // 
+            this.txtHoraTrabalhada.Location = new System.Drawing.Point(15, 92);
+            this.txtHoraTrabalhada.Name = "txtHoraTrabalhada";
+            this.txtHoraTrabalhada.Size = new System.Drawing.Size(100, 20);
+            this.txtHoraTrabalhada.TabIndex = 5;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(12, 69);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(139, 20);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Horas Trabalhadas";
             // 
             // frmBeneficioPericulosidade
             // 
@@ -84,7 +105,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(270, 162);
+            this.ClientSize = new System.Drawing.Size(302, 198);
+            this.Controls.Add(this.txtHoraTrabalhada);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtSalario);
@@ -104,5 +127,7 @@
         private System.Windows.Forms.TextBox txtSalario;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.TextBox txtHoraTrabalhada;
+        private System.Windows.Forms.Label label2;
     }
 }

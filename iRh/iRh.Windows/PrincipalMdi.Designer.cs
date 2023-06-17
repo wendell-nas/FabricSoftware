@@ -212,8 +212,9 @@
             this.IsMdiContainer = true;
             this.Name = "PrincipalMdi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "  ";
+            this.Text = "  WN SOFTWARE";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+          
             this.Move += new System.EventHandler(this.PrincipalMdi_Move);
             this.menuPrincipal.ResumeLayout(false);
             this.menuPrincipal.PerformLayout();

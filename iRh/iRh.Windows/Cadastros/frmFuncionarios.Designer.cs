@@ -55,8 +55,8 @@
             this.cmbDocumentos = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.txtNumeroDocumento = new System.Windows.Forms.TextBox();
             this.txtCep = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -285,13 +285,15 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.BackgroundImage = global::iRh.Windows.Properties.Resources.WhatsApp_icone_3;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Location = new System.Drawing.Point(171, 332);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(30, 24);
             this.button2.TabIndex = 23;
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // linkLabel1
             // 
@@ -339,14 +341,6 @@
             this.label13.TabIndex = 28;
             this.label13.Text = "Nº do Documento";
             // 
-            // txtNumeroDocumento
-            // 
-            this.txtNumeroDocumento.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumeroDocumento.Location = new System.Drawing.Point(392, 44);
-            this.txtNumeroDocumento.Name = "txtNumeroDocumento";
-            this.txtNumeroDocumento.Size = new System.Drawing.Size(117, 22);
-            this.txtNumeroDocumento.TabIndex = 27;
-            // 
             // txtCep
             // 
             this.txtCep.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -356,6 +350,16 @@
             this.txtCep.Size = new System.Drawing.Size(77, 22);
             this.txtCep.TabIndex = 29;
             // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox1.Location = new System.Drawing.Point(397, 45);
+            this.maskedTextBox1.Mask = "00/00/0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(100, 22);
+            this.maskedTextBox1.TabIndex = 30;
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            // 
             // frmFuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -363,9 +367,9 @@
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(547, 407);
+            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.txtCep);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.txtNumeroDocumento);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.cmbDocumentos);
             this.Controls.Add(this.linkLabel1);
@@ -431,7 +435,7 @@
         private System.Windows.Forms.ComboBox cmbDocumentos;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox txtNumeroDocumento;
         private System.Windows.Forms.MaskedTextBox txtCep;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }
