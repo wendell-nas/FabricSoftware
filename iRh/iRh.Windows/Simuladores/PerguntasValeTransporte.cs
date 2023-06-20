@@ -22,5 +22,10 @@ namespace iRh.Windows.Simuladores
             var valorPassagem = txtPassagem.Text;
             var quantidadeVales = txtVales.Text;
         }
+
+        private void PerguntasValeTransporte_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

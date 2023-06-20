@@ -341,5 +341,8 @@
   <ItemGroup>
     <None Include="Resources\WhatsApp-icone-3.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17593836-simulacao-de-computador-de-ilustracao-de-esboco-de-de-icone-de-construcao-vetor.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

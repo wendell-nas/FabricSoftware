@@ -207,10 +207,10 @@
             this.simulaçãoCompletaToolStripMenuItem.Name = "simulaçãoCompletaToolStripMenuItem";
             this.simulaçãoCompletaToolStripMenuItem.Size = new System.Drawing.Size(126, 20);
             this.simulaçãoCompletaToolStripMenuItem.Text = "Simulação Completa";
-         
             // 
             // contrachequeToolStripMenuItem
             // 
+            this.contrachequeToolStripMenuItem.Image = global::iRh.Windows.Properties.Resources._17593836_simulacao_de_computador_de_ilustracao_de_esboco_de_de_icone_de_construcao_vetor;
             this.contrachequeToolStripMenuItem.Name = "contrachequeToolStripMenuItem";
             this.contrachequeToolStripMenuItem.ShowShortcutKeys = false;
             this.contrachequeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);

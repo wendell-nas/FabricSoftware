@@ -63,6 +63,17 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _17593836_simulacao_de_computador_de_ilustracao_de_esboco_de_de_icone_de_construcao_vetor {
+            get {
+                object obj = ResourceManager.GetObject("17593836-simulacao-de-computador-de-ilustracao-de-esboco-de-de-icone-de-construca" +
+                        "o-vetor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4_1 {
             get {
                 object obj = ResourceManager.GetObject("4-1", resourceCulture);

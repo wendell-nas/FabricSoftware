@@ -2,9 +2,9 @@
 {
     public static class periculosidade
     {
-        public static double Calcula(double salario, double horaTrabalhada)
+        public static double Calcula(double salario, double horaTrabalhadas)
         {   
-            var adicionalPericulosidade = (salario / 220) * 0.30 * horaTrabalhada;
+            var adicionalPericulosidade = (salario / 220) * 0.30 * horaTrabalhadas;
 
             return adicionalPericulosidade;
         }

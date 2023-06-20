@@ -99,6 +99,7 @@
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.Name = "PerguntasValeTransporte";
             this.Text = "PerguntasValeTransporte";
+            this.Load += new System.EventHandler(this.PerguntasValeTransporte_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

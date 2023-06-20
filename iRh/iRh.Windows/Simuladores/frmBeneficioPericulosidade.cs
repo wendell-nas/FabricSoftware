@@ -22,8 +22,8 @@ namespace iRh.Windows.Simuladores
             {
                 
                 var salario = double.Parse(txtSalario.Text);
-                var horaTrabalhada = double.Parse(txtHoraTrabalhada.Text);
-                double resultado = periculosidade.Calcula(salario, horaTrabalhada);
+                var horaTrabalhadas = double.Parse(txtHoraTrabalhada.Text);
+                double resultado = periculosidade.Calcula(salario, horaTrabalhadas);
                 lblResultado.Text = resultado.ToString("F2");
                 lblResultado.Visible = true;
             }
