@@ -53,14 +53,11 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtPassagem = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.btnSalvar = new System.Windows.Forms.Button();
-            this.panelInformacaoValeTransporte = new System.Windows.Forms.Panel();
             this.sim = new System.Windows.Forms.CheckBox();
             this.nao = new System.Windows.Forms.CheckBox();
             this.simp = new System.Windows.Forms.CheckBox();
             this.naop = new System.Windows.Forms.CheckBox();
             this.panelResultado = new System.Windows.Forms.Panel();
-            this.panelInformacaoValeTransporte.SuspendLayout();
             this.panelResultado.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,7 +99,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(12, 75);
+            this.label3.Location = new System.Drawing.Point(243, 20);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(180, 17);
             this.label3.TabIndex = 3;
@@ -125,7 +122,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(12, 124);
+            this.label5.Location = new System.Drawing.Point(513, 20);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(192, 34);
             this.label5.TabIndex = 7;
@@ -137,7 +134,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(13, 193);
+            this.label6.Location = new System.Drawing.Point(12, 69);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(190, 34);
             this.label6.TabIndex = 10;
@@ -145,14 +142,14 @@
             // 
             // txtHorasTrabalhadas
             // 
-            this.txtHorasTrabalhadas.Location = new System.Drawing.Point(16, 230);
+            this.txtHorasTrabalhadas.Location = new System.Drawing.Point(15, 106);
             this.txtHorasTrabalhadas.Name = "txtHorasTrabalhadas";
             this.txtHorasTrabalhadas.Size = new System.Drawing.Size(100, 20);
             this.txtHorasTrabalhadas.TabIndex = 11;
             // 
             // txtHorasNoturna
             // 
-            this.txtHorasNoturna.Location = new System.Drawing.Point(16, 302);
+            this.txtHorasNoturna.Location = new System.Drawing.Point(15, 178);
             this.txtHorasNoturna.Name = "txtHorasNoturna";
             this.txtHorasNoturna.Size = new System.Drawing.Size(100, 20);
             this.txtHorasNoturna.TabIndex = 13;
@@ -163,7 +160,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(13, 265);
+            this.label7.Location = new System.Drawing.Point(12, 141);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(209, 34);
             this.label7.TabIndex = 12;
@@ -187,11 +184,11 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.Control;
-            this.label9.Location = new System.Drawing.Point(26, 115);
+            this.label9.Location = new System.Drawing.Point(26, 116);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(126, 17);
+            this.label9.Size = new System.Drawing.Size(131, 17);
             this.label9.TabIndex = 15;
-            this.label9.Text = "---PROVENTOS--    \r\n";
+            this.label9.Text = "---PROVENTOS---    \r\n";
             // 
             // lblResultadoHoraExtra
             // 
@@ -199,7 +196,7 @@
             this.lblResultadoHoraExtra.BackColor = System.Drawing.Color.Transparent;
             this.lblResultadoHoraExtra.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoHoraExtra.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblResultadoHoraExtra.Location = new System.Drawing.Point(27, 140);
+            this.lblResultadoHoraExtra.Location = new System.Drawing.Point(27, 141);
             this.lblResultadoHoraExtra.Name = "lblResultadoHoraExtra";
             this.lblResultadoHoraExtra.Size = new System.Drawing.Size(110, 17);
             this.lblResultadoHoraExtra.TabIndex = 16;
@@ -211,7 +208,7 @@
             this.lblResultadoPericulosidade.BackColor = System.Drawing.Color.Transparent;
             this.lblResultadoPericulosidade.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoPericulosidade.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblResultadoPericulosidade.Location = new System.Drawing.Point(27, 179);
+            this.lblResultadoPericulosidade.Location = new System.Drawing.Point(27, 180);
             this.lblResultadoPericulosidade.Name = "lblResultadoPericulosidade";
             this.lblResultadoPericulosidade.Size = new System.Drawing.Size(152, 17);
             this.lblResultadoPericulosidade.TabIndex = 17;
@@ -223,7 +220,7 @@
             this.lblDepositoFgts.BackColor = System.Drawing.Color.Transparent;
             this.lblDepositoFgts.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDepositoFgts.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblDepositoFgts.Location = new System.Drawing.Point(27, 199);
+            this.lblDepositoFgts.Location = new System.Drawing.Point(27, 200);
             this.lblDepositoFgts.Name = "lblDepositoFgts";
             this.lblDepositoFgts.Size = new System.Drawing.Size(151, 17);
             this.lblDepositoFgts.TabIndex = 18;
@@ -235,7 +232,7 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.Control;
-            this.label13.Location = new System.Drawing.Point(26, 228);
+            this.label13.Location = new System.Drawing.Point(229, 116);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(143, 17);
             this.label13.TabIndex = 19;
@@ -247,7 +244,7 @@
             this.lblResultadoAdicionalNoturno.BackColor = System.Drawing.Color.Transparent;
             this.lblResultadoAdicionalNoturno.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoAdicionalNoturno.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblResultadoAdicionalNoturno.Location = new System.Drawing.Point(27, 160);
+            this.lblResultadoAdicionalNoturno.Location = new System.Drawing.Point(27, 161);
             this.lblResultadoAdicionalNoturno.Name = "lblResultadoAdicionalNoturno";
             this.lblResultadoAdicionalNoturno.Size = new System.Drawing.Size(180, 17);
             this.lblResultadoAdicionalNoturno.TabIndex = 20;
@@ -259,7 +256,7 @@
             this.lblResultadoInss.BackColor = System.Drawing.Color.Transparent;
             this.lblResultadoInss.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoInss.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblResultadoInss.Location = new System.Drawing.Point(27, 255);
+            this.lblResultadoInss.Location = new System.Drawing.Point(230, 143);
             this.lblResultadoInss.Name = "lblResultadoInss";
             this.lblResultadoInss.Size = new System.Drawing.Size(49, 17);
             this.lblResultadoInss.TabIndex = 21;
@@ -271,7 +268,7 @@
             this.lblResultadoIrrf.BackColor = System.Drawing.Color.Transparent;
             this.lblResultadoIrrf.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoIrrf.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblResultadoIrrf.Location = new System.Drawing.Point(26, 272);
+            this.lblResultadoIrrf.Location = new System.Drawing.Point(229, 160);
             this.lblResultadoIrrf.Name = "lblResultadoIrrf";
             this.lblResultadoIrrf.Size = new System.Drawing.Size(68, 17);
             this.lblResultadoIrrf.TabIndex = 22;
@@ -283,7 +280,7 @@
             this.lblResultadoValeTransporte.BackColor = System.Drawing.Color.Transparent;
             this.lblResultadoValeTransporte.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoValeTransporte.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblResultadoValeTransporte.Location = new System.Drawing.Point(23, 291);
+            this.lblResultadoValeTransporte.Location = new System.Drawing.Point(229, 177);
             this.lblResultadoValeTransporte.Name = "lblResultadoValeTransporte";
             this.lblResultadoValeTransporte.Size = new System.Drawing.Size(140, 17);
             this.lblResultadoValeTransporte.TabIndex = 23;
@@ -291,17 +288,17 @@
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(15, 338);
+            this.btnCalcular.Location = new System.Drawing.Point(516, 96);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(75, 23);
+            this.btnCalcular.Size = new System.Drawing.Size(100, 38);
             this.btnCalcular.TabIndex = 24;
-            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.Text = "Simulação Completa!!";
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // txtVales
             // 
-            this.txtVales.Location = new System.Drawing.Point(6, 100);
+            this.txtVales.Location = new System.Drawing.Point(246, 166);
             this.txtVales.Name = "txtVales";
             this.txtVales.Size = new System.Drawing.Size(100, 20);
             this.txtVales.TabIndex = 28;
@@ -312,7 +309,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.Control;
-            this.label8.Location = new System.Drawing.Point(3, 80);
+            this.label8.Location = new System.Drawing.Point(243, 146);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(222, 17);
             this.label8.TabIndex = 27;
@@ -320,7 +317,7 @@
             // 
             // txtPassagem
             // 
-            this.txtPassagem.Location = new System.Drawing.Point(6, 40);
+            this.txtPassagem.Location = new System.Drawing.Point(246, 106);
             this.txtPassagem.Name = "txtPassagem";
             this.txtPassagem.Size = new System.Drawing.Size(100, 20);
             this.txtPassagem.TabIndex = 26;
@@ -331,37 +328,11 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.Control;
-            this.label10.Location = new System.Drawing.Point(3, 3);
+            this.label10.Location = new System.Drawing.Point(243, 69);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(237, 34);
             this.label10.TabIndex = 25;
             this.label10.Text = "INFORME A QUANTIDADE DE VALES \r\nUTILIZADO DIARIAMENTE";
-            // 
-            // btnSalvar
-            // 
-            this.btnSalvar.BackColor = System.Drawing.SystemColors.Control;
-            this.btnSalvar.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(6, 135);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(107, 29);
-            this.btnSalvar.TabIndex = 29;
-            this.btnSalvar.Text = "Salvar informações";
-            this.btnSalvar.UseVisualStyleBackColor = false;
-            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
-            // 
-            // panelInformacaoValeTransporte
-            // 
-            this.panelInformacaoValeTransporte.BackColor = System.Drawing.Color.Transparent;
-            this.panelInformacaoValeTransporte.Controls.Add(this.label10);
-            this.panelInformacaoValeTransporte.Controls.Add(this.btnSalvar);
-            this.panelInformacaoValeTransporte.Controls.Add(this.txtPassagem);
-            this.panelInformacaoValeTransporte.Controls.Add(this.txtVales);
-            this.panelInformacaoValeTransporte.Controls.Add(this.label8);
-            this.panelInformacaoValeTransporte.Location = new System.Drawing.Point(232, 20);
-            this.panelInformacaoValeTransporte.Name = "panelInformacaoValeTransporte";
-            this.panelInformacaoValeTransporte.Size = new System.Drawing.Size(248, 187);
-            this.panelInformacaoValeTransporte.TabIndex = 30;
-            this.panelInformacaoValeTransporte.Visible = false;
             // 
             // sim
             // 
@@ -369,7 +340,7 @@
             this.sim.BackColor = System.Drawing.Color.Transparent;
             this.sim.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sim.ForeColor = System.Drawing.SystemColors.Control;
-            this.sim.Location = new System.Drawing.Point(16, 100);
+            this.sim.Location = new System.Drawing.Point(247, 45);
             this.sim.Name = "sim";
             this.sim.Size = new System.Drawing.Size(46, 17);
             this.sim.TabIndex = 31;
@@ -383,7 +354,7 @@
             this.nao.BackColor = System.Drawing.Color.Transparent;
             this.nao.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nao.ForeColor = System.Drawing.SystemColors.Control;
-            this.nao.Location = new System.Drawing.Point(64, 100);
+            this.nao.Location = new System.Drawing.Point(295, 45);
             this.nao.Name = "nao";
             this.nao.Size = new System.Drawing.Size(51, 17);
             this.nao.TabIndex = 32;
@@ -397,7 +368,7 @@
             this.simp.BackColor = System.Drawing.Color.Transparent;
             this.simp.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simp.ForeColor = System.Drawing.SystemColors.Control;
-            this.simp.Location = new System.Drawing.Point(15, 167);
+            this.simp.Location = new System.Drawing.Point(516, 63);
             this.simp.Name = "simp";
             this.simp.Size = new System.Drawing.Size(46, 17);
             this.simp.TabIndex = 33;
@@ -411,7 +382,7 @@
             this.naop.BackColor = System.Drawing.Color.Transparent;
             this.naop.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.naop.ForeColor = System.Drawing.SystemColors.Control;
-            this.naop.Location = new System.Drawing.Point(64, 167);
+            this.naop.Location = new System.Drawing.Point(565, 63);
             this.naop.Name = "naop";
             this.naop.Size = new System.Drawing.Size(51, 17);
             this.naop.TabIndex = 34;
@@ -433,9 +404,9 @@
             this.panelResultado.Controls.Add(this.lblResultadoAdicionalNoturno);
             this.panelResultado.Controls.Add(this.lblResultadoIrrf);
             this.panelResultado.Controls.Add(this.lblResultadoInss);
-            this.panelResultado.Location = new System.Drawing.Point(210, 12);
+            this.panelResultado.Location = new System.Drawing.Point(15, 230);
             this.panelResultado.Name = "panelResultado";
-            this.panelResultado.Size = new System.Drawing.Size(408, 399);
+            this.panelResultado.Size = new System.Drawing.Size(675, 222);
             this.panelResultado.TabIndex = 35;
             this.panelResultado.Visible = false;
             // 
@@ -445,13 +416,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.download1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(558, 377);
+            this.ClientSize = new System.Drawing.Size(711, 465);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.panelResultado);
+            this.Controls.Add(this.txtPassagem);
             this.Controls.Add(this.naop);
+            this.Controls.Add(this.txtVales);
             this.Controls.Add(this.simp);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.nao);
             this.Controls.Add(this.sim);
-            this.Controls.Add(this.panelInformacaoValeTransporte);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtHorasNoturna);
             this.Controls.Add(this.label7);
@@ -464,8 +438,6 @@
             this.Controls.Add(this.label2);
             this.Name = "SimulacaoCompleta";
             this.Text = "SimulacaoCompleta";
-            this.panelInformacaoValeTransporte.ResumeLayout(false);
-            this.panelInformacaoValeTransporte.PerformLayout();
             this.panelResultado.ResumeLayout(false);
             this.panelResultado.PerformLayout();
             this.ResumeLayout(false);
@@ -500,8 +472,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtPassagem;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button btnSalvar;
-        private System.Windows.Forms.Panel panelInformacaoValeTransporte;
         private System.Windows.Forms.CheckBox sim;
         private System.Windows.Forms.CheckBox nao;
         private System.Windows.Forms.CheckBox simp;

@@ -19,6 +19,7 @@ namespace iRh.Windows.Simulação_Completa
         public SimulacaoCompleta()
         {
             InitializeComponent();
+            this.Size = new Size(727, 258);
         }
        
         private void btnCalcular_Click(object sender, EventArgs e)
@@ -51,6 +52,7 @@ namespace iRh.Windows.Simulação_Completa
                 lblResultadoHoraExtra.Text = "HORA EXTRA: " + horaExtra.ToString("F2");
                 lblResultadoAdicionalNoturno.Text = "ADICIONAL NOTURNO: " + adicionalNoturno.ToString("F2");
                 panelResultado.Visible = true;
+                this.Size = new Size(727, 505);
 
             }
             catch (Exception)
@@ -66,22 +68,17 @@ namespace iRh.Windows.Simulação_Completa
  
   
 
-        private void btnSalvar_Click(object sender, EventArgs e)
-        {
-            panelInformacaoValeTransporte.Visible = false;
-        }
-
         private void sim_CheckedChanged(object sender, EventArgs e)
         {
             MessageBox.Show("Responda as perguntas para prosseguirmos!!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
             txtHorasTrabalhadas.Focus();
-            panelInformacaoValeTransporte.Visible = true;
-            var salario = double.Parse(txtSalario.Text);
+           
+            var salario = double.Parse(txtSalario.Text);          
             var valorPassagem = double.Parse(txtPassagem.Text);
-            var quantidadeVales = double.Parse(txtVales.Text);
+            var quantidadeVales = double.Parse(txtVales.Text);         
             if (sim.Checked)
             {
-
+               
                 var valeTrasporte = ValeTransporte.Calcula(salario, valorPassagem, quantidadeVales);
                 lblResultadoValeTransporte.Text = "VALE TRANSPORTE: - " + valeTrasporte.ToString("F2");
 
@@ -112,5 +109,11 @@ namespace iRh.Windows.Simulação_Completa
 
             return;
         }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            panelInformacaoValeTransporte.Visible = false;
+        }
+
     }
 }
